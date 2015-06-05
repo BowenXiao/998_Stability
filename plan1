@@ -1,0 +1,2 @@
+[tests]
+script.testcases.telephony.TelephonyTest.testAddDelContact = 20

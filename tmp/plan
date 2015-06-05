@@ -1,0 +1,45 @@
+[tests]
+script.testcases.telephony.TelephonyTest.testSwitchMobileNetWorkTo2G = 1
+script.testcases.telephony.TelephonyTest.testCallViaDialer2G = 25
+script.testcases.telephony.TelephonyTest.testCallViaCallLog2G = 50
+script.testcases.telephony.TelephonyTest.testCallViaPhoneBook2G = 25
+script.testcases.telephony.TelephonyTest.testSwitchMobileNetWorkTo3G = 1
+script.testcases.telephony.TelephonyTest.testCallViaDialer3G = 25
+script.testcases.telephony.TelephonyTest.testCallViaCallLog3G = 50
+script.testcases.telephony.TelephonyTest.testCallViaPhoneBook3G = 25
+script.testcases.telephony.TelephonyTest.testAddDelContact = 20
+
+script.testcases.browser.BrowserTest.testVisitWebPage = 20
+script.testcases.browser.BrowserTest.testVisitTop5 = 10
+script.testcases.browser.BrowserTest.testDownloadPics = 5
+script.testcases.browser.BrowserTest.testDownloadAudio = 5
+script.testcases.browser.BrowserTest.testDownloadVideo = 5
+
+script.testcases.email.EmailTest.testLogInAccount = 1
+script.testcases.email.EmailTest.testSendEmailNoAtt = 50
+script.testcases.email.EmailTest.testReadEmailNoAtt = 50
+script.testcases.email.EmailTest.testSendEmailWithAtt = 50
+script.testcases.email.EmailTest.testReadEmailWithAtt = 50
+script.testcases.email.EmailTest.testLogOutAccount = 1
+
+script.testcases.message.MessageTest.testSendSMSWithMaxChar = 50
+script.testcases.message.MessageTest.testSendReadMMSWithVideo = 50
+script.testcases.message.MessageTest.testSendReadMMSWithPics = 50
+
+script.testcases.multimedia.MultiMediaTest.testRecordVideo = 5
+script.testcases.multimedia.MultiMediaTest.testTakePicture = 20
+script.testcases.multimedia.MultiMediaTest.testRecordAudio = 1
+script.testcases.multimedia.MultiMediaTest.testPlayMusic = 50
+
+script.testcases.pim.PIMTest.testCalendarEvent = 5
+script.testcases.pim.PIMTest.testClock = 1
+
+script.testcases.setting.SettingTest.testSetTheme = 10
+script.testcases.setting.SettingTest.testTurnOnOffWiFi = 50
+
+script.testcases.appstore.AppStore.testAppStoreDownload = 5
+script.testcases.appstore.AppStore.testAppStoreOpen = 5
+script.testcases.appstore.AppStore.testUninstallApp = 5
+
+script.testcases.multitask.MultiTaskTest.testMultiTaskTelephony = 50
+script.testcases.multitask.MultiTaskTest.testMultiTaskBrowser = 50

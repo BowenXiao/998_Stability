@@ -1,0 +1,1376 @@
+--------- beginning of /dev/log/main
+05-11 16:38:12.060 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-11 16:38:12.060 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-11 16:38:12.750 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=85, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "getWatchers", "id": "6fd325c52470a0c21857235779bd20c0"}}
+05-11 16:38:12.780 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=85, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "getWatchers", "id": "91fe1582510b1ec73f462d2c1e1f9666"}}
+05-11 16:38:12.800 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=94, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "resetWatcherTriggers", "id": "1aa7a7b11befd0aef6ba93338930711a"}}
+05-11 16:38:12.820 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=85, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "getWatchers", "id": "fa1a320fe1d16c91ee26704b01a6599b"}}
+05-11 16:38:12.840 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=85, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "getWatchers", "id": "a66dddd99bb11d91e26a7de08282a9c1"}}
+05-11 16:38:12.860 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=322, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": ["IGNORE_ANR", [{"childOrSiblingSelector": [], "mask": 2, "textContains": "\u65e0\u54cd\u5e94", "childOrSibling": []}], {"childOrSiblingSelector": [], "text": "\u786e\u5b9a", "mask": 1, "childOrSibling": []}], "jsonrpc": "2.0", "method": "registerClickUiObjectWatcher", "id": "9299b99cbf578eceb90599bbf121fd8a"}}
+05-11 16:38:12.930 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=330, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": ["IGNORE_CRASH", [{"childOrSiblingSelector": [], "mask": 2, "textContains": "\u505c\u6b62\u8fd0\u884c", "childOrSibling": []}], {"childOrSiblingSelector": [], "text": "\u786e\u5b9a", "mask": 1, "childOrSibling": []}], "jsonrpc": "2.0", "method": "registerClickUiObjectWatcher", "id": "00d5a8556513d0626e896daf18d8e9ea"}}
+05-11 16:38:12.950 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=364, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": ["IGNORE_POPWINDOW_WEIBO", [{"childOrSiblingSelector": [], "mask": 2, "textContains": "\u7ed9\u6211\u4eec\u8bc4\u5206", "childOrSibling": []}], {"childOrSiblingSelector": [], "text": "\u4e0d\u4e86\uff0c\u8c22\u8c22", "mask": 1, "childOrSibling": []}], "jsonrpc": "2.0", "method": "registerClickUiObjectWatcher", "id": "543cee89d1ecdf3ee5d42c5377124e66"}}
+05-11 16:38:12.970 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=360, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": ["IGNORE_DRAFT", [{"childOrSiblingSelector": [], "mask": 2, "textContains": "\u662f\u5426\u4fdd\u5b58\u8349\u7a3f", "childOrSibling": []}], {"childOrSiblingSelector": [], "text": "\u4e0d\u4fdd\u5b58\u8349\u7a3f", "mask": 1, "childOrSibling": []}], "jsonrpc": "2.0", "method": "registerClickUiObjectWatcher", "id": "d750e7270b16d59d13891e5779519853"}}
+05-11 16:38:13.070 I/MSM-irqbalance(  385): Decided to move IRQ200 from CPU6 to CPU7
+05-11 16:38:13.230 V/WLAN_PSA(  250): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-11 16:38:13.230 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:38:13.230 V/WLAN_PSA(  250): NL MSG, len[3985], NL type[0x1C] WNI type[0x5900] len[30991]
+05-11 16:38:13.230 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:38:13.290 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:38:13.290 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:38:13.300 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:38:13.360 D/AndroidRuntime(23732): 
+05-11 16:38:13.360 D/AndroidRuntime(23732): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+05-11 16:38:13.360 D/AndroidRuntime(23732): CheckJNI is OFF
+05-11 16:38:13.380 D/dalvikvm(23732): Unable to stat classpath element '/system/framework/qcom.fmradio.jar'
+05-11 16:38:13.390 D/dalvikvm(23732): Trying to load lib libjavacore.so 0x0
+05-11 16:38:13.400 D/dalvikvm(23732): Added shared lib libjavacore.so 0x0
+05-11 16:38:13.400 D/dalvikvm(23732): Trying to load lib libnativehelper.so 0x0
+05-11 16:38:13.400 D/dalvikvm(23732): Added shared lib libnativehelper.so 0x0
+05-11 16:38:13.400 D/dalvikvm(23732): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+05-11 16:38:13.430 D/dalvikvm(23732): Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-11 16:38:13.650 D/AndroidRuntime(23732): Calling main entry com.android.commands.am.Am
+05-11 16:38:13.670 E/NewLauncher( 2653): Launcher : ### onPause ####
+05-11 16:38:13.670 E/NewLauncher( 2653): UninstallApp : cancelUninstallWithoutAnim nothing to do by mUninstallDialog is null
+05-11 16:38:13.670 D/AndroidRuntime(23732): Shutting down VM
+--------- beginning of /dev/log/system
+05-11 16:38:13.670 I/ActivityManager( 1179): START u0 {flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 23732
+05-11 16:38:13.670 D/PowerManagerService( 1179): acquireWakeLockInternal: lock=1107865952, flags=0x1, tag="ActivityManager-Launch", ws=null, uid=1000, pid=1179
+05-11 16:38:13.670 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-11 16:38:13.670 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:13.670 D/PowerManagerService( 1179): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-11 16:38:13.670 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:13.680 D/dalvikvm(23732): GC_CONCURRENT freed 96K, 15% free 605K/704K, paused 0ms+0ms, total 2ms, dvmtargetUtilize:0.750000
+05-11 16:38:13.690 D/skia    ( 1179): Decoder Format : PNG
+05-11 16:38:13.690 D/skia    ( 1179): call decode 
+05-11 16:38:13.690 D/skia    ( 1179): Start onDecode 
+05-11 16:38:13.710 D/skia    ( 1179): End onDecode 
+05-11 16:38:13.720 D/WebViewTimersControl(21722): onBrowserActivityResume
+05-11 16:38:13.720 D/WebViewTimersControl(21722): Resuming webview timers, view=com.android.browser.BrowserWebView{43427260 VFEDHVCL .F...... 0,0-1080,1536}
+05-11 16:38:13.730 V/kernel  ( 9294): <6>[ 9966.427384] mpu6050_power_ctl Power on
+05-11 16:38:13.730 V/kernel  ( 9294): <4>[ 9966.430293] mpu6050 0-0068: Ignore power status change from 1 to 1
+05-11 16:38:13.740 V/kernel  ( 9294): <6>[ 9966.436272] mpu6050_restore_context 
+05-11 16:38:13.750 E/NewLauncher( 2653): Utils : DEBUG : ### rti = 1 ##
+05-11 16:38:13.750 E/NewLauncher( 2653): Utils : DEBUG : ## rt = com.android.browser.BrowserActivity ##
+05-11 16:38:13.750 E/NewLauncher( 2653): LauncherApplication : ACTION_ACTIVITY_RESUMED : component:com.android.browser.BrowserActivity
+05-11 16:38:13.750 E/NewLauncher( 2653): DatabaseHandler : DEBUG : handleMessage execute action [EVENT_REMOVE_NEW_FLAG_BY_INTENT]
+05-11 16:38:13.750 W/ActivityManager( 1179): ActivityManagerService, registerReceiver, caller == android.app.ApplicationThreadProxy@41f47bd0
+05-11 16:38:13.750 W/ActivityManager( 1179): ActivityManagerService, registerReceiver, callerApp == ProcessRecord{430956f0 21722:com.android.browser/u0a2}
+05-11 16:38:13.760 E/NewLauncher( 2653): DatabaseHandler : DEBUG : get id [20] by cmpName com.android.browser.BrowserActivity
+05-11 16:38:13.760 W/ActivityManager( 1179): ActivityManagerService, registerReceiver, caller == android.app.ApplicationThreadProxy@41f00cc0
+05-11 16:38:13.760 W/ActivityManager( 1179): ActivityManagerService, registerReceiver, callerApp == ProcessRecord{430956f0 21722:com.android.browser/u0a2}
+05-11 16:38:13.770 W/ActivityManager( 1179): ActivityManagerService, registerReceiver, caller == android.app.ApplicationThreadProxy@422abd70
+05-11 16:38:13.770 W/ActivityManager( 1179): ActivityManagerService, registerReceiver, callerApp == ProcessRecord{430956f0 21722:com.android.browser/u0a2}
+05-11 16:38:13.800 E/NewLauncher( 2653): DatabaseHandler : DEBUG : DatabaseHandler action [EVENT_REMOVE_NEW_FLAG_BY_INTENT] Done !
+05-11 16:38:13.800 E/NewLauncher( 2653): DatabaseHandler : DEBUG : isNewlyInstalled set false by convertContentValuesToItemInfo, name [浏览器], pkg [com.android.browser], cmp [com.android.browser.BrowserActivity]
+05-11 16:38:13.820 D/StatusBarManagerService( 1179): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@4267f9e8
+05-11 16:38:13.850 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:13.920 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=227, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [{"childOrSiblingSelector": [], "resourceId": "com.android.browser:id/switch_btn", "mask": 2097152, "childOrSibling": []}, 5000], "jsonrpc": "2.0", "method": "waitForExists", "id": "879a2030887917ccbeccab6275daf52c"}}
+05-11 16:38:13.950 D/SmartisanPhoneStatusBarTransitions( 2358): onTransition mode:0
+05-11 16:38:13.950 D/StatusBarManagerService( 1179): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@4267f9e8
+05-11 16:38:14.020 D/PhoneWindow(21722): Twist is enabled, pacakge=com.android.browser
+05-11 16:38:14.020 D/PhoneWindow(21722): onWindowFocusChanged, who=/system/priv-app/BrowserSmartisan.apk hasWindowFocus=true requestedOrientation=2 appUserOrientation=-1
+05-11 16:38:14.060 I/Timeline(21722): Timeline: Activity_idle id: android.os.BinderProxy@41f01a00 time:9966691
+05-11 16:38:14.060 D/PowerManagerService( 1179): releaseWakeLockInternal: lock=1107865952 [ActivityManager-Launch], flags=0x0
+05-11 16:38:14.060 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x0
+05-11 16:38:14.060 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:14.060 D/PowerManagerService( 1179): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-11 16:38:14.060 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:14.090 E/NewLauncher( 2653): Launcher : DEBUG : onWindowFocusChanged = false
+05-11 16:38:14.090 E/QueryController(23692): Got null root node from accessibility - Retrying...
+05-11 16:38:14.380 I/QueryController(23692): Matched selector: UiSelector[RESOURCE_ID=com.android.browser:id/switch_btn] <<==>> [android.view.accessibility.AccessibilityNodeInfo@d2d8; boundsInParent: Rect(0, 0 - 216, 153); boundsInScreen: Rect(432, 1767 - 648, 1920); packageName: com.android.browser; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.android.browser:id/switch_btn; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_CLICK, ACTION_ACCESSIBILITY_FOCUS]]
+05-11 16:38:14.400 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=238, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [{"childOrSiblingSelector": [], "resourceId": "com.android.browser:id/newtab_btn", "mask": 2097152, "childOrSibling": []}, 3000], "jsonrpc": "2.0", "method": "clickAndWaitForNewWindow", "id": "f2543f7bf64f37105a6baeda08c9db7a"}}
+05-11 16:38:14.400 E/SmartisanOS_Perf( 1179): SmartiPerformance has not been initialized!
+05-11 16:38:14.400 I/Timeline( 1179): Timeline: Activity_windows_visible id: ActivityRecord{421a4fa0 u0 com.android.browser/.BrowserActivity t23} time:9967035
+05-11 16:38:14.450 E/NewLauncher( 2653): Launcher : ### onStop ###
+05-11 16:38:14.590 I/QueryController(23692): Matched selector: UiSelector[RESOURCE_ID=com.android.browser:id/newtab_btn] <<==>> [android.view.accessibility.AccessibilityNodeInfo@d699; boundsInParent: Rect(0, 0 - 216, 153); boundsInScreen: Rect(648, 1767 - 864, 1920); packageName: com.android.browser; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.android.browser:id/newtab_btn; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_CLICK, ACTION_ACCESSIBILITY_FOCUS]]
+05-11 16:38:14.590 D/InteractionController(23692): clickAndWaitForNewWindow(756, 1843)
+05-11 16:38:14.600 D/PowerManagerService( 1179): userActivityNoUpdateLocked: eventTime=9967230, event=2, flags=0x0, uid=1000
+05-11 16:38:14.600 D/PowerManagerService( 1179): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=9972232 (in 4998 ms)
+05-11 16:38:14.600 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:14.600 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:14.740 D/dalvikvm(21722): GC_FOR_ALLOC freed 69K, 28% free 26526K/36696K, paused 32ms, total 32ms, dvmtargetUtilize:0.750000
+05-11 16:38:14.760 I/dalvikvm-heap(21722): Grow heap (frag case) to 31.583MB for 3648256-byte allocation
+05-11 16:38:14.760 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:14.780 D/skia    (21722): Decoder Format : PNG
+05-11 16:38:14.780 D/skia    (21722): call decode 
+05-11 16:38:14.780 D/skia    (21722): Start onDecode 
+05-11 16:38:14.780 D/skia    (21722): End onDecode 
+05-11 16:38:14.780 D/skia    (21722): Decoder Format : PNG
+05-11 16:38:14.780 D/skia    (21722): call decode 
+05-11 16:38:14.780 D/skia    (21722): Start onDecode 
+05-11 16:38:14.800 D/dalvikvm(21722): GC_FOR_ALLOC freed 14K, 25% free 30303K/40260K, paused 22ms, total 23ms, dvmtargetUtilize:0.750000
+05-11 16:38:14.850 D/skia    (21722): End onDecode 
+05-11 16:38:15.100 E/AccessibilityNodeInfoCache(23692): Duplicate input focus: android.view.accessibility.AccessibilityNodeInfo@10b27; boundsInParent: Rect(0, 0 - 1080, 153); boundsInScreen: Rect(81, 205 - 999, 335); packageName: com.android.browser; className: android.widget.FrameLayout; text: null; contentDescription: null; viewIdResName: com.android.browser:id/title_layout; checkable: false; checked: false; focusable: true; focused: true; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_CLEAR_FOCUS, ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]
+05-11 16:38:15.340 D/StatusBar.MSimNetworkController( 2358): onSignalStrengthsChanged received on subscription :1signalStrength=SignalStrength: 11 0 2147483647 2147483647 gsm|lte level=3
+05-11 16:38:15.340 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength: subscription =1
+05-11 16:38:15.340 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength iconList = [I@42142378iconLevel = 4 mInetCondition = 0
+05-11 16:38:15.340 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =1mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:38:15.340 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 1
+05-11 16:38:15.350 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=3 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f02018f mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f02018f mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:38:15.780 D/dalvikvm( 2653): GC_EXPLICIT freed 186K, 39% free 26332K/43104K, paused 4ms+5ms, total 110ms, dvmtargetUtilize:0.750000
+05-11 16:38:15.810 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:15.830 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:16.000 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-11 16:38:16.310 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:38:16.310 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:38:16.320 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:38:17.010 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:17.030 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:17.050 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:17.060 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-11 16:38:17.060 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:17.060 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-11 16:38:17.080 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:17.100 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:17.110 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:17.130 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:17.150 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:17.160 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:17.190 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:17.200 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:17.210 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:17.230 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:17.250 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:17.260 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:17.290 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:17.710 W/InteractionController(23692): runAndwaitForEvent timedout waiting for events
+05-11 16:38:17.710 D/StatusBar.MSimNetworkController( 2358): onSignalStrengthsChanged received on subscription :1signalStrength=SignalStrength: 10 0 2147483647 2147483647 gsm|lte level=3
+05-11 16:38:17.710 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength: subscription =1
+05-11 16:38:17.710 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength iconList = [I@42142378iconLevel = 4 mInetCondition = 0
+05-11 16:38:17.710 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =1mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:38:17.710 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 1
+05-11 16:38:17.710 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=3 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f02018f mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f02018f mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:38:17.730 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=292, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [{"childOrSiblingSelector": [], "text": "\u8f93\u5165\u7f51\u5740", "mask": 2097153, "resourceId": "com.android.browser:id/url", "childOrSibling": []}, "auto.smartisan.com/media/Auto_Test_Video.mp4"], "jsonrpc": "2.0", "method": "setText", "id": "d5d5fa493890060b7d8f5964eeaf136e"}}
+05-11 16:38:17.770 I/QueryController(23692): Matched selector: UiSelector[TEXT=输入网址, RESOURCE_ID=com.android.browser:id/url] <<==>> [android.view.accessibility.AccessibilityNodeInfo@8042; boundsInParent: Rect(0, 0 - 950, 159); boundsInScreen: Rect(0, 76 - 950, 235); packageName: com.android.browser; className: android.widget.EditText; text: 输入网址; contentDescription: null; viewIdResName: com.android.browser:id/url; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: true; enabled: true; password: false; scrollable: false; [ACTION_FOCUS, ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_CLICK, ACTION_LONG_CLICK, ACTION_ACCESSIBILITY_FOCUS]]
+05-11 16:38:17.770 D/PowerManagerService( 1179): userActivityNoUpdateLocked: eventTime=9970407, event=2, flags=0x0, uid=1000
+05-11 16:38:17.780 D/PowerManagerService( 1179): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=9975410 (in 4999 ms)
+05-11 16:38:17.780 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:17.780 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:18.240 V/WLAN_PSA(  250): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-11 16:38:18.240 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:38:18.310 D/PowerManagerService( 1179): userActivityNoUpdateLocked: eventTime=9970940, event=2, flags=0x0, uid=1000
+05-11 16:38:18.310 D/PowerManagerService( 1179): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=9975942 (in 4999 ms)
+05-11 16:38:18.310 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:18.310 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:18.320 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:18.450 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.450 D/skia    (17832): call decode 
+05-11 16:38:18.450 D/skia    (17832): Start onDecode 
+05-11 16:38:18.450 D/skia    (17832): End onDecode 
+05-11 16:38:18.470 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.470 D/skia    (17832): call decode 
+05-11 16:38:18.470 D/skia    (17832): Start onDecode 
+05-11 16:38:18.470 D/skia    (17832): End onDecode 
+05-11 16:38:18.470 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.470 D/skia    (17832): call decode 
+05-11 16:38:18.470 D/skia    (17832): Start onDecode 
+05-11 16:38:18.470 D/skia    (17832): End onDecode 
+05-11 16:38:18.470 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.470 D/skia    (17832): call decode 
+05-11 16:38:18.470 D/skia    (17832): Start onDecode 
+05-11 16:38:18.470 D/skia    (17832): End onDecode 
+05-11 16:38:18.470 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.470 D/skia    (17832): call decode 
+05-11 16:38:18.470 D/skia    (17832): Start onDecode 
+05-11 16:38:18.470 D/skia    (17832): End onDecode 
+05-11 16:38:18.480 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.480 D/skia    (17832): call decode 
+05-11 16:38:18.480 D/skia    (17832): Start onDecode 
+05-11 16:38:18.480 D/skia    (17832): End onDecode 
+05-11 16:38:18.480 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.480 D/skia    (17832): call decode 
+05-11 16:38:18.480 D/skia    (17832): Start onDecode 
+05-11 16:38:18.480 D/skia    (17832): End onDecode 
+05-11 16:38:18.480 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.480 D/skia    (17832): call decode 
+05-11 16:38:18.480 D/skia    (17832): Start onDecode 
+05-11 16:38:18.480 D/skia    (17832): End onDecode 
+05-11 16:38:18.480 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.480 D/skia    (17832): call decode 
+05-11 16:38:18.480 D/skia    (17832): Start onDecode 
+05-11 16:38:18.480 D/skia    (17832): End onDecode 
+05-11 16:38:18.480 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.480 D/skia    (17832): call decode 
+05-11 16:38:18.480 D/skia    (17832): Start onDecode 
+05-11 16:38:18.490 D/skia    (17832): End onDecode 
+05-11 16:38:18.490 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.490 D/skia    (17832): call decode 
+05-11 16:38:18.490 D/skia    (17832): Start onDecode 
+05-11 16:38:18.490 D/skia    (17832): End onDecode 
+05-11 16:38:18.490 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.490 D/skia    (17832): call decode 
+05-11 16:38:18.490 D/skia    (17832): Start onDecode 
+05-11 16:38:18.490 D/skia    (17832): End onDecode 
+05-11 16:38:18.490 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.490 D/skia    (17832): call decode 
+05-11 16:38:18.490 D/skia    (17832): Start onDecode 
+05-11 16:38:18.490 D/skia    (17832): End onDecode 
+05-11 16:38:18.490 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.490 D/skia    (17832): call decode 
+05-11 16:38:18.490 D/skia    (17832): Start onDecode 
+05-11 16:38:18.500 D/skia    (17832): End onDecode 
+05-11 16:38:18.500 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.500 D/skia    (17832): call decode 
+05-11 16:38:18.500 D/skia    (17832): Start onDecode 
+05-11 16:38:18.500 D/skia    (17832): End onDecode 
+05-11 16:38:18.500 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.500 D/skia    (17832): call decode 
+05-11 16:38:18.500 D/skia    (17832): Start onDecode 
+05-11 16:38:18.500 D/skia    (17832): End onDecode 
+05-11 16:38:18.500 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.500 D/skia    (17832): call decode 
+05-11 16:38:18.500 D/skia    (17832): Start onDecode 
+05-11 16:38:18.500 D/skia    (17832): End onDecode 
+05-11 16:38:18.500 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.500 D/skia    (17832): call decode 
+05-11 16:38:18.500 D/skia    (17832): Start onDecode 
+05-11 16:38:18.500 D/skia    (17832): End onDecode 
+05-11 16:38:18.500 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.500 D/skia    (17832): call decode 
+05-11 16:38:18.500 D/skia    (17832): Start onDecode 
+05-11 16:38:18.500 D/skia    (17832): End onDecode 
+05-11 16:38:18.500 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.500 D/skia    (17832): call decode 
+05-11 16:38:18.500 D/skia    (17832): Start onDecode 
+05-11 16:38:18.510 D/skia    (17832): End onDecode 
+05-11 16:38:18.510 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.510 D/skia    (17832): call decode 
+05-11 16:38:18.510 D/skia    (17832): Start onDecode 
+05-11 16:38:18.510 D/skia    (17832): End onDecode 
+05-11 16:38:18.510 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.510 D/skia    (17832): call decode 
+05-11 16:38:18.510 D/skia    (17832): Start onDecode 
+05-11 16:38:18.510 D/skia    (17832): End onDecode 
+05-11 16:38:18.520 D/skia    (17832): Decoder Format : PNG
+05-11 16:38:18.520 D/skia    (17832): call decode 
+05-11 16:38:18.520 D/skia    (17832): Start onDecode 
+05-11 16:38:18.520 D/skia    (17832): End onDecode 
+05-11 16:38:18.570 V/NotificationService( 1179): enqueueNotificationInternal: pkg=android id=17040598 notification=Notification(pri=0 contentView=android/0x109006f vibrate=null sound=null defaults=0x0 flags=0x2 kind=[android.system.imeswitcher])
+05-11 16:38:18.570 V/NotificationService( 1179): Initial score is 0.
+05-11 16:38:18.570 V/NotificationService( 1179): Final score is 0.
+05-11 16:38:18.570 V/NotificationService( 1179): Assigned score=0 to Notification(pri=0 contentView=android/0x109006f vibrate=null sound=null defaults=0x0 flags=0x2 kind=[android.system.imeswitcher])
+05-11 16:38:18.590 D/skia    ( 2358): Decoder Format : PNG
+05-11 16:38:18.590 D/skia    ( 2358): call decode 
+05-11 16:38:18.590 D/skia    ( 2358): Start onDecode 
+05-11 16:38:18.590 D/skia    ( 2358): End onDecode 
+05-11 16:38:18.600 D/skia    ( 2358): Decoder Format : PNG
+05-11 16:38:18.600 D/skia    ( 2358): call decode 
+05-11 16:38:18.600 D/skia    ( 2358): Start onDecode 
+05-11 16:38:18.600 D/skia    ( 2358): End onDecode 
+05-11 16:38:18.600 I/StatusBarDebug( 2358): updateNotificationVetoButton:false
+05-11 16:38:18.610 D/skia    ( 2358): Decoder Format : PNG
+05-11 16:38:18.610 D/skia    ( 2358): call decode 
+05-11 16:38:18.610 D/skia    ( 2358): Start onDecode 
+05-11 16:38:18.610 D/skia    ( 2358): End onDecode 
+05-11 16:38:18.620 D/skia    ( 2358): Decoder Format : PNG
+05-11 16:38:18.620 D/skia    ( 2358): call decode 
+05-11 16:38:18.620 D/skia    ( 2358): Start onDecode 
+05-11 16:38:18.620 D/skia    ( 2358): End onDecode 
+05-11 16:38:18.620 D/skia    ( 2358): Decoder Format : PNG
+05-11 16:38:18.620 D/skia    ( 2358): call decode 
+05-11 16:38:18.620 D/skia    ( 2358): Start onDecode 
+05-11 16:38:18.620 D/skia    ( 2358): End onDecode 
+05-11 16:38:18.620 D/skia    ( 2358): Decoder Format : PNG
+05-11 16:38:18.620 D/skia    ( 2358): call decode 
+05-11 16:38:18.620 D/skia    ( 2358): Start onDecode 
+05-11 16:38:18.620 D/skia    ( 2358): End onDecode 
+05-11 16:38:18.620 D/skia    ( 2358): Decoder Format : PNG
+05-11 16:38:18.620 D/skia    ( 2358): call decode 
+05-11 16:38:18.620 D/skia    ( 2358): Start onDecode 
+05-11 16:38:18.620 D/skia    ( 2358): End onDecode 
+05-11 16:38:18.620 D/skia    ( 2358): Decoder Format : PNG
+05-11 16:38:18.620 D/skia    ( 2358): call decode 
+05-11 16:38:18.620 D/skia    ( 2358): Start onDecode 
+05-11 16:38:18.620 D/skia    ( 2358): End onDecode 
+05-11 16:38:18.620 D/skia    ( 2358): Decoder Format : PNG
+05-11 16:38:18.620 D/skia    ( 2358): call decode 
+05-11 16:38:18.620 D/skia    ( 2358): Start onDecode 
+05-11 16:38:18.620 D/skia    ( 2358): End onDecode 
+05-11 16:38:18.630 D/skia    ( 2358): Decoder Format : PNG
+05-11 16:38:18.630 D/skia    ( 2358): call decode 
+05-11 16:38:18.630 D/skia    ( 2358): Start onDecode 
+05-11 16:38:18.630 D/skia    ( 2358): End onDecode 
+05-11 16:38:18.630 D/skia    ( 2358): Decoder Format : PNG
+05-11 16:38:18.630 D/skia    ( 2358): call decode 
+05-11 16:38:18.630 D/skia    ( 2358): Start onDecode 
+05-11 16:38:18.630 D/skia    ( 2358): End onDecode 
+05-11 16:38:18.690 D/dalvikvm(17832): GC_FOR_ALLOC freed 6317K, 35% free 14822K/22504K, paused 36ms, total 37ms, dvmtargetUtilize:0.750000
+05-11 16:38:18.710 I/dalvikvm-heap(17832): Grow heap (frag case) to 19.517MB for 2982160-byte allocation
+05-11 16:38:18.740 D/dalvikvm(17832): GC_CONCURRENT freed 664K, 33% free 17073K/25420K, paused 5ms+3ms, total 33ms, dvmtargetUtilize:0.750000
+05-11 16:38:18.760 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:18.790 V/kernel  ( 9294): <5>[ 9971.464859] type=1400 audit(1431333498.760:88): avc:  denied  { ioctl } for  pid=21722 comm="android.browser" path="/dev/kgsl-3d0" dev="tmpfs" ino=7080 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+05-11 16:38:18.800 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:18.840 V/kernel  ( 9294): <5>[ 9971.512294] type=1400 audit(1431333498.810:89): avc:  denied  { read write } for  pid=21722 comm="android.browser" path="/dev/kgsl-3d0" dev="tmpfs" ino=7080 scontext=u:r:untrusted_app:s0 tcontext=u:object_r:device:s0 tclass=chr_file
+05-11 16:38:18.970 I/StatusBarDebug( 2358): update notifcaion package :android
+05-11 16:38:18.970 I/StatusBarDebug( 2358): update notifcaion contentsUnchanged :true bigContentsUnchanged:true orderUnchanged:true isTopAnyway:true
+05-11 16:38:18.970 V/NotificationService( 1179): enqueueNotificationInternal: pkg=android id=17040598 notification=Notification(pri=0 contentView=android/0x109006f vibrate=null sound=null defaults=0x0 flags=0x2 kind=[android.system.imeswitcher])
+05-11 16:38:18.970 V/NotificationService( 1179): Initial score is 0.
+05-11 16:38:18.970 V/NotificationService( 1179): Final score is 0.
+05-11 16:38:18.970 V/NotificationService( 1179): Assigned score=0 to Notification(pri=0 contentView=android/0x109006f vibrate=null sound=null defaults=0x0 flags=0x2 kind=[android.system.imeswitcher])
+05-11 16:38:18.990 I/StatusBarDebug( 2358): updateNotificationVetoButton:false
+05-11 16:38:19.070 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:38:19.070 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:38:19.070 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:38:19.330 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:38:19.330 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:38:19.330 V/WLAN_PSA(  250): NL MSG, len[4030], NL type[0x1C] WNI type[0x5900] len[42511]
+05-11 16:38:19.330 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:38:19.350 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:38:20.090 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:38:20.090 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:38:20.090 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:38:20.860 D/dalvikvm( 2653): GC_EXPLICIT freed 24K, 39% free 26308K/43104K, paused 4ms+4ms, total 79ms, dvmtargetUtilize:0.750000
+05-11 16:38:20.940 D/WindowManager( 1179): interceptKeyTq keycode=67 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:20.940 D/PowerManagerService( 1179): userActivityNoUpdateLocked: eventTime=9973575, event=1, flags=0x0, uid=1000
+05-11 16:38:20.940 D/PowerManagerService( 1179): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=9978577 (in 4999 ms)
+05-11 16:38:20.940 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:20.950 D/WindowManager( 1179): interceptKeyTi keyCode=67 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:20.950 D/WindowManager( 1179): interceptKeyTq keycode=67 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:20.950 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:20.950 D/WindowManager( 1179): Unhandled key: win=Window{42252e98 u0 com.android.browser/com.android.browser.BrowserActivity}, action=0, flags=0, keyCode=67, scanCode=0, metaState=0, repeatCount=0, policyFlags=1258291200
+05-11 16:38:20.950 D/WindowManager( 1179): No fallback.
+05-11 16:38:20.960 D/WindowManager( 1179): interceptKeyTi keyCode=67 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.000 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-11 16:38:21.080 D/WindowManager( 1179): Unhandled key: win=Window{42252e98 u0 com.android.browser/com.android.browser.BrowserActivity}, action=1, flags=0, keyCode=67, scanCode=0, metaState=0, repeatCount=0, policyFlags=1258291200
+05-11 16:38:21.080 D/WindowManager( 1179): No fallback.
+05-11 16:38:21.090 D/WindowManager( 1179): interceptKeyTq keycode=29 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.090 D/WindowManager( 1179): interceptKeyTi keyCode=29 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.230 D/dalvikvm(17832): GC_EXPLICIT freed 820K, 35% free 16663K/25420K, paused 4ms+4ms, total 49ms, dvmtargetUtilize:0.750000
+05-11 16:38:21.230 D/WindowManager( 1179): interceptKeyTq keycode=29 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.240 D/WindowManager( 1179): interceptKeyTi keyCode=29 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.260 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:21.310 D/WindowManager( 1179): interceptKeyTq keycode=49 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.310 D/WindowManager( 1179): interceptKeyTi keyCode=49 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.330 D/WindowManager( 1179): interceptKeyTq keycode=49 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.330 D/WindowManager( 1179): interceptKeyTi keyCode=49 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.350 D/WindowManager( 1179): interceptKeyTq keycode=48 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.350 D/WindowManager( 1179): interceptKeyTi keyCode=48 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.370 D/WindowManager( 1179): interceptKeyTq keycode=48 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.370 D/WindowManager( 1179): interceptKeyTi keyCode=48 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.380 D/WindowManager( 1179): interceptKeyTq keycode=43 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.380 D/WindowManager( 1179): interceptKeyTi keyCode=43 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.400 D/WindowManager( 1179): interceptKeyTq keycode=43 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.400 D/WindowManager( 1179): interceptKeyTi keyCode=43 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.410 D/WindowManager( 1179): interceptKeyTq keycode=56 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.410 D/WindowManager( 1179): interceptKeyTi keyCode=56 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.420 D/WindowManager( 1179): interceptKeyTq keycode=56 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.430 D/WindowManager( 1179): interceptKeyTi keyCode=56 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.430 D/WindowManager( 1179): interceptKeyTq keycode=47 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.430 D/WindowManager( 1179): interceptKeyTi keyCode=47 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.450 D/WindowManager( 1179): interceptKeyTq keycode=47 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.450 D/WindowManager( 1179): interceptKeyTi keyCode=47 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.450 D/PowerManagerService( 1179): userActivityNoUpdateLocked: eventTime=9974082, event=1, flags=0x0, uid=1000
+05-11 16:38:21.450 D/PowerManagerService( 1179): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=9979084 (in 4998 ms)
+05-11 16:38:21.450 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:21.450 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:21.460 D/WindowManager( 1179): interceptKeyTq keycode=41 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.460 D/WindowManager( 1179): interceptKeyTi keyCode=41 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.470 D/WindowManager( 1179): interceptKeyTq keycode=41 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.470 D/WindowManager( 1179): interceptKeyTi keyCode=41 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.480 D/WindowManager( 1179): interceptKeyTq keycode=29 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.480 D/WindowManager( 1179): interceptKeyTi keyCode=29 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.500 D/WindowManager( 1179): interceptKeyTq keycode=29 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.510 D/WindowManager( 1179): interceptKeyTi keyCode=29 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.510 D/WindowManager( 1179): interceptKeyTq keycode=46 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.510 D/WindowManager( 1179): interceptKeyTi keyCode=46 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.520 D/WindowManager( 1179): interceptKeyTq keycode=46 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.530 D/WindowManager( 1179): interceptKeyTi keyCode=46 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.530 D/WindowManager( 1179): interceptKeyTq keycode=48 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.530 D/WindowManager( 1179): interceptKeyTi keyCode=48 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.550 D/WindowManager( 1179): interceptKeyTq keycode=48 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.560 D/WindowManager( 1179): interceptKeyTi keyCode=48 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.560 D/WindowManager( 1179): interceptKeyTq keycode=37 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.560 D/WindowManager( 1179): interceptKeyTi keyCode=37 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.590 D/WindowManager( 1179): interceptKeyTq keycode=37 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.590 D/WindowManager( 1179): interceptKeyTi keyCode=37 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.590 D/WindowManager( 1179): interceptKeyTq keycode=47 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.600 D/WindowManager( 1179): interceptKeyTi keyCode=47 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.620 D/WindowManager( 1179): interceptKeyTq keycode=47 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.620 D/WindowManager( 1179): interceptKeyTi keyCode=47 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.630 D/WindowManager( 1179): interceptKeyTq keycode=29 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.640 D/WindowManager( 1179): interceptKeyTi keyCode=29 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.660 D/WindowManager( 1179): interceptKeyTq keycode=29 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.660 D/WindowManager( 1179): interceptKeyTi keyCode=29 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.660 D/WindowManager( 1179): interceptKeyTq keycode=42 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.660 D/WindowManager( 1179): interceptKeyTi keyCode=42 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.690 D/WindowManager( 1179): interceptKeyTq keycode=42 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.690 D/WindowManager( 1179): interceptKeyTi keyCode=42 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.700 D/WindowManager( 1179): interceptKeyTq keycode=56 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.700 D/WindowManager( 1179): interceptKeyTi keyCode=56 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.710 D/WindowManager( 1179): interceptKeyTq keycode=56 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.720 D/WindowManager( 1179): interceptKeyTi keyCode=56 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.730 D/WindowManager( 1179): interceptKeyTq keycode=31 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.730 D/WindowManager( 1179): interceptKeyTi keyCode=31 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.740 D/WindowManager( 1179): interceptKeyTq keycode=31 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.740 D/WindowManager( 1179): interceptKeyTi keyCode=31 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.750 D/WindowManager( 1179): interceptKeyTq keycode=43 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.760 D/WindowManager( 1179): interceptKeyTi keyCode=43 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.770 D/WindowManager( 1179): interceptKeyTq keycode=43 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.780 D/WindowManager( 1179): interceptKeyTi keyCode=43 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.790 D/WindowManager( 1179): interceptKeyTq keycode=41 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.790 D/WindowManager( 1179): interceptKeyTi keyCode=41 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.810 D/WindowManager( 1179): interceptKeyTq keycode=41 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.810 D/WindowManager( 1179): interceptKeyTi keyCode=41 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.820 D/WindowManager( 1179): interceptKeyTq keycode=76 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.830 D/WindowManager( 1179): interceptKeyTi keyCode=76 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.850 D/WindowManager( 1179): interceptKeyTq keycode=76 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.850 D/WindowManager( 1179): interceptKeyTi keyCode=76 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.860 D/WindowManager( 1179): interceptKeyTq keycode=41 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.860 D/WindowManager( 1179): interceptKeyTi keyCode=41 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.880 D/WindowManager( 1179): interceptKeyTq keycode=41 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.880 D/WindowManager( 1179): interceptKeyTi keyCode=41 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.890 D/WindowManager( 1179): interceptKeyTq keycode=33 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.890 D/WindowManager( 1179): interceptKeyTi keyCode=33 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.910 D/WindowManager( 1179): interceptKeyTq keycode=33 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.910 D/WindowManager( 1179): interceptKeyTi keyCode=33 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.920 D/WindowManager( 1179): interceptKeyTq keycode=32 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.920 D/WindowManager( 1179): interceptKeyTi keyCode=32 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.940 D/WindowManager( 1179): interceptKeyTq keycode=32 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.940 D/WindowManager( 1179): interceptKeyTi keyCode=32 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.940 D/WindowManager( 1179): interceptKeyTq keycode=37 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.940 D/WindowManager( 1179): interceptKeyTi keyCode=37 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.970 D/WindowManager( 1179): interceptKeyTq keycode=37 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.970 D/PowerManagerService( 1179): userActivityNoUpdateLocked: eventTime=9974602, event=1, flags=0x0, uid=1000
+05-11 16:38:21.970 D/PowerManagerService( 1179): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=9979603 (in 4995 ms)
+05-11 16:38:21.970 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:21.980 D/WindowManager( 1179): interceptKeyTi keyCode=37 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.980 D/WindowManager( 1179): interceptKeyTq keycode=29 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:21.980 D/WindowManager( 1179): interceptKeyTi keyCode=29 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:21.980 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:22.000 D/WindowManager( 1179): interceptKeyTq keycode=29 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.000 D/WindowManager( 1179): interceptKeyTi keyCode=29 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.010 D/WindowManager( 1179): interceptKeyTq keycode=76 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.010 D/WindowManager( 1179): interceptKeyTi keyCode=76 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.030 D/WindowManager( 1179): interceptKeyTq keycode=76 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.030 D/WindowManager( 1179): interceptKeyTi keyCode=76 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.040 D/WindowManager( 1179): interceptKeyTq keycode=59 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.040 D/WindowManager( 1179): interceptKeyTi keyCode=59 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.050 D/WindowManager( 1179): interceptKeyTq keycode=29 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.050 D/WindowManager( 1179): interceptKeyTi keyCode=29 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.060 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-11 16:38:22.060 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-11 16:38:22.070 D/WindowManager( 1179): interceptKeyTq keycode=29 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.070 D/WindowManager( 1179): interceptKeyTi keyCode=29 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.080 D/WindowManager( 1179): interceptKeyTq keycode=59 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.080 D/WindowManager( 1179): interceptKeyTi keyCode=59 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.090 D/WindowManager( 1179): interceptKeyTq keycode=49 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.090 D/WindowManager( 1179): interceptKeyTi keyCode=49 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.110 D/WindowManager( 1179): interceptKeyTq keycode=49 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.110 D/WindowManager( 1179): interceptKeyTi keyCode=49 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.120 D/WindowManager( 1179): interceptKeyTq keycode=48 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.130 D/WindowManager( 1179): interceptKeyTi keyCode=48 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.140 D/WindowManager( 1179): interceptKeyTq keycode=48 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.150 D/WindowManager( 1179): interceptKeyTi keyCode=48 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.160 D/WindowManager( 1179): interceptKeyTq keycode=43 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.160 D/WindowManager( 1179): interceptKeyTi keyCode=43 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.190 D/WindowManager( 1179): interceptKeyTq keycode=43 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.190 D/WindowManager( 1179): interceptKeyTi keyCode=43 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.200 D/WindowManager( 1179): interceptKeyTq keycode=59 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.200 D/WindowManager( 1179): interceptKeyTi keyCode=59 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.210 D/WindowManager( 1179): interceptKeyTq keycode=69 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.210 D/WindowManager( 1179): interceptKeyTi keyCode=69 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.240 D/WindowManager( 1179): interceptKeyTq keycode=69 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.240 D/WindowManager( 1179): interceptKeyTi keyCode=69 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.250 D/WindowManager( 1179): interceptKeyTq keycode=59 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.250 D/WindowManager( 1179): interceptKeyTi keyCode=59 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.260 D/WindowManager( 1179): interceptKeyTq keycode=59 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.260 D/WindowManager( 1179): interceptKeyTi keyCode=59 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.270 D/WindowManager( 1179): interceptKeyTq keycode=48 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.270 D/WindowManager( 1179): interceptKeyTi keyCode=48 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.290 D/WindowManager( 1179): interceptKeyTq keycode=48 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.290 D/WindowManager( 1179): interceptKeyTi keyCode=48 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.300 D/WindowManager( 1179): interceptKeyTq keycode=59 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.300 D/WindowManager( 1179): interceptKeyTi keyCode=59 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.310 D/WindowManager( 1179): interceptKeyTq keycode=33 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.320 D/WindowManager( 1179): interceptKeyTi keyCode=33 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.340 D/WindowManager( 1179): interceptKeyTq keycode=33 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.340 D/WindowManager( 1179): interceptKeyTi keyCode=33 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.350 D/WindowManager( 1179): interceptKeyTq keycode=47 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.350 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:38:22.350 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:38:22.350 D/WindowManager( 1179): interceptKeyTi keyCode=47 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.360 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:38:22.370 D/WindowManager( 1179): interceptKeyTq keycode=47 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.380 D/WindowManager( 1179): interceptKeyTi keyCode=47 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.380 D/WindowManager( 1179): interceptKeyTq keycode=48 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.380 D/WindowManager( 1179): interceptKeyTi keyCode=48 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.410 D/WindowManager( 1179): interceptKeyTq keycode=48 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.410 D/WindowManager( 1179): interceptKeyTi keyCode=48 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.410 D/WindowManager( 1179): interceptKeyTq keycode=59 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.420 D/WindowManager( 1179): interceptKeyTi keyCode=59 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.430 D/WindowManager( 1179): interceptKeyTq keycode=69 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.430 D/WindowManager( 1179): interceptKeyTi keyCode=69 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.460 D/WindowManager( 1179): interceptKeyTq keycode=69 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.460 D/WindowManager( 1179): interceptKeyTi keyCode=69 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.460 D/WindowManager( 1179): interceptKeyTq keycode=59 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.460 D/WindowManager( 1179): interceptKeyTi keyCode=59 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.480 D/WindowManager( 1179): interceptKeyTq keycode=59 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.480 D/WindowManager( 1179): interceptKeyTi keyCode=59 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.480 D/PowerManagerService( 1179): userActivityNoUpdateLocked: eventTime=9975110, event=1, flags=0x0, uid=1000
+05-11 16:38:22.480 D/PowerManagerService( 1179): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=9980112 (in 4999 ms)
+05-11 16:38:22.480 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:22.480 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:22.490 D/WindowManager( 1179): interceptKeyTq keycode=50 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.500 D/WindowManager( 1179): interceptKeyTi keyCode=50 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.530 D/WindowManager( 1179): interceptKeyTq keycode=50 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.530 D/WindowManager( 1179): interceptKeyTi keyCode=50 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.540 D/WindowManager( 1179): interceptKeyTq keycode=59 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.540 D/WindowManager( 1179): interceptKeyTi keyCode=59 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.550 D/WindowManager( 1179): interceptKeyTq keycode=37 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.550 D/WindowManager( 1179): interceptKeyTi keyCode=37 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.570 D/WindowManager( 1179): interceptKeyTq keycode=37 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.580 D/WindowManager( 1179): interceptKeyTi keyCode=37 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.590 D/WindowManager( 1179): interceptKeyTq keycode=32 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.590 D/WindowManager( 1179): interceptKeyTi keyCode=32 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.610 D/WindowManager( 1179): interceptKeyTq keycode=32 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.620 D/WindowManager( 1179): interceptKeyTi keyCode=32 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.630 D/WindowManager( 1179): interceptKeyTq keycode=33 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.630 D/WindowManager( 1179): interceptKeyTi keyCode=33 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.650 D/WindowManager( 1179): interceptKeyTq keycode=33 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.650 D/WindowManager( 1179): interceptKeyTi keyCode=33 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.660 D/WindowManager( 1179): interceptKeyTq keycode=43 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.660 D/WindowManager( 1179): interceptKeyTi keyCode=43 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.680 D/WindowManager( 1179): interceptKeyTq keycode=43 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.680 D/WindowManager( 1179): interceptKeyTi keyCode=43 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.690 D/WindowManager( 1179): interceptKeyTq keycode=56 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.700 D/WindowManager( 1179): interceptKeyTi keyCode=56 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.720 D/WindowManager( 1179): interceptKeyTq keycode=56 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.720 D/WindowManager( 1179): interceptKeyTi keyCode=56 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.730 D/WindowManager( 1179): interceptKeyTq keycode=41 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.730 D/WindowManager( 1179): interceptKeyTi keyCode=41 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.750 D/WindowManager( 1179): interceptKeyTq keycode=41 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.750 D/WindowManager( 1179): interceptKeyTi keyCode=41 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.760 D/WindowManager( 1179): interceptKeyTq keycode=44 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.760 D/WindowManager( 1179): interceptKeyTi keyCode=44 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.780 D/WindowManager( 1179): interceptKeyTq keycode=44 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.780 D/WindowManager( 1179): interceptKeyTi keyCode=44 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.790 D/WindowManager( 1179): interceptKeyTq keycode=11 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.790 D/WindowManager( 1179): interceptKeyTi keyCode=11 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.810 D/WindowManager( 1179): interceptKeyTq keycode=11 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:22.810 D/WindowManager( 1179): interceptKeyTi keyCode=11 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:22.840 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=103, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": ["enter"], "jsonrpc": "2.0", "method": "pressKey", "id": "4c3834cc1249e7e770d40148c0458a06"}}
+05-11 16:38:23.070 I/MSM-irqbalance(  385): Decided to move IRQ178 from CPU6 to CPU7
+05-11 16:38:23.250 V/WLAN_PSA(  250): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-11 16:38:23.250 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:38:23.300 D/WindowManager( 1179): interceptKeyTq keycode=66 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:23.300 D/PowerManagerService( 1179): userActivityNoUpdateLocked: eventTime=9975937, event=1, flags=0x0, uid=1000
+05-11 16:38:23.310 D/WindowManager( 1179): interceptKeyTi keyCode=66 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:23.310 D/PowerManagerService( 1179): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=9980939 (in 4998 ms)
+05-11 16:38:23.310 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:23.310 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:23.340 D/AwContents(21722): loadUrl 0 {DEFAULT, BROWSER_INITIATED_HTTP_POST, DATA}
+05-11 16:38:23.350 W/AwContents(21722): nativeOnDraw failed; clearing to background color.
+05-11 16:38:23.350 D/WindowManager( 1179): interceptKeyTq keycode=66 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:38:23.360 D/WindowManager( 1179): interceptKeyTi keyCode=66 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:38:23.440 D/AwContents(21722): shouldIgnoreNavigation isPost false, isRedirect false, hasUserGesture false, pageTransitionType 134217728, url: http://auto.smartisan.com/media/Auto_Test_Video.mp4, mDeferredShouldOverrideUrlLoadingIsPendingForPopup: false, mPopupContents: false
+05-11 16:38:23.440 D/Tab     (21722): onPageStarted url: http://auto.smartisan.com/media/Auto_Test_Video.mp4, webview: com.android.browser.BrowserWebView{42268a38 VFEDHVCL .F...... 0,0-1080,1536}
+05-11 16:38:24.030 D/ChromiumHTTPDataSource(  238): connect() in.
+05-11 16:38:24.030 D/ChromiumHTTPDataSource(  238): connect_l() in.
+05-11 16:38:24.100 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:38:24.100 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:38:24.100 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:38:24.160 D/Tab     (21722): onPageFinished url: http://auto.smartisan.com/media/Auto_Test_Video.mp4, webview: com.android.browser.BrowserWebView{42268a38 VFEDHVCL .F...... 0,0-1080,1536}
+05-11 16:38:24.330 D/VM_BMS  (  297): wake_lock acquired
+05-11 16:38:24.330 D/VM_BMS  (  297): New BMS data - Size=56
+05-11 16:38:24.330 D/VM_BMS  (  297): Start process_bms_data
+05-11 16:38:24.330 D/VM_BMS  (  297): For batt_temp=274 fcc_mah=2995
+05-11 16:38:24.330 D/VM_BMS  (  297): For ocv=4169870 batt_temp=274 soc=83
+05-11 16:38:24.330 D/VM_BMS  (  297): fifo_count=5 acc_count=0
+05-11 16:38:24.330 D/VM_BMS  (  297): INIT: ocv=4169870 last_ocv=4169870 batt_temp=274 soc=83
+05-11 16:38:24.330 D/VM_BMS  (  297): For soc=83 batt_temp=274 slope=10800
+05-11 16:38:24.330 D/VM_BMS  (  297): For soc=83 batt_temp=274 rbatt_sf=105
+05-11 16:38:24.330 D/VM_BMS  (  297): rbatt_mohm_default=146, rbatt_mohm=153, sf=105 batt_temp=274
+05-11 16:38:24.330 D/VM_BMS  (  297): For ocv=4169967 batt_temp=274 soc=83
+05-11 16:38:24.330 D/VM_BMS  (  297): FIFO=0 fifo_avg=4.199082 rbatt=0.153000 slope=1.080000 ibatt=-0.190609 ocv=4.169968 soc=83 fcc_ah=2.995000 sample_count=128 sample_interval=40 seq_num=737
+05-11 16:38:24.330 D/VM_BMS  (  297): For soc=83 batt_temp=274 slope=10800
+05-11 16:38:24.330 D/VM_BMS  (  297): For soc=83 batt_temp=274 rbatt_sf=105
+05-11 16:38:24.330 D/VM_BMS  (  297): rbatt_mohm_default=146, rbatt_mohm=153, sf=105 batt_temp=274
+05-11 16:38:24.330 D/VM_BMS  (  297): For ocv=4170057 batt_temp=274 soc=83
+05-11 16:38:24.330 D/VM_BMS  (  297): FIFO=1 fifo_avg=4.197027 rbatt=0.153000 slope=1.080000 ibatt=-0.176567 ocv=4.170058 soc=83 fcc_ah=2.995000 sample_count=128 sample_interval=40 seq_num=737
+05-11 16:38:24.330 D/VM_BMS  (  297): For soc=83 batt_temp=274 slope=10800
+05-11 16:38:24.330 D/VM_BMS  (  297): For soc=83 batt_temp=274 rbatt_sf=105
+05-11 16:38:24.330 D/VM_BMS  (  297): rbatt_mohm_default=146, rbatt_mohm=153, sf=105 batt_temp=274
+05-11 16:38:24.330 D/VM_BMS  (  297): For ocv=4170125 batt_temp=274 soc=83
+05-11 16:38:24.330 D/VM_BMS  (  297): FIFO=2 fifo_avg=4.190571 rbatt=0.153000 slope=1.080000 ibatt=-0.133854 ocv=4.170125 soc=83 fcc_ah=2.995000 sample_count=128 sample_interval=40 seq_num=737
+05-11 16:38:24.330 D/VM_BMS  (  297): For soc=83 batt_temp=274 slope=10800
+05-11 16:38:24.330 D/VM_BMS  (  297): For soc=83 batt_temp=274 rbatt_sf=105
+05-11 16:38:24.330 D/VM_BMS  (  297): rbatt_mohm_default=146, rbatt_mohm=153, sf=105 batt_temp=274
+05-11 16:38:24.330 D/VM_BMS  (  297): For ocv=4170146 batt_temp=274 soc=83
+05-11 16:38:24.330 D/VM_BMS  (  297): FIFO=3 fifo_avg=4.176480 rbatt=0.153000 slope=1.080000 ibatt=-0.041465 ocv=4.170146 soc=83 fcc_ah=2.995000 sample_count=128 sample_interval=40 seq_num=737
+05-11 16:38:24.330 D/VM_BMS  (  297): For soc=83 batt_temp=274 slope=10800
+05-11 16:38:24.330 D/VM_BMS  (  297): For soc=83 batt_temp=274 rbatt_sf=105
+05-11 16:38:24.330 D/VM_BMS  (  297): rbatt_mohm_default=146, rbatt_mohm=153, sf=105 batt_temp=274
+05-11 16:38:24.330 D/VM_BMS  (  297): For ocv=4170200 batt_temp=274 soc=83
+05-11 16:38:24.330 D/VM_BMS  (  297): FIFO=4 fifo_avg=4.186461 rbatt=0.153000 slope=1.080000 ibatt=-0.106455 ocv=4.170200 soc=83 fcc_ah=2.995000 sample_count=128 sample_interval=40 seq_num=737
+05-11 16:38:24.330 I/VM_BMS  (  297): power_supply_update: ocv_uv=4170200 ibatt=-106455 soc=83 seq_num=737
+05-11 16:38:24.330 D/VM_BMS  (  297): End process_bms_data
+05-11 16:38:24.330 D/VM_BMS  (  297): wake_lock released
+05-11 16:38:24.350 D/ChromiumHTTPDataSource(  238): onConnectionEstablished() in.
+05-11 16:38:24.350 D/ChromiumHTTPDataSource(  238): connect_l() out.
+05-11 16:38:24.350 E/NuCachedSource2(  238): timeout = 3000000000 nanoseconds
+05-11 16:38:24.350 D/MediaExtractor(  238): Create mime:(null)
+05-11 16:38:24.520 D/AwContents(21722): loadUrl 2 {DEFAULT, BROWSER_INITIATED_HTTP_POST, DATA}
+05-11 16:38:24.610 D/skia    (21722): Decoder Format : PNG
+05-11 16:38:24.610 D/skia    (21722): call decode 
+05-11 16:38:24.610 D/skia    (21722): Start onDecode 
+05-11 16:38:24.610 D/skia    (21722): End onDecode 
+05-11 16:38:24.630 D/ChromiumHTTPDataSource(  238): connect() in.
+05-11 16:38:24.630 D/ChromiumHTTPDataSource(  238): connect_l() in.
+05-11 16:38:24.930 D/ChromiumHTTPDataSource(  238): connect() in.
+05-11 16:38:24.930 D/ChromiumHTTPDataSource(  238): connect_l() in.
+05-11 16:38:24.960 D/NtpTrustedTime( 1179): currentTimeMillis() cache hit
+05-11 16:38:24.960 I/PPPOEService( 1179): NetdCallbackReceiver onEvent 601601 limit alert globalAlert wlan0
+05-11 16:38:24.960 D/PowerManagerService( 1179): acquireWakeLockInternal: lock=1111706368, flags=0x1, tag="NetworkStats", ws=null, uid=1000, pid=1179
+05-11 16:38:24.960 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-11 16:38:24.960 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:24.960 D/PowerManagerService( 1179): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-11 16:38:24.960 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:25.000 D/NtpTrustedTime( 1179): currentTimeMillis() cache hit
+05-11 16:38:25.000 D/NtpTrustedTime( 1179): currentTimeMillis() cache hit
+05-11 16:38:25.000 D/PowerManagerService( 1179): releaseWakeLockInternal: lock=1111706368 [NetworkStats], flags=0x0
+05-11 16:38:25.000 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x0
+05-11 16:38:25.000 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:25.000 D/PowerManagerService( 1179): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-11 16:38:25.000 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:25.010 D/MobileDataStateTracker( 1179): default: setPolicyDataEnable(enabled=true)
+05-11 16:38:25.300 D/ChromiumHTTPDataSource(  238): onConnectionEstablished() in.
+05-11 16:38:25.300 D/ChromiumHTTPDataSource(  238): connect_l() out.
+05-11 16:38:25.300 E/NuCachedSource2(  238): timeout = 3000000000 nanoseconds
+05-11 16:38:25.300 D/MediaExtractor(  238): Create mime:(null)
+05-11 16:38:25.360 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:38:25.360 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:38:25.370 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:38:25.370 V/WLAN_PSA(  250): NL MSG, len[3998], NL type[0x1C] WNI type[0x5900] len[34319]
+05-11 16:38:25.370 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:38:25.940 D/dalvikvm( 2653): GC_CONCURRENT freed <1K, 39% free 26308K/43104K, paused 4ms+4ms, total 70ms, dvmtargetUtilize:0.750000
+05-11 16:38:26.010 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-11 16:38:26.790 D/ChromiumHTTPDataSource(  238): onConnectionEstablished() in.
+05-11 16:38:26.800 D/ChromiumHTTPDataSource(  238): connect_l() out.
+05-11 16:38:26.800 E/NuCachedSource2(  238): timeout = 3000000000 nanoseconds
+05-11 16:38:26.800 D/MediaExtractor(  238): Create mime:(null)
+05-11 16:38:27.060 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-11 16:38:27.060 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-11 16:38:27.930 V/kernel  ( 9294): <2>[ 9980.627037] wlan: [19072:F :CTL] WDI_printRegInfo: regCount: 9 scenario: 2 reasonCode: 8
+05-11 16:38:27.930 V/kernel  ( 9294): <2>[ 9980.634471] wlan: [19072:F :CTL] a080eb4: 0
+05-11 16:38:27.950 V/kernel  ( 9294): <2>[ 9980.638604] wlan: [19072:F :CTL] a080e20: 10ea500
+05-11 16:38:27.950 V/kernel  ( 9294): <2>[ 9980.643286] wlan: [19072:F :CTL] a08040c: 0
+05-11 16:38:27.950 V/kernel  ( 9294): <2>[ 9980.647194] wlan: [19072:F :CTL] a0821b8: 8f
+05-11 16:38:27.950 V/kernel  ( 9294): <2>[ 9980.651714] wlan: [19072:F :CTL] a013c50: 0
+05-11 16:38:27.970 V/kernel  ( 9294): <2>[ 9980.655739] wlan: [19072:F :CTL] a013c5c: 12
+05-11 16:38:27.970 V/kernel  ( 9294): <2>[ 9980.659807] wlan: [19072:F :CTL] a013d38: 8c
+05-11 16:38:27.970 V/kernel  ( 9294): <2>[ 9980.664550] wlan: [19072:F :CTL] a0800f4: 800007ff
+05-11 16:38:27.970 V/kernel  ( 9294): <2>[ 9980.669048] wlan: [19072:F :CTL] a0801d0: 6
+05-11 16:38:28.260 V/WLAN_PSA(  250): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-11 16:38:28.260 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:38:28.310 D/PowerManagerService( 1179): handleUserActivityTimeout
+05-11 16:38:28.310 D/PowerManagerService( 1179): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=9999937 (in 18993 ms)
+05-11 16:38:28.310 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:28.310 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:28.370 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:38:28.370 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:38:28.390 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:38:31.010 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-11 16:38:31.380 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:38:31.380 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:38:31.390 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:38:31.390 V/WLAN_PSA(  250): NL MSG, len[4054], NL type[0x1C] WNI type[0x5900] len[48655]
+05-11 16:38:31.390 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:38:32.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-11 16:38:32.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-11 16:38:33.070 I/MSM-irqbalance(  385): Decided to move IRQ155 from CPU7 to CPU6
+05-11 16:38:33.270 V/WLAN_PSA(  250): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-11 16:38:33.270 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:38:33.400 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=128, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": ["screenshot.png", 1.0, 100], "jsonrpc": "2.0", "method": "takeScreenshot", "id": "5ab8f22598c649c7a150c46cf729b211"}}
+05-11 16:38:34.390 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:38:34.390 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:38:34.400 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:38:34.790 D/PRDrmPlugIn(  237): PRDrmPlugin::onInitialize, uniqueId = 4140
+05-11 16:38:34.790 D/PRDrmPlugIn(  237): PRDrmPlugin::onSetOnInfoListener: starts! uniqueId = 4140
+05-11 16:38:34.790 D/PRDrmPlugIn(  237): PRDrmPlugin::onSetOnInfoListener: ends!
+05-11 16:38:34.790 D/PRDrmPlugIn(  237): PRDrmPlugin::onTerminate, uniqueId = 4140
+05-11 16:38:35.110 I/NuCachedSource2(  238): new range: offset= 19905296
+05-11 16:38:35.110 D/ChromiumHTTPDataSource(  238): disconnect_l() in.
+05-11 16:38:35.110 D/ChromiumHTTPDataSource(  238): onDisconnectComplete() in.
+05-11 16:38:35.110 D/ChromiumHTTPDataSource(  238): disconnect_l() out.
+05-11 16:38:35.110 D/ChromiumHTTPDataSource(  238): connect_l() in.
+05-11 16:38:35.150 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=101, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [547, 945], "jsonrpc": "2.0", "method": "click", "id": "24cde298ad54ebbf776c4e69d35b9a6a"}}
+05-11 16:38:35.160 D/InteractionController(23692): clickNoSync (547, 945)
+05-11 16:38:35.160 D/PowerManagerService( 1179): userActivityNoUpdateLocked: eventTime=9987793, event=2, flags=0x0, uid=1000
+05-11 16:38:35.160 D/PowerManagerService( 1179): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=9992794 (in 4999 ms)
+05-11 16:38:35.160 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:35.160 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:35.520 V/kernel  ( 9294): <4>[ 9988.218499] IRQ39 no longer affine to CPU3
+05-11 16:38:35.540 D/PRDrmPlugIn(  237): PRDrmPlugin::onInitialize, uniqueId = 4468
+05-11 16:38:35.540 D/PRDrmPlugIn(  237): PRDrmPlugin::onSetOnInfoListener: starts! uniqueId = 4468
+05-11 16:38:35.540 D/PRDrmPlugIn(  237): PRDrmPlugin::onSetOnInfoListener: ends!
+05-11 16:38:35.540 D/PRDrmPlugIn(  237): PRDrmPlugin::onTerminate, uniqueId = 4468
+05-11 16:38:36.010 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-11 16:38:36.290 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=128, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": ["screenshot.png", 1.0, 100], "jsonrpc": "2.0", "method": "takeScreenshot", "id": "7f841e3669f6e95e2437ef16a0d91fb2"}}
+05-11 16:38:36.470 D/StatusBar.MSimNetworkController( 2358): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 28 0 2147483647 2147483647 gsm|lte level=4
+05-11 16:38:36.470 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength: subscription =0
+05-11 16:38:36.470 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength iconList = [I@42142278iconLevel = 5 mInetCondition = 0
+05-11 16:38:36.470 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:38:36.470 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:38:36.470 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:38:37.040 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [LOWI-SERVER] unknown deliver target [OS-Agent]
+05-11 16:38:37.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-11 16:38:37.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-11 16:38:37.400 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:38:37.400 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:38:37.410 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:38:38.040 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=101, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [547, 945], "jsonrpc": "2.0", "method": "click", "id": "967ee000922d0a477ed377c9c503d509"}}
+05-11 16:38:38.040 D/InteractionController(23692): clickNoSync (547, 945)
+05-11 16:38:38.050 D/PowerManagerService( 1179): userActivityNoUpdateLocked: eventTime=9990679, event=2, flags=0x0, uid=1000
+05-11 16:38:38.050 D/PowerManagerService( 1179): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=9995680 (in 4999 ms)
+05-11 16:38:38.050 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:38.050 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:38.070 V/WLAN_PSA(  250): NL MSG, len[4067], NL type[0x1C] WNI type[0x5900] len[51983]
+05-11 16:38:38.070 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:38:38.070 I/MSM-irqbalance(  385): Decided to move IRQ130 from CPU7 to CPU6
+05-11 16:38:38.280 V/WLAN_PSA(  250): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-11 16:38:38.280 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:38:38.390 I/NuCachedSource2(  238): new range: offset= 19905296
+05-11 16:38:38.390 D/ChromiumHTTPDataSource(  238): disconnect_l() in.
+05-11 16:38:38.390 D/ChromiumHTTPDataSource(  238): onDisconnectComplete() in.
+05-11 16:38:38.390 D/ChromiumHTTPDataSource(  238): disconnect_l() out.
+05-11 16:38:38.390 D/ChromiumHTTPDataSource(  238): connect_l() in.
+05-11 16:38:39.170 D/ChromiumHTTPDataSource(  238): onConnectionEstablished() in.
+05-11 16:38:39.170 D/ChromiumHTTPDataSource(  238): connect_l() out.
+05-11 16:38:39.180 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=206, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [{"childOrSiblingSelector": [], "className": "android.view.View", "mask": 16, "childOrSibling": []}, 15000], "jsonrpc": "2.0", "method": "waitForExists", "id": "16fab0116d17a4bc796941613dc6449c"}}
+05-11 16:38:39.180 D/ChromiumHTTPDataSource(  238): onConnectionEstablished() in.
+05-11 16:38:39.180 D/ChromiumHTTPDataSource(  238): connect_l() out.
+05-11 16:38:39.240 I/PPPOEService( 1179): NetdCallbackReceiver onEvent 601601 limit alert globalAlert wlan0
+05-11 16:38:39.240 D/PowerManagerService( 1179): acquireWakeLockInternal: lock=1111706368, flags=0x1, tag="NetworkStats", ws=null, uid=1000, pid=1179
+05-11 16:38:39.240 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-11 16:38:39.240 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:39.240 D/PowerManagerService( 1179): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-11 16:38:39.250 D/NtpTrustedTime( 1179): currentTimeMillis() cache hit
+05-11 16:38:39.250 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:39.330 D/NtpTrustedTime( 1179): currentTimeMillis() cache hit
+05-11 16:38:39.330 D/NtpTrustedTime( 1179): currentTimeMillis() cache hit
+05-11 16:38:39.330 D/PowerManagerService( 1179): releaseWakeLockInternal: lock=1111706368 [NetworkStats], flags=0x0
+05-11 16:38:39.330 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x0
+05-11 16:38:39.330 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:39.340 D/PowerManagerService( 1179): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-11 16:38:39.340 D/MobileDataStateTracker( 1179): default: setPolicyDataEnable(enabled=true)
+05-11 16:38:39.340 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:40.380 I/dalvikvm(21722): Jit: resizing JitTable from 4096 to 8192
+05-11 16:38:40.410 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:38:40.410 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:38:40.420 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:38:41.010 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-11 16:38:41.240 D/StatusBar.MSimNetworkController( 2358): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 29 0 2147483647 2147483647 gsm|lte level=4
+05-11 16:38:41.240 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength: subscription =0
+05-11 16:38:41.240 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength iconList = [I@42142278iconLevel = 5 mInetCondition = 0
+05-11 16:38:41.240 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:38:41.240 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:38:41.240 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:38:42.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-11 16:38:42.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-11 16:38:42.180 D/PRDrmPlugIn(  237): PRDrmPlugin::onInitialize, uniqueId = 7019
+05-11 16:38:42.180 D/PRDrmPlugIn(  237): PRDrmPlugin::onSetOnInfoListener: starts! uniqueId = 7019
+05-11 16:38:42.180 D/PRDrmPlugIn(  237): PRDrmPlugin::onSetOnInfoListener: ends!
+05-11 16:38:42.190 D/PRDrmPlugIn(  237): PRDrmPlugin::onTerminate, uniqueId = 7019
+05-11 16:38:42.280 I/NuCachedSource2(  238): new range: offset= 19905296
+05-11 16:38:42.280 D/ChromiumHTTPDataSource(  238): disconnect_l() in.
+05-11 16:38:42.280 D/ChromiumHTTPDataSource(  238): onDisconnectComplete() in.
+05-11 16:38:42.280 D/ChromiumHTTPDataSource(  238): disconnect_l() out.
+05-11 16:38:42.280 D/ChromiumHTTPDataSource(  238): connect_l() in.
+05-11 16:38:43.050 D/PowerManagerService( 1179): handleUserActivityTimeout
+05-11 16:38:43.050 D/PowerManagerService( 1179): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=10014679 (in 18995 ms)
+05-11 16:38:43.050 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:43.050 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:43.070 V/WLAN_PSA(  250): NL MSG, len[4015], NL type[0x1C] WNI type[0x5900] len[38671]
+05-11 16:38:43.070 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:38:43.070 I/MSM-irqbalance(  385): Decided to move IRQ200 from CPU7 to CPU6
+05-11 16:38:43.290 V/WLAN_PSA(  250): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-11 16:38:43.290 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:38:43.420 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:38:43.420 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:38:43.430 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:38:43.590 D/StatusBar.MSimNetworkController( 2358): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 29 0 2147483647 2147483647 gsm|lte level=4
+05-11 16:38:43.590 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength: subscription =0
+05-11 16:38:43.590 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength iconList = [I@42142278iconLevel = 5 mInetCondition = 0
+05-11 16:38:43.590 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:38:43.590 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:38:43.600 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:38:44.890 D/ChromiumHTTPDataSource(  238): onConnectionEstablished() in.
+05-11 16:38:44.890 D/ChromiumHTTPDataSource(  238): connect_l() out.
+05-11 16:38:45.300 I/NuCachedSource2(  238): ERROR_END_OF_STREAM
+05-11 16:38:46.010 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-11 16:38:46.370 D/PowerManagerService( 1179): acquireWakeLockInternal: lock=1113779584, flags=0x1, tag="AlarmManager", ws=WorkSource{10104}, uid=1000, pid=1179
+05-11 16:38:46.370 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-11 16:38:46.370 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:46.370 D/PowerManagerService( 1179): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-11 16:38:46.370 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:46.370 D/PowerManagerService( 1179): acquireWakeLockInternal: lock=1115101688, flags=0x1, tag="!32@/B4Tb64lLpLSCksk5w/QSxQTciH9sVsR", ws=null, uid=10104, pid=21883
+05-11 16:38:46.370 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-11 16:38:46.370 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:46.380 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:46.390 D/PowerManagerService( 1179): acquireWakeLockInternal: lock=1129086448, flags=0x1, tag="!32@/B4Tb64lLpLSCksk5w/QSxQTciH9sVsR", ws=null, uid=10104, pid=21883
+05-11 16:38:46.390 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-11 16:38:46.390 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:46.390 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:46.400 D/PowerManagerService( 1179): releaseWakeLockInternal: lock=1113779584 [AlarmManager], flags=0x0
+05-11 16:38:46.400 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-11 16:38:46.400 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:46.410 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:46.430 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:38:46.430 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:38:46.440 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:38:46.600 D/PowerManagerService( 1179): releaseWakeLockInternal: lock=1129086448 [!32@/B4Tb64lLpLSCksk5w/QSxQTciH9sVsR], flags=0x0
+05-11 16:38:46.600 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-11 16:38:46.600 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:46.600 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:46.810 I/NuCachedSource2(  238): ERROR_END_OF_STREAM
+05-11 16:38:46.820 D/PowerManagerService( 1179): acquireWakeLockInternal: lock=1115101688, flags=0x1, tag="!32@/B4Tb64lLpLSCksk5w/QSxQTciH9sVsR", ws=null, uid=10104, pid=21883
+05-11 16:38:46.820 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-11 16:38:46.820 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:46.820 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:46.950 I/NuCachedSource2(  238): ERROR_END_OF_STREAM
+05-11 16:38:47.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-11 16:38:47.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-11 16:38:47.320 D/PowerManagerService( 1179): releaseWakeLockInternal: lock=1115101688 [!32@/B4Tb64lLpLSCksk5w/QSxQTciH9sVsR], flags=0x0
+05-11 16:38:47.320 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x0
+05-11 16:38:47.320 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:47.320 D/PowerManagerService( 1179): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-11 16:38:47.320 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:47.470 D/dalvikvm(23692): GC_FOR_ALLOC freed 7021K, 86% free 1170K/8192K, paused 24ms, total 24ms, dvmtargetUtilize:0.750000
+05-11 16:38:48.070 I/MSM-irqbalance(  385): Decided to move IRQ215 from CPU7 to CPU6
+05-11 16:38:48.210 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:38:48.210 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:38:48.210 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:38:48.290 D/StatusBar.MSimNetworkController( 2358): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 29 0 2147483647 2147483647 gsm|lte level=4
+05-11 16:38:48.290 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength: subscription =0
+05-11 16:38:48.290 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength iconList = [I@42142278iconLevel = 5 mInetCondition = 0
+05-11 16:38:48.290 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:38:48.290 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:38:48.290 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:38:48.300 V/WLAN_PSA(  250): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-11 16:38:48.300 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:38:49.440 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:38:49.440 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:38:49.440 V/WLAN_PSA(  250): NL MSG, len[4019], NL type[0x1C] WNI type[0x5900] len[39695]
+05-11 16:38:49.440 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:38:49.460 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:38:50.550 D/StatusBar.MSimNetworkController( 2358): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 28 0 2147483647 2147483647 gsm|lte level=4
+05-11 16:38:50.550 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength: subscription =0
+05-11 16:38:50.560 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength iconList = [I@42142278iconLevel = 5 mInetCondition = 0
+05-11 16:38:50.560 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:38:50.560 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:38:50.560 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:38:51.010 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-11 16:38:51.350 D/ExtendedUtils(  238): extended extractor not needed, return default
+05-11 16:38:51.350 D/MediaResourceGetter(21722): resource has video|duration:11797|url:http://auto.smartisan.com/media/Auto_Test_Video.mp4|cookies:
+05-11 16:38:51.360 D/ChromiumHTTPDataSource(  238): disconnect() in.
+05-11 16:38:51.360 D/ChromiumHTTPDataSource(  238): disconnect_l() in.
+05-11 16:38:51.360 D/ChromiumHTTPDataSource(  238): onDisconnectComplete() in.
+05-11 16:38:51.360 D/ChromiumHTTPDataSource(  238): disconnect_l() out.
+05-11 16:38:51.360 D/MediaResourceGetter(21722): MediaMetadata duration:11797|width:1920|height:1080|success:true
+05-11 16:38:52.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-11 16:38:52.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-11 16:38:52.460 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:38:52.460 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:38:52.480 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:38:52.860 D/ExtendedUtils(  238): extended extractor not needed, return default
+05-11 16:38:52.870 D/MediaResourceGetter(21722): resource has video|duration:11797|url:http://auto.smartisan.com/media/Auto_Test_Video.mp4|cookies:
+05-11 16:38:52.870 D/ChromiumHTTPDataSource(  238): disconnect() in.
+05-11 16:38:52.870 D/ChromiumHTTPDataSource(  238): disconnect_l() in.
+05-11 16:38:52.870 D/ChromiumHTTPDataSource(  238): onDisconnectComplete() in.
+05-11 16:38:52.870 D/ChromiumHTTPDataSource(  238): disconnect_l() out.
+05-11 16:38:52.880 D/MediaResourceGetter(21722): MediaMetadata duration:11797|width:1920|height:1080|success:true
+05-11 16:38:52.880 E/MediaPlayer-JNI(21722): QCMediaPlayer mediaplayer NOT present
+05-11 16:38:52.890 I/MediaFocusControl( 1179):  AudioFocus  requestAudioFocus() from android.media.AudioManager@41f15f38com.android.org.chromium.media.MediaPlayerListener@431947d0
+05-11 16:38:52.890 D/MediaPlayer(21722): Couldn't open file on client side, trying server side
+05-11 16:38:52.890 D/AwesomePlayer(  238): AwesomePlayer() in.
+05-11 16:38:52.890 D/AwesomePlayer(  238): reset() in.
+05-11 16:38:52.890 D/AwesomePlayer(  238): reset_l() in.
+05-11 16:38:52.890 D/AwesomePlayer(  238): setDataSource() in. uri: http://auto.smartisan.com/media/Auto_Test_Video.mp4.
+05-11 16:38:52.890 D/AwesomePlayer(  238): reset_l() in.
+05-11 16:38:52.890 D/Utils   (  238): printFileName http://auto.smartisan.com/media/Auto_Test_Video.mp4
+05-11 16:38:52.890 I/AwesomePlayer(  238): setDataSource_l(URL suppressed)
+05-11 16:38:52.900 D/AwesomePlayer(  238): prepareAsync() in.
+05-11 16:38:52.900 D/AwesomePlayer(  238): prepareAsync_l() in.
+05-11 16:38:52.900 D/ChromiumHTTPDataSource(  238): connect() in.
+05-11 16:38:52.900 D/ChromiumHTTPDataSource(  238): connect_l() in.
+05-11 16:38:52.900 W/ActivityManager( 1179): ActivityManagerService, registerReceiver, caller == android.app.ApplicationThreadProxy@423b3500
+05-11 16:38:52.900 W/ActivityManager( 1179): ActivityManagerService, registerReceiver, callerApp == ProcessRecord{430956f0 21722:com.android.browser/u0a2}
+05-11 16:38:52.940 D/ChromiumHTTPDataSource(  238): onConnectionEstablished() in.
+05-11 16:38:52.950 D/ChromiumHTTPDataSource(  238): connect_l() out.
+05-11 16:38:52.950 E/NuCachedSource2(  238): timeout = 3000000000 nanoseconds
+05-11 16:38:52.960 D/ExtendedUtils(  238): extended extractor not needed, return default
+05-11 16:38:52.960 D/MediaResourceGetter(21722): resource has video|duration:11797|url:http://auto.smartisan.com/media/Auto_Test_Video.mp4|cookies:
+05-11 16:38:52.980 D/ChromiumHTTPDataSource(  238): disconnect() in.
+05-11 16:38:52.980 D/ChromiumHTTPDataSource(  238): disconnect_l() in.
+05-11 16:38:52.980 D/ChromiumHTTPDataSource(  238): onDisconnectComplete() in.
+05-11 16:38:52.980 D/ChromiumHTTPDataSource(  238): disconnect_l() out.
+05-11 16:38:52.980 D/MediaResourceGetter(21722): MediaMetadata duration:11797|width:1920|height:1080|success:true
+05-11 16:38:52.990 D/PowerManagerService( 1179): acquireWakeLockInternal: lock=1109016784, flags=0x2000000a, tag="WindowManager", ws=WorkSource{10002}, uid=1000, pid=1179
+05-11 16:38:52.990 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x23
+05-11 16:38:52.990 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x23, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:52.990 D/PowerManagerService( 1179): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-11 16:38:52.990 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:53.070 I/MSM-irqbalance(  385): Decided to move IRQ177 from CPU7 to CPU6
+05-11 16:38:53.220 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:38:53.220 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:38:53.230 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:38:53.310 V/WLAN_PSA(  250): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-11 16:38:53.310 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:38:53.520 I/QueryController(23692): Matched selector: UiSelector[CLASS=android.view.View] <<==>> [android.view.accessibility.AccessibilityNodeInfo@5fff9; boundsInParent: Rect(0, 0 - 1080, 1536); boundsInScreen: Rect(0, 231 - 1080, 1767); packageName: com.android.browser; className: android.view.View; text: null; contentDescription: null; viewIdResName: null; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: false; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_ACCESSIBILITY_FOCUS]]
+05-11 16:38:53.720 D/VM_BMS  (  297): wake_lock acquired
+05-11 16:38:53.720 D/VM_BMS  (  297): New BMS data - Size=56
+05-11 16:38:53.720 D/VM_BMS  (  297): Start process_bms_data
+05-11 16:38:53.730 D/VM_BMS  (  297): For batt_temp=273 fcc_mah=2995
+05-11 16:38:53.730 D/VM_BMS  (  297): For ocv=4170200 batt_temp=273 soc=83
+05-11 16:38:53.730 D/VM_BMS  (  297): fifo_count=5 acc_count=0
+05-11 16:38:53.730 D/VM_BMS  (  297): INIT: ocv=4170200 last_ocv=4170200 batt_temp=273 soc=83
+05-11 16:38:53.730 D/VM_BMS  (  297): For soc=83 batt_temp=273 slope=10800
+05-11 16:38:53.730 D/VM_BMS  (  297): For soc=83 batt_temp=273 rbatt_sf=106
+05-11 16:38:53.730 D/VM_BMS  (  297): rbatt_mohm_default=146, rbatt_mohm=154, sf=106 batt_temp=273
+05-11 16:38:53.730 D/VM_BMS  (  297): For ocv=4170286 batt_temp=273 soc=83
+05-11 16:38:53.730 D/VM_BMS  (  297): FIFO=0 fifo_avg=4.196367 rbatt=0.154000 slope=1.080000 ibatt=-0.169633 ocv=4.170287 soc=83 fcc_ah=2.995000 sample_count=128 sample_interval=40 seq_num=738
+05-11 16:38:53.730 D/VM_BMS  (  297): For soc=83 batt_temp=273 slope=10800
+05-11 16:38:53.730 D/VM_BMS  (  297): For soc=83 batt_temp=273 rbatt_sf=106
+05-11 16:38:53.730 D/VM_BMS  (  297): rbatt_mohm_default=146, rbatt_mohm=154, sf=106 batt_temp=273
+05-11 16:38:53.730 D/VM_BMS  (  297): For ocv=4170367 batt_temp=273 soc=83
+05-11 16:38:53.730 D/VM_BMS  (  297): FIFO=1 fifo_avg=4.194606 rbatt=0.154000 slope=1.080000 ibatt=-0.157657 ocv=4.170367 soc=83 fcc_ah=2.995000 sample_count=128 sample_interval=40 seq_num=738
+05-11 16:38:53.730 D/VM_BMS  (  297): For soc=83 batt_temp=273 slope=10800
+05-11 16:38:53.730 D/VM_BMS  (  297): For soc=83 batt_temp=273 rbatt_sf=106
+05-11 16:38:53.730 D/VM_BMS  (  297): rbatt_mohm_default=146, rbatt_mohm=154, sf=106 batt_temp=273
+05-11 16:38:53.730 D/VM_BMS  (  297): For ocv=4170412 batt_temp=273 soc=83
+05-11 16:38:53.730 D/VM_BMS  (  297): FIFO=2 fifo_avg=4.184043 rbatt=0.154000 slope=1.080000 ibatt=-0.088659 ocv=4.170412 soc=83 fcc_ah=2.995000 sample_count=128 sample_interval=40 seq_num=738
+05-11 16:38:53.730 D/VM_BMS  (  297): For soc=83 batt_temp=273 slope=10800
+05-11 16:38:53.730 D/VM_BMS  (  297): For soc=83 batt_temp=273 rbatt_sf=106
+05-11 16:38:53.730 D/VM_BMS  (  297): rbatt_mohm_default=146, rbatt_mohm=154, sf=106 batt_temp=273
+05-11 16:38:53.730 D/VM_BMS  (  297): For ocv=4170507 batt_temp=273 soc=83
+05-11 16:38:53.730 D/VM_BMS  (  297): FIFO=3 fifo_avg=4.199010 rbatt=0.154000 slope=1.080000 ibatt=-0.185392 ocv=4.170507 soc=83 fcc_ah=2.995000 sample_count=128 sample_interval=40 seq_num=738
+05-11 16:38:53.730 D/VM_BMS  (  297): For soc=83 batt_temp=273 slope=10800
+05-11 16:38:53.730 D/VM_BMS  (  297): For soc=83 batt_temp=273 rbatt_sf=106
+05-11 16:38:53.730 D/VM_BMS  (  297): rbatt_mohm_default=146, rbatt_mohm=154, sf=106 batt_temp=273
+05-11 16:38:53.730 D/VM_BMS  (  297): For ocv=4170631 batt_temp=273 soc=83
+05-11 16:38:53.730 D/VM_BMS  (  297): FIFO=4 fifo_avg=4.207815 rbatt=0.154000 slope=1.080000 ibatt=-0.241858 ocv=4.170631 soc=83 fcc_ah=2.995000 sample_count=128 sample_interval=40 seq_num=738
+05-11 16:38:53.730 I/VM_BMS  (  297): power_supply_update: ocv_uv=4170631 ibatt=-241858 soc=83 seq_num=738
+05-11 16:38:53.730 D/VM_BMS  (  297): End process_bms_data
+05-11 16:38:53.730 D/VM_BMS  (  297): wake_lock released
+05-11 16:38:55.480 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:38:55.480 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:38:55.480 V/WLAN_PSA(  250): NL MSG, len[4074], NL type[0x1C] WNI type[0x5900] len[53775]
+05-11 16:38:55.480 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:38:55.480 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:38:56.010 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-11 16:38:57.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-11 16:38:57.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-11 16:38:58.070 D/PRDrmPlugIn(  237): PRDrmPlugin::onInitialize, uniqueId = 6928
+05-11 16:38:58.070 D/PRDrmPlugIn(  237): PRDrmPlugin::onSetOnInfoListener: starts! uniqueId = 6928
+05-11 16:38:58.070 D/PRDrmPlugIn(  237): PRDrmPlugin::onSetOnInfoListener: ends!
+05-11 16:38:58.070 I/MSM-irqbalance(  385): Decided to move IRQ166 from CPU7 to CPU6
+05-11 16:38:58.070 D/PRDrmPlugIn(  237): PRDrmPlugin::onTerminate, uniqueId = 6928
+05-11 16:38:58.230 I/PPPOEService( 1179): NetdCallbackReceiver onEvent 601601 limit alert globalAlert wlan0
+05-11 16:38:58.230 D/NtpTrustedTime( 1179): currentTimeMillis() cache hit
+05-11 16:38:58.230 D/PowerManagerService( 1179): acquireWakeLockInternal: lock=1111706368, flags=0x1, tag="NetworkStats", ws=null, uid=1000, pid=1179
+05-11 16:38:58.230 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x23
+05-11 16:38:58.230 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x23, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:58.230 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:58.270 D/MediaExtractor(  238): Create mime:video/mp4
+05-11 16:38:58.310 D/NtpTrustedTime( 1179): currentTimeMillis() cache hit
+05-11 16:38:58.310 D/NtpTrustedTime( 1179): currentTimeMillis() cache hit
+05-11 16:38:58.310 D/PowerManagerService( 1179): releaseWakeLockInternal: lock=1111706368 [NetworkStats], flags=0x0
+05-11 16:38:58.310 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x23
+05-11 16:38:58.320 V/WLAN_PSA(  250): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-11 16:38:58.320 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:38:58.320 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x23, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:58.320 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:38:58.320 D/MobileDataStateTracker( 1179): default: setPolicyDataEnable(enabled=true)
+05-11 16:38:58.390 I/NuCachedSource2(  238): new range: offset= 19905296
+05-11 16:38:58.390 D/ChromiumHTTPDataSource(  238): disconnect_l() in.
+05-11 16:38:58.400 D/ChromiumHTTPDataSource(  238): onDisconnectComplete() in.
+05-11 16:38:58.400 D/ChromiumHTTPDataSource(  238): disconnect_l() out.
+05-11 16:38:58.400 D/ChromiumHTTPDataSource(  238): connect_l() in.
+05-11 16:38:58.490 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:38:58.490 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:38:58.490 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:38:58.660 D/ChromiumHTTPDataSource(  238): onConnectionEstablished() in.
+05-11 16:38:58.660 D/ChromiumHTTPDataSource(  238): connect_l() out.
+05-11 16:38:59.990 D/PowerManagerService( 1179): acquireWakeLockInternal: lock=1113779584, flags=0x1, tag="AlarmManager", ws=WorkSource{1000}, uid=1000, pid=1179
+05-11 16:38:59.990 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x23
+05-11 16:38:59.990 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x23, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:38:59.990 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:39:00.000 D/PowerManagerService( 1179): releaseWakeLockInternal: lock=1113779584 [AlarmManager], flags=0x0
+05-11 16:39:00.000 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x23
+05-11 16:39:00.000 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x23, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:39:00.000 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:39:01.010 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-11 16:39:01.500 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:39:01.500 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:39:01.500 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:39:01.770 V/WLAN_PSA(  250): NL MSG, len[4024], NL type[0x1C] WNI type[0x5900] len[40975]
+05-11 16:39:01.770 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:39:02.050 D/PowerManagerService( 1179): handleUserActivityTimeout
+05-11 16:39:02.050 D/PowerManagerService( 1179): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x2, nextTimeout=10020679 (in 5997 ms)
+05-11 16:39:02.050 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x23, mUserActivitySummary=0x2, mBootCompleted=true
+05-11 16:39:02.050 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:39:02.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-11 16:39:02.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-11 16:39:02.410 I/NuCachedSource2(  238): ERROR_END_OF_STREAM
+05-11 16:39:03.070 I/MSM-irqbalance(  385): Decided to move IRQ174 from CPU7 to CPU6
+05-11 16:39:03.330 V/WLAN_PSA(  250): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-11 16:39:03.330 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:39:04.270 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:39:04.270 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:39:04.270 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:39:04.510 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:39:04.510 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:39:04.520 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:39:06.010 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-11 16:39:07.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-11 16:39:07.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-11 16:39:07.520 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:39:07.530 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:39:07.540 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:39:08.050 D/PowerManagerService( 1179): handleUserActivityTimeout
+05-11 16:39:08.050 D/PowerManagerService( 1179): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x0, nextTimeout=10020679 (3 ms ago)
+05-11 16:39:08.050 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x23, mUserActivitySummary=0x0, mBootCompleted=true
+05-11 16:39:08.050 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:39:08.340 V/WLAN_PSA(  250): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-11 16:39:08.340 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:39:08.470 D/ExtendedUtils(  238): extended extractor not needed, return default
+05-11 16:39:08.470 D/AwesomePlayer(  238): After MediaExtractor::Create mime:video/mp4
+05-11 16:39:08.470 D/AwesomePlayer(  238): finishSetDataSource_l ok
+05-11 16:39:08.480 V/kernel  ( 9294): <6>[10021.174348] msm_vidc: info: Opening video instance: d8cfa180, 1
+05-11 16:39:08.520 V/kernel  ( 9294): <6>[10021.218710] subsys-pil-tz 1de0000.qcom,venus: venus: loading from 0x8f800000 to 0x8fd00000
+05-11 16:39:08.570 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=102, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": ["back"], "jsonrpc": "2.0", "method": "pressKey", "id": "568bb91077817ef82cc24fac4648312e"}}
+05-11 16:39:08.570 D/WindowManager( 1179): interceptKeyTq keycode=4 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:39:08.570 D/WindowManager( 1179): interceptKeyTi keyCode=4 down=true repeatCount=0 keyguardOn=false canceled=false
+05-11 16:39:08.570 D/WindowManager( 1179): mSqueezeSideAction=quick_shot mPowerKeyTriggered=false mHomeKeyTriggered=false mVolumeUpKeyTriggered=false mVolumeDownKeyTriggered=false mBrightnessUpKeyTriggered=false mBrightnessDownKeyTriggered=false
+05-11 16:39:08.570 D/WindowManager( 1179): null is detected
+05-11 16:39:08.570 D/PowerManagerService( 1179): userActivityNoUpdateLocked: eventTime=10021201, event=1, flags=0x0, uid=1000
+05-11 16:39:08.570 D/PowerManagerService( 1179): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=10026204 (in 4999 ms)
+05-11 16:39:08.570 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x23, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:39:08.570 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:39:08.580 W/UnimplementedWebViewApi(21722): Unimplemented WebView method onKeyDown called from: android.webkit.WebView.onKeyDown(WebView.java:2178)
+05-11 16:39:08.580 D/WindowManager( 1179): interceptKeyTq keycode=4 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-11 16:39:08.580 D/WindowManager( 1179): interceptKeyTi keyCode=4 down=false repeatCount=0 keyguardOn=false canceled=false
+05-11 16:39:08.590 I/ActivityManager( 1179): moveTaskToBack: 23
+05-11 16:39:08.650 V/kernel  ( 9294): <6>[10021.348213] subsys-pil-tz 1de0000.qcom,venus: venus: Brought out of reset
+05-11 16:39:08.720 D/OMXCodec(  238): Successfully allocated OMX node 'OMX.qcom.video.decoder.avc'
+05-11 16:39:08.720 I/OMXCodec(  238): [OMX.qcom.video.decoder.avc] AVC profile = 66 (Baseline), level = 40
+05-11 16:39:08.720 I/ExtendedCodec(  238): Decoder will be in frame by frame mode
+05-11 16:39:08.740 I/ExtendedCodec(  238): Smoothstreaming Enabled
+05-11 16:39:08.750 I/OMXCodec(  238): [OMX.qcom.video.decoder.avc] video dimensions are 1920 x 1080
+05-11 16:39:08.750 I/OMXCodec(  238): [OMX.qcom.video.decoder.avc] Crop rect is 1920 x 1080 @ (0, 0)
+05-11 16:39:08.750 D/dalvikvm( 1179): GC_FOR_ALLOC freed 3567K, 28% free 34327K/47308K, paused 128ms, total 129ms, dvmtargetUtilize:0.799805
+05-11 16:39:08.750 I/dalvikvm-heap( 1179): Grow heap (frag case) to 36.671MB for 1060744-byte allocation
+05-11 16:39:08.760 D/WebViewTimersControl(21722): onBrowserActivityPause
+05-11 16:39:08.760 D/WebViewTimersControl(21722): Pausing webview timers, view=com.android.browser.BrowserWebView{42268a38 VFEDHVCL .F...... 0,0-1080,1536}
+05-11 16:39:08.760 D/PowerManagerService( 1179): acquireWakeLockInternal: lock=1107865952, flags=0x1, tag="ActivityManager-Launch", ws=null, uid=1000, pid=1179
+05-11 16:39:08.760 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x23
+05-11 16:39:08.760 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x23, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:39:08.760 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:39:08.790 E/OMXCodec(  238): native_window_set_buffers_transform failed: Success (0)
+05-11 16:39:08.790 I/OMXCodec(  238): NOTE: Overriding minUndequeuedBufs to 5
+05-11 16:39:08.790 I/OMXCodec(  238): NOTE: Allocating 11 buffers on output port
+05-11 16:39:08.920 E/NewLauncher( 2653): Launcher : #### onResume #####
+05-11 16:39:08.930 E/NewLauncher( 2653): LauncherApplication : ACTION_ACTIVITY_RESUMED : component:com.smartisanos.launcher.Launcher
+05-11 16:39:08.990 E/NewLauncher( 2653): SMRenderer : DEBUG : onSurfaceChanged : true, size = 1080 , 1920
+05-11 16:39:09.090 V/WLAN_PSA(  250): NL MSG, len[4016], NL type[0x1C] WNI type[0x5900] len[38927]
+05-11 16:39:09.090 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:39:09.100 V/kernel  ( 9294): <3>[10021.790684] wlan: [19072:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+05-11 16:39:09.130 D/StatusBarManagerService( 1179): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@4267f9e8
+05-11 16:39:09.140 E/NewLauncher( 2653): SMRenderer : DEBUG : onSurfaceChanged : true, size = 1080 , 1920
+05-11 16:39:09.150 D/SmartisanPhoneStatusBarTransitions( 2358): onTransition mode:4
+05-11 16:39:09.220 D/AwesomePlayer(  238): mime is audio/mp4a-latm.
+05-11 16:39:09.220 D/OMXCodec(  238): Successfully allocated OMX node 'OMX.google.aac.decoder'
+05-11 16:39:09.230 D/PowerManagerService( 1179): acquireWakeLockInternal: lock=1118221176, flags=0x1, tag="TimedEventQueue", ws=null, uid=1013, pid=238
+05-11 16:39:09.230 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x23
+05-11 16:39:09.230 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x23, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:39:09.230 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:39:09.240 D/AwesomePlayer(  238): pause_l() in.
+05-11 16:39:09.240 E/NewLauncher( 2653): Launcher : DEBUG : onWindowFocusChanged = true
+05-11 16:39:09.240 D/PhoneWindow( 2653): Twist is disabled, pacakge=com.smartisanos.launcher
+05-11 16:39:09.240 D/PhoneWindow( 2653): onWindowFocusChanged, who=/system/priv-app/LauncherSmartisanNew.apk hasWindowFocus=true requestedOrientation=1 appUserOrientation=-1
+05-11 16:39:09.460 I/Timeline( 2653): Timeline: Activity_idle id: android.os.BinderProxy@41ea42f0 time:10022092
+05-11 16:39:09.460 D/PowerManagerService( 1179): releaseWakeLockInternal: lock=1107865952 [ActivityManager-Launch], flags=0x0
+05-11 16:39:09.470 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x23
+05-11 16:39:09.470 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x23, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:39:09.470 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:39:09.510 D/StatusBarManagerService( 1179): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@4267f9e8
+05-11 16:39:09.540 E/OMX_C2D (  238): Destroy C2D instance
+05-11 16:39:09.540 E/OMX_C2D (  238): Destroy C2D instance
+05-11 16:39:09.550 V/kernel  ( 9294): <6>[10022.241892] msm_vidc: info: Closed video instance: d8cfa180
+05-11 16:39:09.560 V/kernel  ( 9294): <6>[10022.253690] msm_vidc: info: Opening video instance: db0e10c0, 1
+05-11 16:39:09.590 V/kernel  ( 9294): <6>[10022.288994] subsys-pil-tz 1de0000.qcom,venus: venus: loading from 0x8f800000 to 0x8fd00000
+05-11 16:39:09.720 V/kernel  ( 9294): <6>[10022.410585] subsys-pil-tz 1de0000.qcom,venus: venus: Brought out of reset
+05-11 16:39:09.760 W/InteractionController(23692): runAndwaitForEvent timedout waiting for events
+05-11 16:39:09.770 D/OMXCodec(  238): Successfully allocated OMX node 'OMX.qcom.video.decoder.avc'
+05-11 16:39:09.770 I/OMXCodec(  238): [OMX.qcom.video.decoder.avc] AVC profile = 66 (Baseline), level = 40
+05-11 16:39:09.770 I/ExtendedCodec(  238): Decoder will be in frame by frame mode
+05-11 16:39:09.790 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=84, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "deviceInfo", "id": "2a29c932581ea213e83524593508124c"}}
+05-11 16:39:09.800 D/dalvikvm(23692): GC_CONCURRENT freed 1987K, 87% free 1121K/8192K, paused 1ms+1ms, total 13ms, dvmtargetUtilize:0.750000
+05-11 16:39:09.810 E/C2DColorConvert(  238): unknown format passed for luma alignment number
+05-11 16:39:09.840 E/C2DColorConvert(  238): unknown format passed for luma alignment number
+05-11 16:39:09.870 E/C2DColorConvert(  238): unknown format passed for luma alignment number
+05-11 16:39:09.870 E/C2DColorConvert(  238): unknown format passed for luma alignment number
+05-11 16:39:09.870 E/C2DColorConvert(  238): unknown format passed for luma alignment number
+05-11 16:39:09.880 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=238, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [{"childOrSiblingSelector": [], "resourceId": "com.android.browser:id/switch_btn", "mask": 2097152, "childOrSibling": []}, 3000], "jsonrpc": "2.0", "method": "clickAndWaitForNewWindow", "id": "3bfeb0687035402a71ac0461d95748f1"}}
+05-11 16:39:09.910 E/C2DColorConvert(  238): unknown format passed for luma alignment number
+05-11 16:39:09.910 I/ExtendedCodec(  238): Smoothstreaming Enabled
+05-11 16:39:09.950 V/ActivityManager( 1179): Bringing up ServiceRecord{43553cb8 u0 com.smartisanos.weather/.service.UpdateService} android.content.Intent$FilterComparison@c9ea6b53
+05-11 16:39:09.980 I/Timeline( 1179): Timeline: Activity_windows_visible id: ActivityRecord{42103258 u0 com.smartisanos.launcher/.Launcher t2} time:10022610
+05-11 16:39:09.990 D/PowerManagerService( 1179): userActivityNoUpdateLocked: eventTime=10022626, event=0, flags=0x0, uid=1000
+05-11 16:39:09.990 D/PowerManagerService( 1179): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=10027627 (in 4999 ms)
+05-11 16:39:09.990 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x23, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:39:09.990 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:39:10.000 D/PowerManagerService( 1179): releaseWakeLockInternal: lock=1109016784 [WindowManager], flags=0x0
+05-11 16:39:10.000 D/PowerManagerService( 1179): userActivityNoUpdateLocked: eventTime=10022630, event=0, flags=0x1, uid=1000
+05-11 16:39:10.000 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-11 16:39:10.000 D/PowerManagerService( 1179): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=10027631 (in 4999 ms)
+05-11 16:39:10.000 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:39:10.000 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:39:10.040 E/C2DColorConvert(  238): unknown format passed for luma alignment number
+05-11 16:39:10.070 E/C2DColorConvert(  238): unknown format passed for luma alignment number
+05-11 16:39:10.070 E/C2DColorConvert(  238): unknown format passed for luma alignment number
+05-11 16:39:10.070 I/OMXCodec(  238): [OMX.qcom.video.decoder.avc] video dimensions are 1920 x 1080
+05-11 16:39:10.070 I/OMXCodec(  238): [OMX.qcom.video.decoder.avc] Crop rect is 1920 x 1080 @ (0, 0)
+05-11 16:39:10.110 E/C2DColorConvert(  238): unknown format passed for luma alignment number
+05-11 16:39:10.110 E/C2DColorConvert(  238): unknown format passed for luma alignment number
+05-11 16:39:10.280 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:39:10.280 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:39:10.280 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:39:10.300 E/OMX-VDEC-1080P(  238): IL client buffer header 0xb791e7e0
+05-11 16:39:10.330 E/OMX-VDEC-1080P(  238): IL client buffer header 0xb791e830
+05-11 16:39:10.340 E/OMX-VDEC-1080P(  238): IL client buffer header 0xb791e880
+05-11 16:39:10.370 E/OMX-VDEC-1080P(  238): IL client buffer header 0xb791e8d0
+05-11 16:39:10.390 E/OMX-VDEC-1080P(  238): IL client buffer header 0xb791e920
+05-11 16:39:10.410 E/OMX-VDEC-1080P(  238): IL client buffer header 0xb791e970
+05-11 16:39:10.410 D/PowerManagerService( 1179): releaseWakeLockInternal: lock=1118221176 [TimedEventQueue], flags=0x0
+05-11 16:39:10.420 D/AwesomePlayer(  238): reset() in.
+05-11 16:39:10.420 D/AwesomePlayer(  238): reset_l() in.
+05-11 16:39:10.420 D/PowerManagerService( 1179): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x0
+05-11 16:39:10.420 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:39:10.420 D/PowerManagerService( 1179): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-11 16:39:10.420 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:39:10.440 D/ChromiumHTTPDataSource(  238): disconnect() in.
+05-11 16:39:10.450 D/ChromiumHTTPDataSource(  238): disconnect_l() in.
+05-11 16:39:10.450 D/ChromiumHTTPDataSource(  238): onDisconnectComplete() in.
+05-11 16:39:10.450 D/ChromiumHTTPDataSource(  238): disconnect_l() out.
+05-11 16:39:10.490 E/OMX_C2D (  238): Destroy C2D instance
+05-11 16:39:10.490 E/OMX_C2D (  238): Destroy C2D instance
+05-11 16:39:10.500 V/kernel  ( 9294): <6>[10023.193384] msm_vidc: info: Closed video instance: db0e10c0
+05-11 16:39:10.500 D/AwesomePlayer(  238): reset() in.
+05-11 16:39:10.500 D/AwesomePlayer(  238): reset_l() in.
+05-11 16:39:10.500 D/AwesomePlayer(  238): ~AwesomePlayer() in.
+05-11 16:39:10.500 D/AwesomePlayer(  238): reset() in.
+05-11 16:39:10.500 D/AwesomePlayer(  238): reset_l() in.
+05-11 16:39:10.500 D/AudioSink(  238): in close
+05-11 16:39:10.500 D/AudioSink(  238): out close
+05-11 16:39:10.500 I/MediaFocusControl( 1179):  AudioFocus  abandonAudioFocus() from android.media.AudioManager@41f15f38com.android.org.chromium.media.MediaPlayerListener@431947d0
+05-11 16:39:10.510 I/MediaFocusControl( 1179): updating focussed RCC change to RCD: CallingPackageName:com.smartisanos.music isFocussed:true isAvailable:true
+05-11 16:39:10.510 W/IInputConnectionWrapper(21722): showStatusIcon on inactive InputConnection
+05-11 16:39:10.540 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:39:10.540 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:39:10.560 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:39:11.010 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-11 16:39:11.310 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:39:11.310 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:39:11.310 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:39:12.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-11 16:39:12.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-11 16:39:13.350 V/WLAN_PSA(  250): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-11 16:39:13.350 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:39:13.570 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:39:13.570 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:39:13.590 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:39:14.190 D/StatusBar.MSimNetworkController( 2358): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 28 0 2147483647 2147483647 gsm|lte level=4
+05-11 16:39:14.190 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength: subscription =0
+05-11 16:39:14.190 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength iconList = [I@42142278iconLevel = 5 mInetCondition = 0
+05-11 16:39:14.190 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:39:14.190 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:39:14.190 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:39:15.000 D/PowerManagerService( 1179): handleUserActivityTimeout
+05-11 16:39:15.000 D/PowerManagerService( 1179): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=10046626 (in 18989 ms)
+05-11 16:39:15.000 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-11 16:39:15.000 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:39:15.640 I/ActivityManager( 1179): Start proc com.smartisanos.crashmonitor for broadcast com.smartisanos.crashmonitor/.Trigger: pid=23881 uid=10006 gids={50006, 1007, 3003}
+05-11 16:39:15.670 V/kernel  ( 9294): <5>[10028.358587] type=1400 audit(1431333555.650:90): avc:  denied  { getattr } for  pid=23881 comm="zygote" path="socket:[15055]" dev="sockfs" ino=15055 scontext=u:r:untrusted_app:s0 tcontext=u:r:zygote:s0 tclass=unix_stream_socket
+05-11 16:39:15.700 V/kernel  ( 9294): <5>[10028.378255] type=1400 audit(1431333555.670:91): avc:  denied  { getopt } for  pid=23881 comm="zygote" path="/dev/socket/zygote" scontext=u:r:untrusted_app:s0 tcontext=u:r:zygote:s0 tclass=unix_stream_socket
+05-11 16:39:15.720 D/ActivityThread(23881): handleBindApplication:com.smartisanos.crashmonitor
+05-11 16:39:15.720 D/ActivityThread(23881): setTargetHeapUtilization:0.75
+05-11 16:39:15.720 D/ActivityThread(23881): setTargetHeapMinFree:2097152
+05-11 16:39:15.760 D/crashmonitor(23881): crashmonitor is enabled  , intializing...
+05-11 16:39:15.780 D/crashmonitor(23881): tag: system_app_strictmode
+05-11 16:39:15.780 I/AndroidRuntime(23881): VM exiting with result code 0, cleanup skipped.
+05-11 16:39:15.890 I/ActivityManager( 1179): Process com.smartisanos.crashmonitor (pid 23881) has died.
+05-11 16:39:16.010 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-11 16:39:16.580 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:39:16.580 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:39:16.580 V/WLAN_PSA(  250): NL MSG, len[4077], NL type[0x1C] WNI type[0x5900] len[54543]
+05-11 16:39:16.580 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:39:16.600 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:39:17.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-11 16:39:17.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-11 16:39:18.360 V/WLAN_PSA(  250): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-11 16:39:18.360 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:39:18.890 D/StatusBar.MSimNetworkController( 2358): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 28 0 2147483647 2147483647 gsm|lte level=4
+05-11 16:39:18.890 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength: subscription =0
+05-11 16:39:18.890 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength iconList = [I@42142278iconLevel = 5 mInetCondition = 0
+05-11 16:39:18.890 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:39:18.890 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:39:18.900 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:39:19.600 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:39:19.600 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:39:19.620 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:39:21.010 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-11 16:39:21.350 W/JsonRpcServer(23692): Error in JSON-RPC Service
+05-11 16:39:21.350 W/JsonRpcServer(23692): java.lang.reflect.InvocationTargetException
+05-11 16:39:21.350 W/JsonRpcServer(23692): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-11 16:39:21.350 W/JsonRpcServer(23692): 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-11 16:39:21.350 W/JsonRpcServer(23692): 	at com.googlecode.jsonrpc4j.JsonRpcServer.invoke(JsonRpcServer.java:513)
+05-11 16:39:21.350 W/JsonRpcServer(23692): 	at com.googlecode.jsonrpc4j.JsonRpcServer.handleObject(JsonRpcServer.java:384)
+05-11 16:39:21.350 W/JsonRpcServer(23692): 	at com.googlecode.jsonrpc4j.JsonRpcServer.handleNode(JsonRpcServer.java:293)
+05-11 16:39:21.350 W/JsonRpcServer(23692): 	at com.googlecode.jsonrpc4j.JsonRpcServer.handle(JsonRpcServer.java:230)
+05-11 16:39:21.350 W/JsonRpcServer(23692): 	at com.github.uiautomatorstub.AutomatorHttpServer.serve(AutomatorHttpServer.java:70)
+05-11 16:39:21.350 W/JsonRpcServer(23692): 	at fi.iki.elonen.NanoHTTPD.serve(NanoHTTPD.java:298)
+05-11 16:39:21.350 W/JsonRpcServer(23692): 	at fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:922)
+05-11 16:39:21.350 W/JsonRpcServer(23692): 	at fi.iki.elonen.NanoHTTPD$1$1.run(NanoHTTPD.java:175)
+05-11 16:39:21.350 W/JsonRpcServer(23692): 	at java.lang.Thread.run(Thread.java:841)
+05-11 16:39:21.350 W/JsonRpcServer(23692): Caused by: com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.android.browser:id/switch_btn]
+05-11 16:39:21.350 W/JsonRpcServer(23692): 	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+05-11 16:39:21.350 W/JsonRpcServer(23692): 	at com.github.uiautomatorstub.AutomatorServiceImpl.clickAndWaitForNewWindow(AutomatorServiceImpl.java:618)
+05-11 16:39:21.350 W/JsonRpcServer(23692): 	... 11 more
+05-11 16:39:21.420 D/UIAutomatorStub(23692): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=238, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [{"childOrSiblingSelector": [], "resourceId": "com.android.browser:id/switch_btn", "mask": 2097152, "childOrSibling": []}, 3000], "jsonrpc": "2.0", "method": "clickAndWaitForNewWindow", "id": "e2fd1aa870453f0e2846bf71e10cfdd5"}}
+05-11 16:39:22.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-11 16:39:22.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-11 16:39:22.620 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:39:22.620 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:39:22.650 V/WLAN_PSA(  250): NL MSG, len[4075], NL type[0x1C] WNI type[0x5900] len[54031]
+05-11 16:39:22.650 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:39:22.650 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:39:23.070 I/MSM-irqbalance(  385): Decided to move IRQ155 from CPU6 to CPU4
+05-11 16:39:23.120 D/VM_BMS  (  297): wake_lock acquired
+05-11 16:39:23.120 D/VM_BMS  (  297): New BMS data - Size=56
+05-11 16:39:23.120 D/VM_BMS  (  297): Start process_bms_data
+05-11 16:39:23.130 D/VM_BMS  (  297): For batt_temp=274 fcc_mah=2995
+05-11 16:39:23.130 D/VM_BMS  (  297): For ocv=4170631 batt_temp=274 soc=83
+05-11 16:39:23.130 D/VM_BMS  (  297): fifo_count=5 acc_count=0
+05-11 16:39:23.130 D/VM_BMS  (  297): INIT: ocv=4170631 last_ocv=4170631 batt_temp=274 soc=83
+05-11 16:39:23.130 D/VM_BMS  (  297): For soc=83 batt_temp=274 slope=10800
+05-11 16:39:23.130 D/VM_BMS  (  297): For soc=83 batt_temp=274 rbatt_sf=105
+05-11 16:39:23.130 D/VM_BMS  (  297): rbatt_mohm_default=146, rbatt_mohm=153, sf=105 batt_temp=274
+05-11 16:39:23.130 D/VM_BMS  (  297): For ocv=4170690 batt_temp=274 soc=83
+05-11 16:39:23.130 D/VM_BMS  (  297): FIFO=0 fifo_avg=4.188447 rbatt=0.153000 slope=1.080000 ibatt=-0.116250 ocv=4.170691 soc=83 fcc_ah=2.995000 sample_count=128 sample_interval=40 seq_num=739
+05-11 16:39:23.130 D/VM_BMS  (  297): For soc=83 batt_temp=274 slope=10800
+05-11 16:39:23.130 D/VM_BMS  (  297): For soc=83 batt_temp=274 rbatt_sf=105
+05-11 16:39:23.130 D/VM_BMS  (  297): rbatt_mohm_default=146, rbatt_mohm=153, sf=105 batt_temp=274
+05-11 16:39:23.130 D/VM_BMS  (  297): For ocv=4170802 batt_temp=274 soc=83
+05-11 16:39:23.130 D/VM_BMS  (  297): FIFO=1 fifo_avg=4.204293 rbatt=0.153000 slope=1.080000 ibatt=-0.219258 ocv=4.170803 soc=83 fcc_ah=2.995000 sample_count=128 sample_interval=40 seq_num=739
+05-11 16:39:23.130 D/VM_BMS  (  297): For soc=83 batt_temp=274 slope=10800
+05-11 16:39:23.130 D/VM_BMS  (  297): For soc=83 batt_temp=274 rbatt_sf=105
+05-11 16:39:23.130 D/VM_BMS  (  297): rbatt_mohm_default=146, rbatt_mohm=153, sf=105 batt_temp=274
+05-11 16:39:23.130 D/VM_BMS  (  297): For ocv=4170876 batt_temp=274 soc=83
+05-11 16:39:23.130 D/VM_BMS  (  297): FIFO=2 fifo_avg=4.192845 rbatt=0.153000 slope=1.080000 ibatt=-0.143829 ocv=4.170876 soc=83 fcc_ah=2.995000 sample_count=128 sample_interval=40 seq_num=739
+05-11 16:39:23.130 D/VM_BMS  (  297): For soc=83 batt_temp=274 slope=10800
+05-11 16:39:23.130 D/VM_BMS  (  297): For soc=83 batt_temp=274 rbatt_sf=105
+05-11 16:39:23.130 D/VM_BMS  (  297): rbatt_mohm_default=146, rbatt_mohm=153, sf=105 batt_temp=274
+05-11 16:39:23.130 D/VM_BMS  (  297): For ocv=4170956 batt_temp=274 soc=83
+05-11 16:39:23.130 D/VM_BMS  (  297): FIFO=3 fifo_avg=4.194903 rbatt=0.153000 slope=1.080000 ibatt=-0.156776 ocv=4.170957 soc=83 fcc_ah=2.995000 sample_count=128 sample_interval=40 seq_num=739
+05-11 16:39:23.130 D/VM_BMS  (  297): For soc=83 batt_temp=274 slope=10800
+05-11 16:39:23.130 D/VM_BMS  (  297): For soc=83 batt_temp=274 rbatt_sf=105
+05-11 16:39:23.130 D/VM_BMS  (  297): rbatt_mohm_default=146, rbatt_mohm=153, sf=105 batt_temp=274
+05-11 16:39:23.130 D/VM_BMS  (  297): For ocv=4171091 batt_temp=274 soc=83
+05-11 16:39:23.130 D/VM_BMS  (  297): FIFO=4 fifo_avg=4.211337 rbatt=0.153000 slope=1.080000 ibatt=-0.263486 ocv=4.171091 soc=83 fcc_ah=2.995000 sample_count=128 sample_interval=40 seq_num=739
+05-11 16:39:23.130 I/VM_BMS  (  297): power_supply_update: ocv_uv=4171091 ibatt=-263486 soc=83 seq_num=739
+05-11 16:39:23.130 D/VM_BMS  (  297): End process_bms_data
+05-11 16:39:23.130 D/VM_BMS  (  297): wake_lock released
+05-11 16:39:23.370 V/WLAN_PSA(  250): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-11 16:39:23.370 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:39:23.610 D/StatusBar.MSimNetworkController( 2358): onSignalStrengthsChanged received on subscription :1signalStrength=SignalStrength: 11 0 2147483647 2147483647 gsm|lte level=3
+05-11 16:39:23.610 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength: subscription =1
+05-11 16:39:23.610 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength iconList = [I@42142378iconLevel = 4 mInetCondition = 0
+05-11 16:39:23.610 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =1mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:39:23.610 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 1
+05-11 16:39:23.610 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=3 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f02018f mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f02018f mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:39:25.340 D/MDnsDS  (  227): MDnsSdListener::Monitor poll timed out
+05-11 16:39:25.340 D/MDnsDS  (  227): Going to poll with pollCount 1
+05-11 16:39:25.650 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:39:25.650 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:39:25.670 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:39:26.020 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-11 16:39:27.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-11 16:39:27.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-11 16:39:28.070 I/MSM-irqbalance(  385): Decided to move IRQ130 from CPU6 to CPU7
+05-11 16:39:28.320 D/StatusBar.MSimNetworkController( 2358): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 29 0 2147483647 2147483647 gsm|lte level=4
+05-11 16:39:28.320 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength: subscription =0
+05-11 16:39:28.320 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength iconList = [I@42142278iconLevel = 5 mInetCondition = 0
+05-11 16:39:28.320 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:39:28.320 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:39:28.320 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:39:28.380 V/WLAN_PSA(  250): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-11 16:39:28.380 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:39:28.670 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:39:28.670 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:39:28.690 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:39:28.690 V/WLAN_PSA(  250): NL MSG, len[4043], NL type[0x1C] WNI type[0x5900] len[45839]
+05-11 16:39:28.690 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:39:29.370 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:39:29.370 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:39:29.370 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:39:30.370 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:39:30.370 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:39:30.370 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:39:31.010 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-11 16:39:31.390 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:39:31.390 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:39:31.390 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:39:31.690 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:39:31.690 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:39:31.710 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:39:32.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-11 16:39:32.070 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-11 16:39:32.800 W/JsonRpcServer(23692): Error in JSON-RPC Service
+05-11 16:39:32.800 W/JsonRpcServer(23692): java.lang.reflect.InvocationTargetException
+05-11 16:39:32.800 W/JsonRpcServer(23692): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-11 16:39:32.800 W/JsonRpcServer(23692): 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-11 16:39:32.800 W/JsonRpcServer(23692): 	at com.googlecode.jsonrpc4j.JsonRpcServer.invoke(JsonRpcServer.java:513)
+05-11 16:39:32.800 W/JsonRpcServer(23692): 	at com.googlecode.jsonrpc4j.JsonRpcServer.handleObject(JsonRpcServer.java:384)
+05-11 16:39:32.800 W/JsonRpcServer(23692): 	at com.googlecode.jsonrpc4j.JsonRpcServer.handleNode(JsonRpcServer.java:293)
+05-11 16:39:32.800 W/JsonRpcServer(23692): 	at com.googlecode.jsonrpc4j.JsonRpcServer.handle(JsonRpcServer.java:230)
+05-11 16:39:32.800 W/JsonRpcServer(23692): 	at com.github.uiautomatorstub.AutomatorHttpServer.serve(AutomatorHttpServer.java:70)
+05-11 16:39:32.800 W/JsonRpcServer(23692): 	at fi.iki.elonen.NanoHTTPD.serve(NanoHTTPD.java:298)
+05-11 16:39:32.800 W/JsonRpcServer(23692): 	at fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:922)
+05-11 16:39:32.800 W/JsonRpcServer(23692): 	at fi.iki.elonen.NanoHTTPD$1$1.run(NanoHTTPD.java:175)
+05-11 16:39:32.800 W/JsonRpcServer(23692): 	at java.lang.Thread.run(Thread.java:841)
+05-11 16:39:32.800 W/JsonRpcServer(23692): Caused by: com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.android.browser:id/switch_btn]
+05-11 16:39:32.800 W/JsonRpcServer(23692): 	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+05-11 16:39:32.800 W/JsonRpcServer(23692): 	at com.github.uiautomatorstub.AutomatorServiceImpl.clickAndWaitForNewWindow(AutomatorServiceImpl.java:618)
+05-11 16:39:32.800 W/JsonRpcServer(23692): 	... 11 more
+05-11 16:39:33.000 D/StatusBar.MSimNetworkController( 2358): onSignalStrengthsChanged received on subscription :1signalStrength=SignalStrength: 10 0 2147483647 2147483647 gsm|lte level=3
+05-11 16:39:33.000 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength: subscription =1
+05-11 16:39:33.000 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength iconList = [I@42142378iconLevel = 4 mInetCondition = 0
+05-11 16:39:33.000 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =1mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:39:33.000 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 1
+05-11 16:39:33.010 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=3 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f02018f mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f02018f mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:39:33.070 I/MSM-irqbalance(  385): Decided to move IRQ166 from CPU6 to CPU7
+05-11 16:39:33.390 V/WLAN_PSA(  250): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-11 16:39:33.390 V/WLAN_PSA(  250): NL MSG, PID: 250
+05-11 16:39:34.010 D/PowerManagerService( 1179): handleUserActivityTimeout
+05-11 16:39:34.010 D/PowerManagerService( 1179): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x2, nextTimeout=10052626 (in 5979 ms)
+05-11 16:39:34.010 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=false, newScreenState=1, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x2, mBootCompleted=true
+05-11 16:39:34.010 D/PowerManagerService( 1179): handleSandman: canDream=true, mWakefulness=Awake
+05-11 16:39:34.020 D/PowerManagerService( 1179): updateScreenStateLocked: mDisplayReady=true, newScreenState=1, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x2, mBootCompleted=true
+05-11 16:39:34.420 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:39:34.420 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:39:34.430 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:39:34.710 D/wpa_supplicant(19083): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-11 16:39:34.710 D/wpa_supplicant(19083): wlan0: Control interface command 'SIGNAL_POLL'
+05-11 16:39:34.720 D/wpa_supplicant(19083): nl80211: survey data missing!
+05-11 16:39:35.340 D/StatusBar.MSimNetworkController( 2358): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 29 0 2147483647 2147483647 gsm|lte level=4
+05-11 16:39:35.340 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength: subscription =0
+05-11 16:39:35.340 D/StatusBar.MSimNetworkController( 2358): updateTelephonySignalStrength iconList = [I@42142278iconLevel = 5 mInetCondition = 0
+05-11 16:39:35.340 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:39:35.340 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:39:35.340 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:39:35.410 D/StatusBar.MSimNetworkController( 2358): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-11 16:39:35.410 D/StatusBar.MSimNetworkController( 2358): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-11 16:39:35.420 D/StatusBar.MSimNetworkController( 2358): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-11 16:39:35.440 D/dalvikvm( 2358): GC_CONCURRENT freed 6383K, 56% free 16098K/35988K, paused 3ms+4ms, total 27ms, dvmtargetUtilize:0.750000
+05-11 16:39:36.010 E/QCALOG  (  359): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]

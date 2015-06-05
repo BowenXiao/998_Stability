@@ -1,0 +1,1589 @@
+--------- beginning of /dev/log/main
+05-13 14:10:20.887 I/MSM-irqbalance(  375): Decided to move IRQ200 from CPU7 to CPU4
+05-13 14:10:21.227 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-13 14:10:21.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-13 14:10:21.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-13 14:10:21.257 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:10:21.257 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:10:21.277 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:10:21.277 V/WLAN_PSA(  244): NL MSG, len[4059], NL type[0x1C] WNI type[0x5900] len[49935]
+05-13 14:10:21.277 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:21.367 D/UIAutomatorStub( 9970): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=85, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "getWatchers", "id": "980b9d2e34d48e9469ea014411c3c65a"}}
+05-13 14:10:21.387 D/UIAutomatorStub( 9970): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=85, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "getWatchers", "id": "c3e469281d3077087471f30cca7159eb"}}
+05-13 14:10:21.407 D/UIAutomatorStub( 9970): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=94, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "resetWatcherTriggers", "id": "805e939031349c423fbcb70199ac5e70"}}
+05-13 14:10:21.427 D/UIAutomatorStub( 9970): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=85, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "getWatchers", "id": "a0073e754b05bace70d409a429521d6a"}}
+05-13 14:10:21.447 D/UIAutomatorStub( 9970): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=85, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"jsonrpc": "2.0", "method": "getWatchers", "id": "3d7959124e73f9409a603f332089cdf5"}}
+05-13 14:10:21.467 D/UIAutomatorStub( 9970): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=322, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": ["IGNORE_ANR", [{"childOrSiblingSelector": [], "mask": 2, "textContains": "\u65e0\u54cd\u5e94", "childOrSibling": []}], {"childOrSiblingSelector": [], "text": "\u786e\u5b9a", "mask": 1, "childOrSibling": []}], "jsonrpc": "2.0", "method": "registerClickUiObjectWatcher", "id": "a41f846ad9315c9ba40da8540525adbc"}}
+05-13 14:10:21.497 D/UIAutomatorStub( 9970): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=330, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": ["IGNORE_CRASH", [{"childOrSiblingSelector": [], "mask": 2, "textContains": "\u505c\u6b62\u8fd0\u884c", "childOrSibling": []}], {"childOrSiblingSelector": [], "text": "\u786e\u5b9a", "mask": 1, "childOrSibling": []}], "jsonrpc": "2.0", "method": "registerClickUiObjectWatcher", "id": "97c51f8d4f155e10434577b61ae51a48"}}
+05-13 14:10:21.517 D/UIAutomatorStub( 9970): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=364, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": ["IGNORE_POPWINDOW_WEIBO", [{"childOrSiblingSelector": [], "mask": 2, "textContains": "\u7ed9\u6211\u4eec\u8bc4\u5206", "childOrSibling": []}], {"childOrSiblingSelector": [], "text": "\u4e0d\u4e86\uff0c\u8c22\u8c22", "mask": 1, "childOrSibling": []}], "jsonrpc": "2.0", "method": "registerClickUiObjectWatcher", "id": "fdfac2f56461815996b6cc38f05cdca9"}}
+05-13 14:10:21.537 D/UIAutomatorStub( 9970): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=360, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": ["IGNORE_DRAFT", [{"childOrSiblingSelector": [], "mask": 2, "textContains": "\u662f\u5426\u4fdd\u5b58\u8349\u7a3f", "childOrSibling": []}], {"childOrSiblingSelector": [], "text": "\u4e0d\u4fdd\u5b58\u8349\u7a3f", "mask": 1, "childOrSibling": []}], "jsonrpc": "2.0", "method": "registerClickUiObjectWatcher", "id": "b4c37dbedf190c69298a6fcce89fecf2"}}
+05-13 14:10:21.937 D/AndroidRuntime(10854): 
+05-13 14:10:21.937 D/AndroidRuntime(10854): >>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+05-13 14:10:21.937 D/AndroidRuntime(10854): CheckJNI is OFF
+05-13 14:10:21.967 D/dalvikvm(10854): Unable to stat classpath element '/system/framework/qcom.fmradio.jar'
+05-13 14:10:21.977 D/dalvikvm(10854): Trying to load lib libjavacore.so 0x0
+05-13 14:10:21.977 D/dalvikvm(10854): Added shared lib libjavacore.so 0x0
+05-13 14:10:21.977 D/dalvikvm(10854): Trying to load lib libnativehelper.so 0x0
+05-13 14:10:21.987 D/dalvikvm(10854): Added shared lib libnativehelper.so 0x0
+05-13 14:10:21.987 D/dalvikvm(10854): No JNI_OnLoad found in libnativehelper.so 0x0, skipping init
+05-13 14:10:22.037 D/dalvikvm(10854): Note: class Landroid/app/ActivityManagerNative; has 185 unimplemented (abstract) methods
+05-13 14:10:22.107 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=14): 53 43 41 4e 20 54 59 50 45 3d 4f 4e 4c 59
+05-13 14:10:22.107 D/wpa_supplicant( 1530): wlan0: Control interface command 'SCAN TYPE=ONLY'
+05-13 14:10:22.107 D/wpa_supplicant( 1530): wlan0: Setting scan request: 0 sec 0 usec
+05-13 14:10:22.107 D/wpa_supplicant( 1530): wlan0: Starting AP scan for wildcard SSID
+05-13 14:10:22.107 D/wpa_supplicant( 1530): wlan0: nl80211: scan request
+05-13 14:10:22.107 D/wpa_supplicant( 1530): nl80211: Scan SSID - hexdump(len=0): [NULL]
+05-13 14:10:22.107 D/wpa_supplicant( 1530): Scan requested (ret=0) - scan timeout 30 seconds
+05-13 14:10:22.107 D/wpa_supplicant( 1530): nl80211: Event message available
+05-13 14:10:22.107 D/wpa_supplicant( 1530): nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+05-13 14:10:22.107 D/wpa_supplicant( 1530): wlan0: nl80211: Scan trigger
+05-13 14:10:22.107 D/wpa_supplicant( 1530): wlan0: Event SCAN_STARTED (57) received
+05-13 14:10:22.107 D/wpa_supplicant( 1530): wlan0: Own scan request started a scan
+05-13 14:10:22.107 I/wpa_supplicant( 1530): wlan0: CTRL-EVENT-SCAN-STARTED 
+05-13 14:10:22.107 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:22.117 V/WLAN_PSA(  244): NL MSG, len[914], NL type[0x11] WNI type[0x5050] len[894]
+05-13 14:10:22.117 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:22.117 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:22.117 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:22.117 V/WLAN_PSA(  244): NL MSG, len[4019], NL type[0x1C] WNI type[0x5900] len[39695]
+05-13 14:10:22.117 V/WLAN_PSA(  244): NL MSG, PID: 244
+--------- beginning of /dev/log/system
+05-13 14:10:22.187 D/StatusBar.MSimNetworkController( 1416): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 31 0 2147483647 2147483647 gsm|lte level=4
+05-13 14:10:22.187 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength: subscription =0
+05-13 14:10:22.187 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength iconList = [I@420d31a0iconLevel = 5 mInetCondition = 0
+05-13 14:10:22.187 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:10:22.187 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:10:22.187 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:10:22.227 V/WLAN_PSA(  244): NL MSG, len[4015], NL type[0x1C] WNI type[0x5900] len[38671]
+05-13 14:10:22.227 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:22.347 D/AndroidRuntime(10854): Calling main entry com.android.commands.am.Am
+05-13 14:10:22.367 V/WLAN_PSA(  244): NL MSG, len[4073], NL type[0x1C] WNI type[0x5900] len[53519]
+05-13 14:10:22.367 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:22.367 I/ActivityManager(  893): START u0 {flg=0x10000000 cmp=com.android.browser/.BrowserActivity} from pid 10854
+05-13 14:10:22.377 E/NewLauncher( 1676): Launcher : ### onPause ####
+05-13 14:10:22.377 E/NewLauncher( 1676): UninstallApp : cancelUninstallWithoutAnim nothing to do by mUninstallDialog is null
+05-13 14:10:22.377 D/AndroidRuntime(10854): Shutting down VM
+05-13 14:10:22.377 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1107835800, flags=0x1, tag="ActivityManager-Launch", ws=null, uid=1000, pid=893
+05-13 14:10:22.377 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:22.377 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:22.377 D/PowerManagerService(  893): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-13 14:10:22.377 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:22.387 D/dalvikvm(10854): GC_CONCURRENT freed 96K, 14% free 605K/704K, paused 0ms+0ms, total 3ms, dvmtargetUtilize:0.750000
+05-13 14:10:22.397 D/skia    (  893): Decoder Format : PNG
+05-13 14:10:22.397 D/skia    (  893): call decode 
+05-13 14:10:22.397 D/skia    (  893): Start onDecode 
+05-13 14:10:22.407 D/skia    (  893): End onDecode 
+05-13 14:10:22.427 D/WebViewTimersControl(10177): onBrowserActivityResume
+05-13 14:10:22.427 D/WebViewTimersControl(10177): Resuming webview timers, view=com.android.browser.BrowserWebView{430d4fc8 VFEDHVCL .F...... 0,0-1080,1536}
+05-13 14:10:22.447 V/kernel  (  390): <6>[ 1440.420720] mpu6050_power_ctl Power on
+05-13 14:10:22.447 V/kernel  (  390): <4>[ 1440.423464] mpu6050 0-0068: Ignore power status change from 1 to 1
+05-13 14:10:22.447 V/kernel  (  390): <6>[ 1440.430057] mpu6050_restore_context 
+05-13 14:10:22.457 W/ActivityManager(  893): ActivityManagerService, registerReceiver, caller == android.app.ApplicationThreadProxy@41ef4f08
+05-13 14:10:22.467 E/NewLauncher( 1676): Utils : DEBUG : ### rti = 1 ##
+05-13 14:10:22.467 E/NewLauncher( 1676): Utils : DEBUG : ## rt = com.android.browser.BrowserActivity ##
+05-13 14:10:22.467 E/NewLauncher( 1676): LauncherApplication : ACTION_ACTIVITY_RESUMED : component:com.android.browser.BrowserActivity
+05-13 14:10:22.467 E/NewLauncher( 1676): DatabaseHandler : DEBUG : handleMessage execute action [EVENT_REMOVE_NEW_FLAG_BY_INTENT]
+05-13 14:10:22.467 W/ActivityManager(  893): ActivityManagerService, registerReceiver, callerApp == ProcessRecord{41f488a0 10177:com.android.browser/u0a2}
+05-13 14:10:22.467 W/ActivityManager(  893): ActivityManagerService, registerReceiver, caller == android.app.ApplicationThreadProxy@4218e7e8
+05-13 14:10:22.467 W/ActivityManager(  893): ActivityManagerService, registerReceiver, callerApp == ProcessRecord{41f488a0 10177:com.android.browser/u0a2}
+05-13 14:10:22.477 E/NewLauncher( 1676): DatabaseHandler : DEBUG : get id [20] by cmpName com.android.browser.BrowserActivity
+05-13 14:10:22.487 V/WLAN_PSA(  244): NL MSG, len[4059], NL type[0x1C] WNI type[0x5900] len[49935]
+05-13 14:10:22.487 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:22.497 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:22.497 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:22.507 W/ActivityManager(  893): ActivityManagerService, registerReceiver, caller == android.app.ApplicationThreadProxy@4252cec8
+05-13 14:10:22.507 W/ActivityManager(  893): ActivityManagerService, registerReceiver, callerApp == ProcessRecord{41f488a0 10177:com.android.browser/u0a2}
+05-13 14:10:22.517 E/NewLauncher( 1676): DatabaseHandler : DEBUG : DatabaseHandler action [EVENT_REMOVE_NEW_FLAG_BY_INTENT] Done !
+05-13 14:10:22.527 E/NewLauncher( 1676): DatabaseHandler : DEBUG : isNewlyInstalled set false by convertContentValuesToItemInfo, name [浏览器], pkg [com.android.browser], cmp [com.android.browser.BrowserActivity]
+05-13 14:10:22.537 D/StatusBarManagerService(  893): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@422e5248
+05-13 14:10:22.567 V/WLAN_PSA(  244): NL MSG, len[4078], NL type[0x1C] WNI type[0x5900] len[54799]
+05-13 14:10:22.567 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:22.597 D/SmartisanPhoneStatusBarTransitions( 1416): onTransition mode:0
+05-13 14:10:22.597 D/StatusBarManagerService(  893): manageDisableList userId=0 what=0x0 pkg=WindowManager.LayoutParams token:android.os.Binder@422e5248
+05-13 14:10:22.627 V/WLAN_PSA(  244): NL MSG, len[4092], NL type[0x1C] WNI type[0x5900] len[58383]
+05-13 14:10:22.627 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:22.637 V/WLAN_PSA(  244): NL MSG, len[914], NL type[0x11] WNI type[0x5050] len[894]
+05-13 14:10:22.637 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:22.637 V/WLAN_PSA(  244): NL MSG, len[4077], NL type[0x1C] WNI type[0x5900] len[54543]
+05-13 14:10:22.637 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:22.637 V/WLAN_PSA(  244): NL MSG, len[4078], NL type[0x1C] WNI type[0x5900] len[54799]
+05-13 14:10:22.637 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:22.637 D/wpa_supplicant( 1530): nl80211: Event message available
+05-13 14:10:22.637 D/wpa_supplicant( 1530): nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+05-13 14:10:22.637 D/wpa_supplicant( 1530): wlan0: nl80211: New scan results available
+05-13 14:10:22.637 D/wpa_supplicant( 1530): wlan0: Event SCAN_RESULTS (3) received
+05-13 14:10:22.637 D/wpa_supplicant( 1530): nl80211: Associated on 2462 MHz
+05-13 14:10:22.637 D/wpa_supplicant( 1530): nl80211: Associated with c0:7b:bc:6b:81:41
+05-13 14:10:22.637 D/wpa_supplicant( 1530): nl80211: Received scan results (24 BSSes)
+05-13 14:10:22.637 D/wpa_supplicant( 1530): nl80211: Survey data missing
+05-13 14:10:22.637 D/wpa_supplicant( 1530): nl80211: Scan results indicate BSS status with c0:7b:bc:6b:81:41 as associated
+05-13 14:10:22.637 D/wpa_supplicant( 1530): wlan0: BSS: Start scan result update 74
+05-13 14:10:22.637 D/wpa_supplicant( 1530): wlan0: BSS: Add new id 257 BSSID c0:7b:bc:6b:81:45 SSID '\x00'
+05-13 14:10:22.637 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:22.637 D/wpa_supplicant( 1530): wlan0: BSS: Add new id 258 BSSID c0:7b:bc:6b:86:40 SSID 'Smartisan'
+05-13 14:10:22.637 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:22.637 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 250 BSSID 14:cf:92:bb:8f:03 SSID '' due to no match in scan
+05-13 14:10:22.637 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:22.637 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 240 BSSID c0:7b:bc:f0:22:61 SSID 'Smartisan-Guest' due to no match in scan
+05-13 14:10:22.647 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:22.647 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 122 BSSID c0:7b:bc:f0:22:62 SSID 'SmartisanHW' due to no match in scan
+05-13 14:10:22.647 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:22.647 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 144 BSSID c0:7b:bc:f0:22:60 SSID 'Smartisan' due to no match in scan
+05-13 14:10:22.647 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:22.647 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 246 BSSID 00:26:7a:21:a4:de SSID 'CMCC-WEB' due to no match in scan
+05-13 14:10:22.647 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:22.647 D/wpa_supplicant( 1530): BSS: last_scan_res_used=24/64 last_scan_full=0
+05-13 14:10:22.647 D/wpa_supplicant( 1530): wlan0: Scan-only results received
+05-13 14:10:22.647 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:22.647 D/wpa_supplicant( 1530): wlan0: P2P: Station mode scan operation not pending anymore (sta_scan_pending=0 p2p_cb_on_scan_complete=0)
+05-13 14:10:22.647 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=25): 42 53 53 20 52 41 4e 47 45 3d 30 2d 20 4d 41 53 4b 3d 30 78 32 31 39 38 37
+05-13 14:10:22.647 D/wpa_supplicant( 1530): wlan0: Control interface command 'BSS RANGE=0- MASK=0x21987'
+05-13 14:10:22.647 D/UIAutomatorStub( 9970): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=227, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [{"childOrSiblingSelector": [], "resourceId": "com.android.browser:id/switch_btn", "mask": 2097152, "childOrSibling": []}, 5000], "jsonrpc": "2.0", "method": "waitForExists", "id": "90bd6126955c011151a1cd9181241195"}}
+05-13 14:10:22.687 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:22.747 E/QueryController( 9970): Got null root node from accessibility - Retrying...
+05-13 14:10:22.767 D/PhoneWindow(10177): Twist is enabled, pacakge=com.android.browser
+05-13 14:10:22.767 D/PhoneWindow(10177): onWindowFocusChanged, who=/system/priv-app/BrowserSmartisan.apk hasWindowFocus=true requestedOrientation=2 appUserOrientation=-1
+05-13 14:10:22.767 E/NewLauncher( 1676): Launcher : DEBUG : onWindowFocusChanged = false
+05-13 14:10:22.807 I/Timeline(10177): Timeline: Activity_idle id: android.os.BinderProxy@41e30660 time:1440718
+05-13 14:10:22.807 D/PowerManagerService(  893): releaseWakeLockInternal: lock=1107835800 [ActivityManager-Launch], flags=0x0
+05-13 14:10:22.807 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x0
+05-13 14:10:22.817 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:22.817 D/PowerManagerService(  893): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-13 14:10:22.817 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:23.037 I/QueryController( 9970): Matched selector: UiSelector[RESOURCE_ID=com.android.browser:id/switch_btn] <<==>> [android.view.accessibility.AccessibilityNodeInfo@d290; boundsInParent: Rect(0, 0 - 216, 153); boundsInScreen: Rect(432, 1767 - 648, 1920); packageName: com.android.browser; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.android.browser:id/switch_btn; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_CLICK, ACTION_ACCESSIBILITY_FOCUS]]
+05-13 14:10:23.067 D/UIAutomatorStub( 9970): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=238, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [{"childOrSiblingSelector": [], "resourceId": "com.android.browser:id/newtab_btn", "mask": 2097152, "childOrSibling": []}, 3000], "jsonrpc": "2.0", "method": "clickAndWaitForNewWindow", "id": "586a2024a71f5c5cf967dc00332c533b"}}
+05-13 14:10:23.147 E/SmartisanOS_Perf(  893): SmartiPerformance has not been initialized!
+05-13 14:10:23.147 I/Timeline(  893): Timeline: Activity_windows_visible id: ActivityRecord{42165588 u0 com.android.browser/.BrowserActivity t18} time:1441055
+05-13 14:10:23.147 E/NewLauncher( 1676): Launcher : ### onStop ###
+05-13 14:10:23.217 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:23.217 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:23.217 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:23.217 D/PowerManagerService(  893): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-13 14:10:23.227 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:23.227 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:23.227 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:23.227 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:23.227 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:23.237 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:23.237 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:23.237 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:23.237 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:23.237 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:23.237 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:23.247 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:23.247 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:23.247 D/PowerManagerService(  893): releaseWakeLockInternal: lock=1108845872 [RILJ], flags=0x0
+05-13 14:10:23.247 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x0
+05-13 14:10:23.247 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:23.247 D/PowerManagerService(  893): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-13 14:10:23.257 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:23.327 I/QueryController( 9970): Matched selector: UiSelector[RESOURCE_ID=com.android.browser:id/newtab_btn] <<==>> [android.view.accessibility.AccessibilityNodeInfo@d651; boundsInParent: Rect(0, 0 - 216, 153); boundsInScreen: Rect(648, 1767 - 864, 1920); packageName: com.android.browser; className: android.widget.ImageView; text: null; contentDescription: null; viewIdResName: com.android.browser:id/newtab_btn; checkable: false; checked: false; focusable: false; focused: false; selected: false; clickable: true; longClickable: false; enabled: true; password: false; scrollable: false; [ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_CLICK, ACTION_ACCESSIBILITY_FOCUS]]
+05-13 14:10:23.327 D/InteractionController( 9970): clickAndWaitForNewWindow(756, 1843)
+05-13 14:10:23.337 D/PowerManagerService(  893): userActivityNoUpdateLocked: eventTime=1441238, event=2, flags=0x0, uid=1000
+05-13 14:10:23.337 D/PowerManagerService(  893): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=1446240 (in 4998 ms)
+05-13 14:10:23.337 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:23.337 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:23.477 D/dalvikvm(10177): GC_FOR_ALLOC freed 70K, 21% free 27765K/34896K, paused 32ms, total 32ms, dvmtargetUtilize:0.750000
+05-13 14:10:23.497 I/dalvikvm-heap(10177): Grow heap (frag case) to 32.792MB for 3648256-byte allocation
+05-13 14:10:23.497 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:23.517 D/skia    (10177): Decoder Format : PNG
+05-13 14:10:23.517 D/skia    (10177): call decode 
+05-13 14:10:23.517 D/skia    (10177): Start onDecode 
+05-13 14:10:23.517 D/skia    (10177): End onDecode 
+05-13 14:10:23.517 D/skia    (10177): Decoder Format : PNG
+05-13 14:10:23.517 D/skia    (10177): call decode 
+05-13 14:10:23.517 D/skia    (10177): Start onDecode 
+05-13 14:10:23.537 D/dalvikvm(10177): GC_FOR_ALLOC freed 371K, 19% free 31186K/38460K, paused 22ms, total 22ms, dvmtargetUtilize:0.750000
+05-13 14:10:23.587 D/skia    (10177): End onDecode 
+05-13 14:10:23.977 D/StatusBar.MSimNetworkController( 1416): onSignalStrengthsChanged received on subscription :1signalStrength=SignalStrength: 10 0 2147483647 2147483647 gsm|lte level=3
+05-13 14:10:23.977 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength: subscription =1
+05-13 14:10:23.977 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength iconList = [I@420d32a0iconLevel = 4 mInetCondition = 0
+05-13 14:10:23.977 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =1mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:10:23.977 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 1
+05-13 14:10:23.977 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=3 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f02018f mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f02018f mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:10:24.287 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:10:24.287 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:10:24.297 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:10:24.457 D/dalvikvm( 1676): GC_EXPLICIT freed 165K, 34% free 22475K/33888K, paused 3ms+3ms, total 81ms, dvmtargetUtilize:0.750000
+05-13 14:10:24.577 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:24.597 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:25.637 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:25.637 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:25.637 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:25.637 D/PowerManagerService(  893): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-13 14:10:25.637 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:25.637 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:25.637 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:25.647 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:25.647 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:25.647 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:25.647 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:25.647 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:25.647 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:25.657 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:25.657 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:25.657 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:25.657 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:25.657 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:25.657 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:25.657 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:25.657 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:25.667 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:25.667 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:25.667 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:25.667 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:25.667 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:25.667 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:25.667 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:25.667 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:25.677 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:25.677 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:25.677 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:25.677 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:25.687 D/PowerManagerService(  893): releaseWakeLockInternal: lock=1108845872 [RILJ], flags=0x0
+05-13 14:10:25.687 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x0
+05-13 14:10:25.687 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:25.687 D/PowerManagerService(  893): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-13 14:10:25.687 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:25.777 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:25.797 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:25.817 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:25.827 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:25.847 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:25.867 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:25.877 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:25.887 I/MSM-irqbalance(  375): Decided to move IRQ177 from CPU7 to CPU4
+05-13 14:10:25.897 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:25.917 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:25.927 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:25.947 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:25.967 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:25.977 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:25.997 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:26.017 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:26.027 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:26.047 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:26.227 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-13 14:10:26.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-13 14:10:26.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-13 14:10:26.437 W/InteractionController( 9970): runAndwaitForEvent timedout waiting for events
+05-13 14:10:26.467 D/UIAutomatorStub( 9970): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=261, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [{"childOrSiblingSelector": [], "text": "\u8f93\u5165\u7f51\u5740", "mask": 2097153, "resourceId": "com.android.browser:id/url", "childOrSibling": []}, "www.baidu.com"], "jsonrpc": "2.0", "method": "setText", "id": "15c1180ed29287d588533c153c744bd8"}}
+05-13 14:10:26.487 I/QueryController( 9970): Matched selector: UiSelector[TEXT=输入网址, RESOURCE_ID=com.android.browser:id/url] <<==>> [android.view.accessibility.AccessibilityNodeInfo@7ffa; boundsInParent: Rect(0, 0 - 663, 159); boundsInScreen: Rect(0, 76 - 663, 235); packageName: com.android.browser; className: android.widget.EditText; text: 输入网址; contentDescription: null; viewIdResName: com.android.browser:id/url; checkable: false; checked: false; focusable: true; focused: false; selected: false; clickable: true; longClickable: true; enabled: true; password: false; scrollable: false; [ACTION_FOCUS, ACTION_SELECT, ACTION_CLEAR_SELECTION, ACTION_CLICK, ACTION_LONG_CLICK, ACTION_ACCESSIBILITY_FOCUS]]
+05-13 14:10:26.497 D/dalvikvm( 9970): GC_CONCURRENT freed 1945K, 86% free 1162K/8148K, paused 3ms+2ms, total 16ms, dvmtargetUtilize:0.750000
+05-13 14:10:26.497 D/PowerManagerService(  893): userActivityNoUpdateLocked: eventTime=1444404, event=2, flags=0x0, uid=1000
+05-13 14:10:26.497 D/PowerManagerService(  893): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=1449406 (in 5000 ms)
+05-13 14:10:26.497 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:26.497 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:27.007 D/PowerManagerService(  893): userActivityNoUpdateLocked: eventTime=1444917, event=2, flags=0x0, uid=1000
+05-13 14:10:27.017 D/PowerManagerService(  893): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=1449919 (in 4999 ms)
+05-13 14:10:27.017 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:27.017 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:27.027 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:27.307 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:10:27.307 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:10:27.307 V/WLAN_PSA(  244): NL MSG, len[4034], NL type[0x1C] WNI type[0x5900] len[43535]
+05-13 14:10:27.307 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:27.317 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:10:27.507 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:27.507 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:28.437 D/VM_BMS  (  373): wake_lock acquired
+05-13 14:10:28.437 D/VM_BMS  (  373): New BMS data - Size=56
+05-13 14:10:28.437 D/VM_BMS  (  373): Start process_bms_data
+05-13 14:10:28.437 D/VM_BMS  (  373): For batt_temp=292 fcc_mah=2994
+05-13 14:10:28.437 D/VM_BMS  (  373): For ocv=4264918 batt_temp=292 soc=91
+05-13 14:10:28.437 D/VM_BMS  (  373): fifo_count=5 acc_count=0
+05-13 14:10:28.437 D/VM_BMS  (  373): INIT: ocv=4264918 last_ocv=4264918 batt_temp=292 soc=91
+05-13 14:10:28.437 D/VM_BMS  (  373): For soc=91 batt_temp=292 slope=11600
+05-13 14:10:28.437 D/VM_BMS  (  373): For soc=91 batt_temp=292 rbatt_sf=96
+05-13 14:10:28.437 D/VM_BMS  (  373): rbatt_mohm_default=146, rbatt_mohm=140, sf=96 batt_temp=292
+05-13 14:10:28.437 D/VM_BMS  (  373): For ocv=4264959 batt_temp=292 soc=91
+05-13 14:10:28.437 D/VM_BMS  (  373): FIFO=0 fifo_avg=4.275396 rbatt=0.140000 slope=1.160000 ibatt=-0.074696 ocv=4.264959 soc=91 fcc_ah=2.994000 sample_count=128 sample_interval=40 seq_num=50
+05-13 14:10:28.437 D/VM_BMS  (  373): For soc=91 batt_temp=292 slope=11600
+05-13 14:10:28.437 D/VM_BMS  (  373): For soc=91 batt_temp=292 rbatt_sf=96
+05-13 14:10:28.437 D/VM_BMS  (  373): rbatt_mohm_default=146, rbatt_mohm=140, sf=96 batt_temp=292
+05-13 14:10:28.437 D/VM_BMS  (  373): For ocv=4265053 batt_temp=292 soc=92
+05-13 14:10:28.437 D/VM_BMS  (  373): FIFO=1 fifo_avg=4.288899 rbatt=0.140000 slope=1.160000 ibatt=-0.170665 ocv=4.265053 soc=92 fcc_ah=2.994000 sample_count=128 sample_interval=40 seq_num=50
+05-13 14:10:28.437 D/VM_BMS  (  373): For soc=92 batt_temp=292 slope=11600
+05-13 14:10:28.437 D/VM_BMS  (  373): For soc=92 batt_temp=292 rbatt_sf=95
+05-13 14:10:28.437 D/VM_BMS  (  373): rbatt_mohm_default=146, rbatt_mohm=138, sf=95 batt_temp=292
+05-13 14:10:28.437 D/VM_BMS  (  373): For ocv=4265093 batt_temp=292 soc=92
+05-13 14:10:28.437 D/VM_BMS  (  373): FIFO=2 fifo_avg=4.275105 rbatt=0.138000 slope=1.160000 ibatt=-0.072697 ocv=4.265093 soc=92 fcc_ah=2.994000 sample_count=128 sample_interval=40 seq_num=50
+05-13 14:10:28.437 D/VM_BMS  (  373): For soc=92 batt_temp=292 slope=11600
+05-13 14:10:28.437 D/VM_BMS  (  373): For soc=92 batt_temp=292 rbatt_sf=95
+05-13 14:10:28.437 D/VM_BMS  (  373): rbatt_mohm_default=146, rbatt_mohm=138, sf=95 batt_temp=292
+05-13 14:10:28.437 D/VM_BMS  (  373): For ocv=4265094 batt_temp=292 soc=92
+05-13 14:10:28.437 D/VM_BMS  (  373): FIFO=3 fifo_avg=4.265418 rbatt=0.138000 slope=1.160000 ibatt=-0.002352 ocv=4.265094 soc=92 fcc_ah=2.994000 sample_count=128 sample_interval=40 seq_num=50
+05-13 14:10:28.437 D/VM_BMS  (  373): For soc=92 batt_temp=292 slope=11600
+05-13 14:10:28.437 D/VM_BMS  (  373): For soc=92 batt_temp=292 rbatt_sf=95
+05-13 14:10:28.437 D/VM_BMS  (  373): rbatt_mohm_default=146, rbatt_mohm=138, sf=95 batt_temp=292
+05-13 14:10:28.437 D/VM_BMS  (  373): For ocv=4265111 batt_temp=292 soc=92
+05-13 14:10:28.437 D/VM_BMS  (  373): FIFO=4 fifo_avg=4.269528 rbatt=0.138000 slope=1.160000 ibatt=-0.032067 ocv=4.265111 soc=92 fcc_ah=2.994000 sample_count=128 sample_interval=40 seq_num=50
+05-13 14:10:28.447 I/VM_BMS  (  373): power_supply_update: ocv_uv=4265111 ibatt=-32067 soc=92 seq_num=50
+05-13 14:10:28.447 D/VM_BMS  (  373): End process_bms_data
+05-13 14:10:28.447 D/VM_BMS  (  373): wake_lock released
+05-13 14:10:28.477 D/PowerManagerService(  893): updateIsPoweredLocked: wasPowered=true, mIsPowered=true, oldPlugType=2, mPlugType=2, mBatteryLevel=92
+05-13 14:10:28.477 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:28.487 D/StatusBar.BatteryController( 1416): updateBattery level:92 charging:true pluged:true
+05-13 14:10:28.487 D/skia    ( 1416): Decoder Format : PNG
+05-13 14:10:28.487 D/skia    ( 1416): call decode 
+05-13 14:10:28.487 D/skia    ( 1416): Start onDecode 
+05-13 14:10:28.487 D/skia    ( 1416): End onDecode 
+05-13 14:10:28.487 D/PowerManagerService(  893): updateIsPoweredLocked: wasPowered=true, mIsPowered=true, oldPlugType=2, mPlugType=2, mBatteryLevel=92
+05-13 14:10:28.487 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:28.507 D/StatusBar.BatteryController( 1416): updateBattery level:92 charging:true pluged:true
+05-13 14:10:29.277 D/StatusBar.MSimNetworkController( 1416): onSignalStrengthsChanged received on subscription :1signalStrength=SignalStrength: 12 0 2147483647 2147483647 gsm|lte level=4
+05-13 14:10:29.277 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength: subscription =1
+05-13 14:10:29.277 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength iconList = [I@420d32a0iconLevel = 4 mInetCondition = 0
+05-13 14:10:29.277 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =1mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:10:29.277 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 1
+05-13 14:10:29.277 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f02018f mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f02018f mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:10:29.277 D/StatusBar.MSimNetworkController( 1416): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 31 0 2147483647 2147483647 gsm|lte level=4
+05-13 14:10:29.277 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength: subscription =0
+05-13 14:10:29.277 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength iconList = [I@420d31a0iconLevel = 5 mInetCondition = 0
+05-13 14:10:29.277 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:10:29.277 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:10:29.277 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:10:29.527 D/dalvikvm( 1676): GC_EXPLICIT freed 19K, 34% free 22456K/33888K, paused 2ms+2ms, total 63ms, dvmtargetUtilize:0.750000
+05-13 14:10:29.537 D/WindowManager(  893): interceptKeyTq keycode=67 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.537 D/WindowManager(  893): interceptKeyTi keyCode=67 down=true repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.537 D/PowerManagerService(  893): userActivityNoUpdateLocked: eventTime=1447442, event=1, flags=0x0, uid=1000
+05-13 14:10:29.537 D/PowerManagerService(  893): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=1452444 (in 4999 ms)
+05-13 14:10:29.537 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:29.537 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:29.547 D/WindowManager(  893): interceptKeyTq keycode=67 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.547 D/WindowManager(  893): interceptKeyTi keyCode=67 down=false repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.547 D/WindowManager(  893): Unhandled key: win=Window{4299d078 u0 com.android.browser/com.android.browser.BrowserActivity}, action=0, flags=0, keyCode=67, scanCode=0, metaState=0, repeatCount=0, policyFlags=1258291200
+05-13 14:10:29.547 D/WindowManager(  893): No fallback.
+05-13 14:10:29.557 D/WindowManager(  893): interceptKeyTq keycode=51 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.557 D/WindowManager(  893): interceptKeyTi keyCode=51 down=true repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.557 D/WindowManager(  893): Unhandled key: win=Window{4299d078 u0 com.android.browser/com.android.browser.BrowserActivity}, action=1, flags=0, keyCode=67, scanCode=0, metaState=0, repeatCount=0, policyFlags=1258291200
+05-13 14:10:29.557 D/WindowManager(  893): No fallback.
+05-13 14:10:29.577 D/WindowManager(  893): interceptKeyTq keycode=51 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.577 D/WindowManager(  893): interceptKeyTi keyCode=51 down=false repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.617 D/WindowManager(  893): interceptKeyTq keycode=51 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.617 D/WindowManager(  893): interceptKeyTi keyCode=51 down=true repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.627 D/WindowManager(  893): interceptKeyTq keycode=51 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.627 D/WindowManager(  893): interceptKeyTi keyCode=51 down=false repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.647 D/WindowManager(  893): interceptKeyTq keycode=51 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.647 D/WindowManager(  893): interceptKeyTi keyCode=51 down=true repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.657 D/WindowManager(  893): interceptKeyTq keycode=51 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.667 D/WindowManager(  893): interceptKeyTi keyCode=51 down=false repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.677 D/WindowManager(  893): interceptKeyTq keycode=56 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.677 D/WindowManager(  893): interceptKeyTi keyCode=56 down=true repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.677 D/WindowManager(  893): interceptKeyTq keycode=56 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.687 D/WindowManager(  893): interceptKeyTi keyCode=56 down=false repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.707 D/WindowManager(  893): interceptKeyTq keycode=30 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.707 D/WindowManager(  893): interceptKeyTi keyCode=30 down=true repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.717 D/WindowManager(  893): interceptKeyTq keycode=30 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.717 D/WindowManager(  893): interceptKeyTi keyCode=30 down=false repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.727 D/WindowManager(  893): interceptKeyTq keycode=29 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.727 D/WindowManager(  893): interceptKeyTi keyCode=29 down=true repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.747 D/WindowManager(  893): interceptKeyTq keycode=29 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.747 D/WindowManager(  893): interceptKeyTi keyCode=29 down=false repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.757 D/WindowManager(  893): interceptKeyTq keycode=37 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.767 D/WindowManager(  893): interceptKeyTi keyCode=37 down=true repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.777 D/WindowManager(  893): interceptKeyTq keycode=37 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.777 D/WindowManager(  893): interceptKeyTi keyCode=37 down=false repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.777 D/WindowManager(  893): interceptKeyTq keycode=32 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.777 D/WindowManager(  893): interceptKeyTi keyCode=32 down=true repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.797 D/WindowManager(  893): interceptKeyTq keycode=32 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.797 D/WindowManager(  893): interceptKeyTi keyCode=32 down=false repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.807 D/WindowManager(  893): interceptKeyTq keycode=49 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.807 D/WindowManager(  893): interceptKeyTi keyCode=49 down=true repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.827 D/WindowManager(  893): interceptKeyTq keycode=49 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.827 D/WindowManager(  893): interceptKeyTi keyCode=49 down=false repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.847 D/WindowManager(  893): interceptKeyTq keycode=56 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.847 D/WindowManager(  893): interceptKeyTi keyCode=56 down=true repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.847 D/WindowManager(  893): interceptKeyTq keycode=56 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.847 D/WindowManager(  893): interceptKeyTi keyCode=56 down=false repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.857 D/WindowManager(  893): interceptKeyTq keycode=31 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.857 D/WindowManager(  893): interceptKeyTi keyCode=31 down=true repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.877 D/WindowManager(  893): interceptKeyTq keycode=31 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.877 D/WindowManager(  893): interceptKeyTi keyCode=31 down=false repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.887 D/WindowManager(  893): interceptKeyTq keycode=43 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.897 D/WindowManager(  893): interceptKeyTi keyCode=43 down=true repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.897 D/WindowManager(  893): interceptKeyTq keycode=43 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.897 D/WindowManager(  893): interceptKeyTi keyCode=43 down=false repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.907 D/WindowManager(  893): interceptKeyTq keycode=41 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.907 D/WindowManager(  893): interceptKeyTi keyCode=41 down=true repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:29.927 D/WindowManager(  893): interceptKeyTq keycode=41 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:29.927 D/WindowManager(  893): interceptKeyTi keyCode=41 down=false repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:30.327 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:10:30.327 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:10:30.337 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:10:30.887 I/MSM-irqbalance(  375): Decided to move IRQ57 from CPU7 to CPU4
+05-13 14:10:31.227 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-13 14:10:31.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-13 14:10:31.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-13 14:10:31.627 D/StatusBar.MSimNetworkController( 1416): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 30 0 2147483647 2147483647 gsm|lte level=4
+05-13 14:10:31.627 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength: subscription =0
+05-13 14:10:31.627 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength iconList = [I@420d31a0iconLevel = 5 mInetCondition = 0
+05-13 14:10:31.627 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:10:31.627 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:10:31.627 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:10:31.957 D/UIAutomatorStub( 9970): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=103, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": ["enter"], "jsonrpc": "2.0", "method": "pressKey", "id": "457aeabcec07c6000285c62e42fedac2"}}
+05-13 14:10:31.957 D/WindowManager(  893): interceptKeyTq keycode=66 down=true screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:31.967 D/WindowManager(  893): interceptKeyTi keyCode=66 down=true repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:31.967 D/PowerManagerService(  893): userActivityNoUpdateLocked: eventTime=1449868, event=1, flags=0x0, uid=1000
+05-13 14:10:31.967 D/PowerManagerService(  893): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=1454870 (in 4999 ms)
+05-13 14:10:31.967 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:31.967 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:32.017 D/AwContents(10177): loadUrl 0 {DEFAULT, BROWSER_INITIATED_HTTP_POST, DATA}
+05-13 14:10:32.027 W/AwContents(10177): nativeOnDraw failed; clearing to background color.
+05-13 14:10:32.037 D/WindowManager(  893): interceptKeyTq keycode=66 down=false screenIsOn=true keyguardActive=false policyFlags=b000000 isWakeKey=false
+05-13 14:10:32.037 D/WindowManager(  893): interceptKeyTi keyCode=66 down=false repeatCount=0 keyguardOn=false canceled=false
+05-13 14:10:32.057 D/AwContents(10177): shouldIgnoreNavigation isPost false, isRedirect false, hasUserGesture false, pageTransitionType 134217728, url: http://www.baidu.com/, mDeferredShouldOverrideUrlLoadingIsPendingForPopup: false, mPopupContents: false
+05-13 14:10:32.077 D/Tab     (10177): onPageStarted url: http://www.baidu.com/, webview: com.android.browser.BrowserWebView{425c1128 VFEDHVCL .F...... 0,0-1080,1536}
+05-13 14:10:32.077 D/UIAutomatorStub( 9970): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=250, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [{"childOrSiblingSelector": [], "mask": 2, "textContains": "\u9700\u8981\u4e86\u89e3\u60a8\u7684\u4f4d\u7f6e\u4fe1\u606f", "childOrSibling": []}, 3000], "jsonrpc": "2.0", "method": "waitForExists", "id": "893cf5a7a934778002541cb303447434"}}
+05-13 14:10:32.517 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:32.517 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:32.957 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:10:32.957 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:10:32.957 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:10:33.347 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:10:33.347 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:10:33.357 V/WLAN_PSA(  244): NL MSG, len[4059], NL type[0x1C] WNI type[0x5900] len[49935]
+05-13 14:10:33.357 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:33.357 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:10:33.977 D/StatusBar.MSimNetworkController( 1416): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 30 0 2147483647 2147483647 gsm|lte level=4
+05-13 14:10:33.977 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength: subscription =0
+05-13 14:10:33.977 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength iconList = [I@420d31a0iconLevel = 5 mInetCondition = 0
+05-13 14:10:33.977 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:10:33.977 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:10:33.987 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:10:34.587 D/dalvikvm( 1676): GC_CONCURRENT freed <1K, 34% free 22456K/33888K, paused 2ms+2ms, total 55ms, dvmtargetUtilize:0.750000
+05-13 14:10:35.887 I/MSM-irqbalance(  375): Decided to move IRQ174 from CPU7 to CPU4
+05-13 14:10:36.227 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-13 14:10:36.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-13 14:10:36.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-13 14:10:36.317 D/Tab     (10177): onPageFinished url: http://www.baidu.com/, webview: com.android.browser.BrowserWebView{425c1128 VFEDHVCL .F...... 0,0-1080,1536}
+05-13 14:10:36.357 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:10:36.357 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:10:36.367 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:10:36.627 W/System.err( 1853): java.lang.ClassNotFoundException: com.baidu.frontia.module.deeplink.GeoLocation
+05-13 14:10:36.627 W/System.err( 1853): 	at java.lang.Class.classForName(Native Method)
+05-13 14:10:36.627 W/System.err( 1853): 	at java.lang.Class.forName(Class.java:251)
+05-13 14:10:36.627 W/System.err( 1853): 	at java.lang.Class.forName(Class.java:216)
+05-13 14:10:36.637 W/System.err( 1853): 	at com.baidu.frontia.module.deeplink.a.b(Unknown Source)
+05-13 14:10:36.637 W/System.err( 1853): 	at com.baidu.frontia.module.deeplink.a.a(Unknown Source)
+05-13 14:10:36.637 W/System.err( 1853): 	at com.baidu.frontia.module.deeplink.l.b(Unknown Source)
+05-13 14:10:36.637 W/System.err( 1853): 	at com.baidu.android.a.a.e.c(Unknown Source)
+05-13 14:10:36.637 W/System.err( 1853): 	at com.baidu.android.a.a.e.a(Unknown Source)
+05-13 14:10:36.637 W/System.err( 1853): 	at com.baidu.android.a.a.f.a(Unknown Source)
+05-13 14:10:36.637 W/System.err( 1853): 	at com.baidu.android.a.a.f.doInBackground(Unknown Source)
+05-13 14:10:36.637 W/System.err( 1853): 	at android.os.AsyncTask$2.call(AsyncTask.java:288)
+05-13 14:10:36.637 W/System.err( 1853): 	at java.util.concurrent.FutureTask.run(FutureTask.java:237)
+05-13 14:10:36.637 W/System.err( 1853): 	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:231)
+05-13 14:10:36.637 W/System.err( 1853): 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1112)
+05-13 14:10:36.637 W/System.err( 1853): 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:587)
+05-13 14:10:36.637 W/System.err( 1853): 	at java.lang.Thread.run(Thread.java:841)
+05-13 14:10:36.637 W/System.err( 1853): Caused by: java.lang.NoClassDefFoundError: com/baidu/frontia/module/deeplink/GeoLocation
+05-13 14:10:36.637 W/System.err( 1853): 	... 16 more
+05-13 14:10:36.637 W/System.err( 1853): Caused by: java.lang.ClassNotFoundException: Didn't find class "com.baidu.frontia.module.deeplink.GeoLocation" on path: DexPathList[[zip file "/data/data/com.iflytek.speechcloud/app_push_lib/plugin-deploy.jar"],nativeLibraryDirectories=[/vendor/lib, /system/lib]]
+05-13 14:10:36.637 W/System.err( 1853): 	at dalvik.system.BaseDexClassLoader.findClass(BaseDexClassLoader.java:56)
+05-13 14:10:36.637 W/System.err( 1853): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:497)
+05-13 14:10:36.637 W/System.err( 1853): 	at java.lang.ClassLoader.loadClass(ClassLoader.java:457)
+05-13 14:10:36.637 W/System.err( 1853): 	... 16 more
+05-13 14:10:36.697 W/ActivityManager(  893): ActivityManagerService, registerReceiver, caller == android.app.ApplicationThreadProxy@41ecacd0
+05-13 14:10:36.697 W/ActivityManager(  893): ActivityManagerService, registerReceiver, callerApp == ProcessRecord{41f488a0 10177:com.android.browser/u0a2}
+05-13 14:10:36.707 D/UIAutomatorStub( 9970): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=128, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": ["screenshot.png", 1.0, 100], "jsonrpc": "2.0", "method": "takeScreenshot", "id": "7ca8a54247da1d0ea88d407695caf06b"}}
+05-13 14:10:36.837 D/PhoneWindow(10177): Twist is enabled, pacakge=com.android.browser
+05-13 14:10:36.837 D/PhoneWindow(10177): onWindowFocusChanged, who=/system/priv-app/BrowserSmartisan.apk hasWindowFocus=true requestedOrientation=-1 appUserOrientation=-1
+05-13 14:10:36.967 D/PowerManagerService(  893): handleUserActivityTimeout
+05-13 14:10:36.967 D/PowerManagerService(  893): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=1473868 (in 18995 ms)
+05-13 14:10:36.967 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:36.967 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:37.527 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:37.527 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:37.747 D/dalvikvm( 9970): GC_CONCURRENT freed 1988K, 87% free 1131K/8148K, paused 1ms+2ms, total 17ms, dvmtargetUtilize:0.750000
+05-13 14:10:38.547 V/kernel  (  390): <4>[ 1456.534636] IRQ39 no longer affine to CPU2
+05-13 14:10:38.567 D/UIAutomatorStub( 9970): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=238, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [{"childOrSiblingSelector": [], "resourceId": "com.android.browser:id/newtab_btn", "mask": 2097152, "childOrSibling": []}, 3000], "jsonrpc": "2.0", "method": "clickAndWaitForNewWindow", "id": "1b306c694db4b3294931cd319ab02eb8"}}
+05-13 14:10:38.677 D/StatusBar.MSimNetworkController( 1416): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 29 0 2147483647 2147483647 gsm|lte level=4
+05-13 14:10:38.677 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength: subscription =0
+05-13 14:10:38.677 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength iconList = [I@420d31a0iconLevel = 5 mInetCondition = 0
+05-13 14:10:38.677 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:10:38.677 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:10:38.677 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:10:39.367 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:10:39.367 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:10:39.377 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:10:39.377 V/WLAN_PSA(  244): NL MSG, len[4022], NL type[0x1C] WNI type[0x5900] len[40463]
+05-13 14:10:39.377 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:41.027 D/StatusBar.MSimNetworkController( 1416): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 29 0 2147483647 2147483647 gsm|lte level=4
+05-13 14:10:41.027 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength: subscription =0
+05-13 14:10:41.027 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength iconList = [I@420d31a0iconLevel = 5 mInetCondition = 0
+05-13 14:10:41.027 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:10:41.027 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:10:41.027 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:10:41.157 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:41.157 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:41.167 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:41.167 D/PowerManagerService(  893): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-13 14:10:41.167 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:41.167 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:41.167 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:41.167 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:41.167 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:41.177 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:41.177 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:41.177 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:41.177 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:41.177 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:41.177 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:41.177 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:41.177 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:41.187 D/PowerManagerService(  893): releaseWakeLockInternal: lock=1108845872 [RILJ], flags=0x0
+05-13 14:10:41.187 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x0
+05-13 14:10:41.187 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:41.187 D/PowerManagerService(  893): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-13 14:10:41.187 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:41.227 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-13 14:10:41.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-13 14:10:41.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-13 14:10:42.377 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:10:42.377 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:10:42.397 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:10:42.537 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:42.537 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:42.687 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=14): 53 43 41 4e 20 54 59 50 45 3d 4f 4e 4c 59
+05-13 14:10:42.687 D/wpa_supplicant( 1530): wlan0: Control interface command 'SCAN TYPE=ONLY'
+05-13 14:10:42.687 D/wpa_supplicant( 1530): wlan0: Setting scan request: 0 sec 0 usec
+05-13 14:10:42.687 D/wpa_supplicant( 1530): wlan0: Starting AP scan for wildcard SSID
+05-13 14:10:42.687 D/wpa_supplicant( 1530): wlan0: nl80211: scan request
+05-13 14:10:42.687 D/wpa_supplicant( 1530): nl80211: Scan SSID - hexdump(len=0): [NULL]
+05-13 14:10:42.687 D/wpa_supplicant( 1530): Scan requested (ret=0) - scan timeout 30 seconds
+05-13 14:10:42.687 D/wpa_supplicant( 1530): nl80211: Event message available
+05-13 14:10:42.687 D/wpa_supplicant( 1530): nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+05-13 14:10:42.687 D/wpa_supplicant( 1530): wlan0: nl80211: Scan trigger
+05-13 14:10:42.687 D/wpa_supplicant( 1530): wlan0: Event SCAN_STARTED (57) received
+05-13 14:10:42.687 D/wpa_supplicant( 1530): wlan0: Own scan request started a scan
+05-13 14:10:42.687 I/wpa_supplicant( 1530): wlan0: CTRL-EVENT-SCAN-STARTED 
+05-13 14:10:42.687 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:42.687 V/WLAN_PSA(  244): NL MSG, len[914], NL type[0x11] WNI type[0x5050] len[894]
+05-13 14:10:42.687 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:42.687 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:42.687 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:42.697 V/WLAN_PSA(  244): NL MSG, len[4032], NL type[0x1C] WNI type[0x5900] len[43023]
+05-13 14:10:42.697 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:42.757 V/WLAN_PSA(  244): NL MSG, len[4017], NL type[0x1C] WNI type[0x5900] len[39183]
+05-13 14:10:42.757 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:42.827 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:42.827 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:42.827 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:42.827 D/PowerManagerService(  893): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-13 14:10:42.827 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:42.827 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:42.827 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:42.827 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:42.827 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:42.837 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:42.837 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:42.837 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:42.837 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:42.837 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:42.837 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:42.837 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:42.837 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:42.847 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:42.847 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:42.847 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:42.847 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:42.847 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:42.847 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:42.847 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:42.847 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:42.847 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:42.847 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:42.847 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:42.847 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:42.857 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:42.857 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:42.857 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:42.857 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:42.857 D/PowerManagerService(  893): releaseWakeLockInternal: lock=1108845872 [RILJ], flags=0x0
+05-13 14:10:42.867 V/WLAN_PSA(  244): NL MSG, len[4002], NL type[0x1C] WNI type[0x5900] len[35343]
+05-13 14:10:42.867 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:42.867 V/WLAN_PSA(  244): NL MSG, len[914], NL type[0x11] WNI type[0x5050] len[894]
+05-13 14:10:42.867 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:42.867 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x0
+05-13 14:10:42.867 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:42.867 D/PowerManagerService(  893): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-13 14:10:42.867 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:42.967 V/WLAN_PSA(  244): NL MSG, len[914], NL type[0x11] WNI type[0x5050] len[894]
+05-13 14:10:42.967 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:42.967 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:42.967 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:42.967 V/WLAN_PSA(  244): NL MSG, len[4091], NL type[0x1C] WNI type[0x5900] len[58127]
+05-13 14:10:42.967 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.037 V/WLAN_PSA(  244): NL MSG, len[4052], NL type[0x1C] WNI type[0x5900] len[48143]
+05-13 14:10:43.037 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.097 V/WLAN_PSA(  244): NL MSG, len[914], NL type[0x11] WNI type[0x5050] len[894]
+05-13 14:10:43.097 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.097 V/WLAN_PSA(  244): NL MSG, len[4062], NL type[0x1C] WNI type[0x5900] len[50703]
+05-13 14:10:43.097 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.197 V/WLAN_PSA(  244): NL MSG, len[914], NL type[0x11] WNI type[0x5050] len[894]
+05-13 14:10:43.197 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.197 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:43.197 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.237 V/WLAN_PSA(  244): NL MSG, len[4019], NL type[0x1C] WNI type[0x5900] len[39695]
+05-13 14:10:43.237 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.307 V/WLAN_PSA(  244): NL MSG, len[914], NL type[0x11] WNI type[0x5050] len[894]
+05-13 14:10:43.307 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.307 V/WLAN_PSA(  244): NL MSG, len[4064], NL type[0x1C] WNI type[0x5900] len[51215]
+05-13 14:10:43.307 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.387 D/StatusBar.MSimNetworkController( 1416): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 29 0 2147483647 2147483647 gsm|lte level=4
+05-13 14:10:43.387 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength: subscription =0
+05-13 14:10:43.397 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength iconList = [I@420d31a0iconLevel = 5 mInetCondition = 0
+05-13 14:10:43.397 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:10:43.397 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:10:43.397 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:10:43.407 V/WLAN_PSA(  244): NL MSG, len[914], NL type[0x11] WNI type[0x5050] len[894]
+05-13 14:10:43.407 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.407 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:43.407 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.407 V/WLAN_PSA(  244): NL MSG, len[4049], NL type[0x1C] WNI type[0x5900] len[47375]
+05-13 14:10:43.407 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.477 V/kernel  (  390): <3>[ 1461.449123] wlan: [1408:E :HDP] hdd_tx_rx_pkt_cnt_stat_timer_handler: Disable split scan
+05-13 14:10:43.507 V/WLAN_PSA(  244): NL MSG, len[4018], NL type[0x1C] WNI type[0x5900] len[39439]
+05-13 14:10:43.507 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.537 V/WLAN_PSA(  244): NL MSG, len[914], NL type[0x11] WNI type[0x5050] len[894]
+05-13 14:10:43.537 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.537 V/WLAN_PSA(  244): NL MSG, len[4026], NL type[0x1C] WNI type[0x5900] len[41487]
+05-13 14:10:43.537 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.637 V/WLAN_PSA(  244): NL MSG, len[914], NL type[0x11] WNI type[0x5050] len[894]
+05-13 14:10:43.637 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.637 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:43.637 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.677 V/WLAN_PSA(  244): NL MSG, len[4014], NL type[0x1C] WNI type[0x5900] len[38415]
+05-13 14:10:43.677 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.687 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:43.687 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.687 V/WLAN_PSA(  244): NL MSG, len[914], NL type[0x11] WNI type[0x5050] len[894]
+05-13 14:10:43.687 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.687 V/WLAN_PSA(  244): NL MSG, len[4002], NL type[0x1C] WNI type[0x5900] len[35343]
+05-13 14:10:43.687 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.687 V/WLAN_PSA(  244): NL MSG, len[3995], NL type[0x1C] WNI type[0x5900] len[33551]
+05-13 14:10:43.687 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:43.697 D/wpa_supplicant( 1530): nl80211: Event message available
+05-13 14:10:43.697 D/wpa_supplicant( 1530): nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+05-13 14:10:43.697 D/wpa_supplicant( 1530): wlan0: nl80211: New scan results available
+05-13 14:10:43.697 D/wpa_supplicant( 1530): wlan0: Event SCAN_RESULTS (3) received
+05-13 14:10:43.697 D/wpa_supplicant( 1530): nl80211: Associated on 2462 MHz
+05-13 14:10:43.697 D/wpa_supplicant( 1530): nl80211: Associated with c0:7b:bc:6b:81:41
+05-13 14:10:43.697 D/wpa_supplicant( 1530): nl80211: Received scan results (26 BSSes)
+05-13 14:10:43.697 D/wpa_supplicant( 1530): nl80211: Survey data missing
+05-13 14:10:43.697 D/wpa_supplicant( 1530): nl80211: Scan results indicate BSS status with c0:7b:bc:6b:81:41 as associated
+05-13 14:10:43.697 D/wpa_supplicant( 1530): wlan0: BSS: Start scan result update 75
+05-13 14:10:43.697 D/wpa_supplicant( 1530): wlan0: BSS: Add new id 259 BSSID c0:7b:bc:f0:22:62 SSID 'SmartisanHW'
+05-13 14:10:43.697 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:43.697 D/wpa_supplicant( 1530): wlan0: BSS: Add new id 260 BSSID c0:7b:bc:f0:22:60 SSID 'Smartisan'
+05-13 14:10:43.697 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:43.697 D/wpa_supplicant( 1530): wlan0: BSS: Add new id 261 BSSID c0:7b:bc:6b:86:44 SSID 'Smota'
+05-13 14:10:43.697 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:43.697 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 243 BSSID c0:7b:bc:6b:81:47 SSID 'smcc' due to no match in scan
+05-13 14:10:43.697 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:43.697 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 230 BSSID c0:7b:bc:6b:81:42 SSID 'SmartisanHW' due to no match in scan
+05-13 14:10:43.697 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:43.697 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 239 BSSID c0:7b:bc:f0:22:67 SSID 'smcc' due to no match in scan
+05-13 14:10:43.697 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:43.697 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 253 BSSID 58:66:ba:a0:6e:41 SSID 'CTTIC-Company' due to no match in scan
+05-13 14:10:43.697 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:43.697 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 254 BSSID 58:66:ba:a0:6e:42 SSID 'CTTIC-Guest' due to no match in scan
+05-13 14:10:43.697 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:43.697 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 248 BSSID 00:26:7a:23:ae:1a SSID 'and-Business' due to no match in scan
+05-13 14:10:43.697 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:43.697 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 231 BSSID 00:26:7a:21:ae:1a SSID 'CMCC-WEB' due to no match in scan
+05-13 14:10:43.697 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:43.697 D/wpa_supplicant( 1530): BSS: last_scan_res_used=26/64 last_scan_full=0
+05-13 14:10:43.697 D/wpa_supplicant( 1530): wlan0: Scan-only results received
+05-13 14:10:43.697 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:43.697 D/wpa_supplicant( 1530): wlan0: P2P: Station mode scan operation not pending anymore (sta_scan_pending=0 p2p_cb_on_scan_complete=0)
+05-13 14:10:43.707 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=25): 42 53 53 20 52 41 4e 47 45 3d 30 2d 20 4d 41 53 4b 3d 30 78 32 31 39 38 37
+05-13 14:10:43.707 D/wpa_supplicant( 1530): wlan0: Control interface command 'BSS RANGE=0- MASK=0x21987'
+05-13 14:10:44.987 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:10:44.987 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:10:44.997 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:10:45.397 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:10:45.397 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:10:45.417 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:10:46.007 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:10:46.007 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:10:46.017 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:10:46.217 D/StatusBar.MSimNetworkController( 1416): onSignalStrengthsChanged received on subscription :1signalStrength=SignalStrength: 10 0 2147483647 2147483647 gsm|lte level=3
+05-13 14:10:46.217 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength: subscription =1
+05-13 14:10:46.217 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength iconList = [I@420d32a0iconLevel = 4 mInetCondition = 0
+05-13 14:10:46.217 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =1mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:10:46.217 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 1
+05-13 14:10:46.217 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=3 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f02018f mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f02018f mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:10:46.227 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-13 14:10:46.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-13 14:10:46.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-13 14:10:47.547 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:47.547 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:47.907 V/WLAN_PSA(  244): NL MSG, len[4043], NL type[0x1C] WNI type[0x5900] len[45839]
+05-13 14:10:47.907 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:48.417 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:10:48.417 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:10:48.427 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:10:49.717 W/JsonRpcServer( 9970): Error in JSON-RPC Service
+05-13 14:10:49.717 W/JsonRpcServer( 9970): java.lang.reflect.InvocationTargetException
+05-13 14:10:49.717 W/JsonRpcServer( 9970): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-13 14:10:49.717 W/JsonRpcServer( 9970): 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-13 14:10:49.717 W/JsonRpcServer( 9970): 	at com.googlecode.jsonrpc4j.JsonRpcServer.invoke(JsonRpcServer.java:513)
+05-13 14:10:49.717 W/JsonRpcServer( 9970): 	at com.googlecode.jsonrpc4j.JsonRpcServer.handleObject(JsonRpcServer.java:384)
+05-13 14:10:49.717 W/JsonRpcServer( 9970): 	at com.googlecode.jsonrpc4j.JsonRpcServer.handleNode(JsonRpcServer.java:293)
+05-13 14:10:49.717 W/JsonRpcServer( 9970): 	at com.googlecode.jsonrpc4j.JsonRpcServer.handle(JsonRpcServer.java:230)
+05-13 14:10:49.717 W/JsonRpcServer( 9970): 	at com.github.uiautomatorstub.AutomatorHttpServer.serve(AutomatorHttpServer.java:70)
+05-13 14:10:49.717 W/JsonRpcServer( 9970): 	at fi.iki.elonen.NanoHTTPD.serve(NanoHTTPD.java:298)
+05-13 14:10:49.717 W/JsonRpcServer( 9970): 	at fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:922)
+05-13 14:10:49.717 W/JsonRpcServer( 9970): 	at fi.iki.elonen.NanoHTTPD$1$1.run(NanoHTTPD.java:175)
+05-13 14:10:49.717 W/JsonRpcServer( 9970): 	at java.lang.Thread.run(Thread.java:841)
+05-13 14:10:49.717 W/JsonRpcServer( 9970): Caused by: com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.android.browser:id/newtab_btn]
+05-13 14:10:49.717 W/JsonRpcServer( 9970): 	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+05-13 14:10:49.717 W/JsonRpcServer( 9970): 	at com.github.uiautomatorstub.AutomatorServiceImpl.clickAndWaitForNewWindow(AutomatorServiceImpl.java:618)
+05-13 14:10:49.717 W/JsonRpcServer( 9970): 	... 11 more
+05-13 14:10:49.807 D/UIAutomatorStub( 9970): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=238, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [{"childOrSiblingSelector": [], "resourceId": "com.android.browser:id/newtab_btn", "mask": 2097152, "childOrSibling": []}, 3000], "jsonrpc": "2.0", "method": "clickAndWaitForNewWindow", "id": "72e3fd1ba85c3423e8b4580c033c354e"}}
+05-13 14:10:50.437 D/StatusBar.MSimNetworkController( 1416): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 30 0 2147483647 2147483647 gsm|lte level=4
+05-13 14:10:50.437 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength: subscription =0
+05-13 14:10:50.437 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength iconList = [I@420d31a0iconLevel = 5 mInetCondition = 0
+05-13 14:10:50.437 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:10:50.437 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:10:50.437 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:10:50.847 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [LOWI-SERVER] unknown deliver target [OS-Agent]
+05-13 14:10:51.227 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-13 14:10:51.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-13 14:10:51.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-13 14:10:51.427 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:10:51.427 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:10:51.437 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:10:52.557 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:52.557 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:52.887 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:52.887 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:52.887 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:52.887 D/PowerManagerService(  893): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-13 14:10:52.887 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:52.887 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:52.887 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:52.897 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:52.897 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:52.897 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:52.897 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:52.897 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:52.897 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:52.897 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:52.897 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:52.907 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:52.907 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:52.907 D/PowerManagerService(  893): releaseWakeLockInternal: lock=1108845872 [RILJ], flags=0x0
+05-13 14:10:52.907 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x0
+05-13 14:10:52.907 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:52.907 D/PowerManagerService(  893): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-13 14:10:52.907 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:54.437 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:10:54.437 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:10:54.437 V/WLAN_PSA(  244): NL MSG, len[4046], NL type[0x1C] WNI type[0x5900] len[46607]
+05-13 14:10:54.437 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:54.457 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:10:55.017 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:55.017 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:55.017 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:55.017 D/PowerManagerService(  893): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-13 14:10:55.017 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:55.017 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:55.017 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:55.027 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:55.027 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:55.027 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:55.027 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:55.027 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:55.027 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:55.037 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:55.037 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:55.037 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:55.037 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:55.037 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:55.037 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:55.037 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:55.037 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:55.047 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:55.047 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:55.047 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:55.047 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:55.047 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:55.047 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:55.047 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:55.047 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:55.057 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1108845872, flags=0x1, tag="RILJ", ws=null, uid=1001, pid=1644
+05-13 14:10:55.057 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:55.057 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:55.057 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:55.057 D/PowerManagerService(  893): releaseWakeLockInternal: lock=1108845872 [RILJ], flags=0x0
+05-13 14:10:55.057 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x0
+05-13 14:10:55.067 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:55.067 D/PowerManagerService(  893): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-13 14:10:55.067 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:55.957 D/PowerManagerService(  893): handleUserActivityTimeout
+05-13 14:10:55.967 D/PowerManagerService(  893): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x2, nextTimeout=1479868 (in 5997 ms)
+05-13 14:10:55.967 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=false, newScreenState=1, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x2, mBootCompleted=true
+05-13 14:10:55.967 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:55.967 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=1, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x2, mBootCompleted=true
+05-13 14:10:56.227 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-13 14:10:56.237 D/dalvikvm( 9970): GC_CONCURRENT freed 1907K, 86% free 1151K/8148K, paused 3ms+1ms, total 22ms, dvmtargetUtilize:0.750000
+05-13 14:10:56.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-13 14:10:56.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-13 14:10:57.027 V/kernel  (  390): <3>[ 1475.002260] wlan: [1408:E :PE ] limSendSmeCandidateFoundInd: 2882: posting candidate ind to SME
+05-13 14:10:57.027 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:57.027 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.027 V/WLAN_PSA(  244): NL MSG, len[914], NL type[0x11] WNI type[0x5050] len[894]
+05-13 14:10:57.027 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.027 V/WLAN_PSA(  244): NL MSG, len[4027], NL type[0x1C] WNI type[0x5900] len[41743]
+05-13 14:10:57.027 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.027 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:57.027 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.027 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:57.027 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.047 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:57.047 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.057 V/kernel  (  390): <3>[ 1475.035164] wlan: [1408:E :PE ] limFTInit: Freeing pFTPreAuthReq= e2603c80
+05-13 14:10:57.067 V/kernel  (  390): <3>[ 1475.041702] wlan: [1408:E :PE ] limFTInit: Setting psavedsessionEntry= ecc20000 to NULL
+05-13 14:10:57.067 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:57.067 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.077 V/kernel  (  390): <3>[ 1475.049909] wlan: [1408:E :PE ] limFTInit: Deleting session = ecc215d8 
+05-13 14:10:57.077 V/WLAN_PSA(  244): NL MSG, len[4063], NL type[0x1C] WNI type[0x5900] len[50959]
+05-13 14:10:57.077 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.107 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:57.107 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.147 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:57.147 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.147 V/WLAN_PSA(  244): NL MSG, len[4056], NL type[0x1C] WNI type[0x5900] len[49167]
+05-13 14:10:57.147 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.217 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:57.217 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.227 V/kernel  (  390): <3>[ 1475.199812] wlan: [1408:E :WDA] WDA_ConvertSirAuthToWDIAuth: Unknown Auth Type
+05-13 14:10:57.227 V/WLAN_PSA(  244): NL MSG, len[4070], NL type[0x1C] WNI type[0x5900] len[52751]
+05-13 14:10:57.227 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.237 V/kernel  (  390): <3>[ 1475.209018] wlan: [1408:E :HDD] wlan_hdd_tdls_check_bmps: 1758:  pHddCtx or  pHddTdlsCtx points to NULL
+05-13 14:10:57.247 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:57.247 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.247 V/WLAN_PSA(  244): NL MSG, len[4072], NL type[0x1C] WNI type[0x5900] len[53263]
+05-13 14:10:57.247 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.257 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:57.257 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.257 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:57.257 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.257 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:57.257 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.257 V/WLAN_PSA(  244): NL MSG, len[4028], NL type[0x1C] WNI type[0x5900] len[41999]
+05-13 14:10:57.257 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.317 V/WLAN_PSA(  244): NL MSG, len[4071], NL type[0x1C] WNI type[0x5900] len[53007]
+05-13 14:10:57.317 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.317 V/WLAN_PSA(  244): NL MSG, len[056], NL type[0x11] WNI type[0x5050] len[036]
+05-13 14:10:57.317 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.317 V/WLAN_PSA(  244): NL MSG, len[056], NL type[0x11] WNI type[0x5050] len[036]
+05-13 14:10:57.317 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.337 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:57.337 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.337 V/WLAN_PSA(  244): NL MSG, len[4053], NL type[0x1C] WNI type[0x5900] len[48399]
+05-13 14:10:57.337 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.347 V/kernel  (  390): <6>[ 1475.324881] wlan: 00:18:60:8e:67:06 connected to c0:7b:bc:6b:4a:21
+05-13 14:10:57.357 V/kernel  (  390): <3>[ 1475.330658] wlan: [1408:E :HDD] hdd_SendUpdateBeaconIEsEvent: pCsrRoamInfo->nBeaconFrameLength = 0
+05-13 14:10:57.357 D/wpa_supplicant( 1530): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+05-13 14:10:57.357 D/wpa_supplicant( 1530): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+05-13 14:10:57.357 V/WLAN_PSA(  244): NL MSG, len[021], NL type[0x18] WNI type[0x 66B] len[27499]
+05-13 14:10:57.357 V/WLAN_PSA(  244): NL MSG, PID: 0
+05-13 14:10:57.357 D/wpa_supplicant( 1530): nl80211: if_removed already cleared - ignore event
+05-13 14:10:57.357 D/wpa_supplicant( 1530): nl80211: Event message available
+05-13 14:10:57.357 D/wpa_supplicant( 1530): nl80211: Drv Event 47 (NL80211_CMD_ROAM) received for wlan0
+05-13 14:10:57.357 D/wpa_supplicant( 1530): nl80211: Roam event
+05-13 14:10:57.357 V/WLAN_PSA(  244): NL MSG, len[047], NL type[0x11] WNI type[0x5050] len[027]
+05-13 14:10:57.357 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.357 V/WLAN_PSA(  244): NL MSG, len[4006], NL type[0x1C] WNI type[0x5900] len[36367]
+05-13 14:10:57.357 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.357 D/wpa_supplicant( 1530): nl80211: Associated on 2437 MHz
+05-13 14:10:57.357 D/wpa_supplicant( 1530): nl80211: Associated with c0:7b:bc:6b:4a:21
+05-13 14:10:57.357 D/wpa_supplicant( 1530): nl80211: Operating frequency for the associated BSS from scan results: 2437 MHz
+05-13 14:10:57.357 D/wpa_supplicant( 1530): wlan0: Event ASSOC (0) received
+05-13 14:10:57.357 D/wpa_supplicant( 1530): wlan0: Association info event
+05-13 14:10:57.357 D/wpa_supplicant( 1530): req_ies - hexdump(len=22): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 28 00
+05-13 14:10:57.357 D/wpa_supplicant( 1530): resp_ies - hexdump(len=94): 01 08 82 84 8b 96 0c 12 18 24 32 04 30 48 60 6c 2d 1a ac 11 1b ff ff 00 00 00 00 00 00 00 00 00 ...
+05-13 14:10:57.357 D/wpa_supplicant( 1530): WPA: Unrecognized EAPOL-Key Key Data IE - hexdump(len=24): 3d 16 06 00 05 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+05-13 14:10:57.357 D/wpa_supplicant( 1530): WPA: WMM Parameter Element - hexdump(len=24): 00 50 f2 02 01 01 80 00 03 a4 00 00 27 a4 00 00 42 43 5e 00 62 32 2f 00
+05-13 14:10:57.357 D/wpa_supplicant( 1530): wlan0: freq=2437 MHz
+05-13 14:10:57.357 D/wpa_supplicant( 1530): WPA: set own WPA/RSN IE - hexdump(len=22): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 28 00
+05-13 14:10:57.357 D/wpa_supplicant( 1530): FT: Stored MDIE and FTIE from (Re)Association Response - hexdump(len=0):
+05-13 14:10:57.357 D/wpa_supplicant( 1530): Operating frequency changed from 2462 to 2437 MHz
+05-13 14:10:57.357 D/wpa_supplicant( 1530): nl80211: Associated on 2437 MHz
+05-13 14:10:57.357 D/wpa_supplicant( 1530): nl80211: Associated with c0:7b:bc:6b:4a:21
+05-13 14:10:57.357 D/wpa_supplicant( 1530): nl80211: Received scan results (1 BSSes)
+05-13 14:10:57.357 D/wpa_supplicant( 1530): nl80211: Survey data missing
+05-13 14:10:57.357 D/wpa_supplicant( 1530): nl80211: Scan results indicate BSS status with c0:7b:bc:6b:4a:21 as associated
+05-13 14:10:57.357 D/wpa_supplicant( 1530): wlan0: BSS: Start scan result update 76
+05-13 14:10:57.357 D/wpa_supplicant( 1530): wlan0: BSS: Add new id 262 BSSID c0:7b:bc:6b:4a:21 SSID 'Smartisan-Guest'
+05-13 14:10:57.357 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:57.367 D/wpa_supplicant( 1530): wlan0: State: COMPLETED -> ASSOCIATED
+05-13 14:10:57.367 D/wpa_supplicant( 1530): wpa_driver_nl80211_set_operstate: operstate 1->0 (DORMANT)
+05-13 14:10:57.367 D/wpa_supplicant( 1530): netlink: Operstate: linkmode=-1, operstate=5
+05-13 14:10:57.367 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:57.367 D/wpa_supplicant( 1530): wlan0: Associated to a new BSS: BSSID=c0:7b:bc:6b:4a:21
+05-13 14:10:57.367 D/wpa_supplicant( 1530): wpa_driver_nl80211_set_key: ifindex=22 (wlan0) alg=0 addr=0x0 key_idx=0 set_tx=0 seq_len=0 key_len=0
+05-13 14:10:57.367 D/wpa_supplicant( 1530): wpa_driver_nl80211_set_key: ifindex=22 (wlan0) alg=0 addr=0x0 key_idx=1 set_tx=0 seq_len=0 key_len=0
+05-13 14:10:57.367 D/wpa_supplicant( 1530): wpa_driver_nl80211_set_key: ifindex=22 (wlan0) alg=0 addr=0x0 key_idx=2 set_tx=0 seq_len=0 key_len=0
+05-13 14:10:57.367 D/wpa_supplicant( 1530): wpa_driver_nl80211_set_key: ifindex=22 (wlan0) alg=0 addr=0x0 key_idx=3 set_tx=0 seq_len=0 key_len=0
+05-13 14:10:57.367 I/PPPOEService(  893): NetdCallbackReceiver onEvent 600600 Iface linkstate wlan0 up
+05-13 14:10:57.367 D/wpa_supplicant( 1530): wpa_driver_nl80211_set_key: ifindex=22 (wlan0) alg=0 addr=0x0 key_idx=4 set_tx=0 seq_len=0 key_len=0
+05-13 14:10:57.367 I/PPPOEService(  893): NetdCallbackReceiver onEvent 600600 Iface linkstate wlan0 up
+05-13 14:10:57.367 D/wpa_supplicant( 1530): wpa_driver_nl80211_set_key: ifindex=22 (wlan0) alg=0 addr=0x0 key_idx=5 set_tx=0 seq_len=0 key_len=0
+05-13 14:10:57.367 D/wpa_supplicant( 1530): wpa_driver_nl80211_set_key: ifindex=22 (wlan0) alg=0 addr=0xbe8b8050 key_idx=0 set_tx=0 seq_len=0 key_len=0
+05-13 14:10:57.367 D/wpa_supplicant( 1530):    addr=c0:7b:bc:6b:4a:21
+05-13 14:10:57.377 D/wpa_supplicant( 1530): wlan0: WPA: clearing AP WPA IE
+05-13 14:10:57.377 D/wpa_supplicant( 1530): WPA: set AP RSN IE - hexdump(len=22): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 28 00
+05-13 14:10:57.377 I/wpa_supplicant( 1530): wlan0: Associated with c0:7b:bc:6b:4a:21
+05-13 14:10:57.377 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:57.377 D/wpa_supplicant( 1530): wlan0: WPA: Association event - clear replay counter
+05-13 14:10:57.377 D/wpa_supplicant( 1530): wlan0: WPA: Clear old PTK
+05-13 14:10:57.377 D/wpa_supplicant( 1530): TDLS: Remove peers on association
+05-13 14:10:57.377 D/wpa_supplicant( 1530): EAPOL: External notification - portEnabled=0
+05-13 14:10:57.377 D/wpa_supplicant( 1530): EAPOL: SUPP_PAE entering state DISCONNECTED
+05-13 14:10:57.377 D/wpa_supplicant( 1530): EAPOL: Supplicant port status: Unauthorized
+05-13 14:10:57.377 D/wpa_supplicant( 1530): nl80211: Set supplicant port unauthorized for c0:7b:bc:6b:4a:21
+05-13 14:10:57.377 D/wpa_supplicant( 1530): EAPOL: SUPP_BE entering state INITIALIZE
+05-13 14:10:57.377 D/wpa_supplicant( 1530): EAPOL: Supplicant port status: Unauthorized
+05-13 14:10:57.377 D/wpa_supplicant( 1530): nl80211: Set supplicant port unauthorized for c0:7b:bc:6b:4a:21
+05-13 14:10:57.377 D/wpa_supplicant( 1530): EAPOL: External notification - portValid=0
+05-13 14:10:57.377 D/wpa_supplicant( 1530): EAPOL: Supplicant port status: Unauthorized
+05-13 14:10:57.377 D/wpa_supplicant( 1530): nl80211: Set supplicant port unauthorized for c0:7b:bc:6b:4a:21
+05-13 14:10:57.377 D/wpa_supplicant( 1530): EAPOL: External notification - EAP success=0
+05-13 14:10:57.377 D/wpa_supplicant( 1530): EAPOL: Supplicant port status: Unauthorized
+05-13 14:10:57.377 D/wpa_supplicant( 1530): nl80211: Set supplicant port unauthorized for c0:7b:bc:6b:4a:21
+05-13 14:10:57.377 D/wpa_supplicant( 1530): EAPOL: External notification - portEnabled=1
+05-13 14:10:57.377 D/wpa_supplicant( 1530): EAPOL: SUPP_PAE entering state CONNECTING
+05-13 14:10:57.377 D/wpa_supplicant( 1530): EAPOL: enable timer tick
+05-13 14:10:57.377 D/wpa_supplicant( 1530): EAPOL: SUPP_BE entering state IDLE
+05-13 14:10:57.377 D/wpa_supplicant( 1530): wlan0: Setting authentication timeout: 10 sec 0 usec
+05-13 14:10:57.377 D/wpa_supplicant( 1530): wlan0: Cancelling scan request
+05-13 14:10:57.377 D/wpa_supplicant( 1530): wlan0: P2P: Station mode scan operation not pending anymore (sta_scan_pending=0 p2p_cb_on_scan_complete=0)
+05-13 14:10:57.377 D/wpa_supplicant( 1530): RTM_NEWLINK: operstate=0 ifi_flags=0x11003 ([UP][LOWER_UP])
+05-13 14:10:57.377 D/wpa_supplicant( 1530): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+05-13 14:10:57.377 D/wpa_supplicant( 1530): nl80211: if_removed already cleared - ignore event
+05-13 14:10:57.377 D/wpa_supplicant( 1530): wlan0: RX EAPOL from c0:7b:bc:6b:4a:21
+05-13 14:10:57.377 D/wpa_supplicant( 1530): RX EAPOL - hexdump(len=121): 02 03 00 75 02 00 8a 00 10 00 00 00 00 00 00 00 00 ae 0e ef c8 bf 5e 46 88 45 ed e6 44 e3 e5 49 ...
+05-13 14:10:57.377 D/wpa_supplicant( 1530): wlan0: Setting authentication timeout: 10 sec 0 usec
+05-13 14:10:57.377 D/wpa_supplicant( 1530): wlan0: IEEE 802.1X RX: version=2 type=3 length=117
+05-13 14:10:57.377 D/wpa_supplicant( 1530): wlan0:   EAPOL-Key type=2
+05-13 14:10:57.377 D/wpa_supplicant( 1530): wlan0:   key_info 0x8a (ver=2 keyidx=0 rsvd=0 Pairwise Ack)
+05-13 14:10:57.377 D/wpa_supplicant( 1530): wlan0:   key_length=16 key_data_length=22
+05-13 14:10:57.377 D/wpa_supplicant( 1530):   replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 00
+05-13 14:10:57.377 D/wpa_supplicant( 1530):   key_nonce - hexdump(len=32): ae 0e ef c8 bf 5e 46 88 45 ed e6 44 e3 e5 49 93 42 53 9b a8 7c 3e b4 c1 be 5b 98 ac b2 f6 ac 88
+05-13 14:10:57.377 D/wpa_supplicant( 1530):   key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+05-13 14:10:57.377 D/wpa_supplicant( 1530):   key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+05-13 14:10:57.377 D/wpa_supplicant( 1530):   key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+05-13 14:10:57.377 D/wpa_supplicant( 1530):   key_mic - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+05-13 14:10:57.377 D/wpa_supplicant( 1530): WPA: RX EAPOL-Key - hexdump(len=121): 02 03 00 75 02 00 8a 00 10 00 00 00 00 00 00 00 00 ae 0e ef c8 bf 5e 46 88 45 ed e6 44 e3 e5 49 ...
+05-13 14:10:57.377 D/wpa_supplicant( 1530): wlan0: State: ASSOCIATED -> 4WAY_HANDSHAKE
+05-13 14:10:57.377 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:57.377 D/wpa_supplicant( 1530): wlan0: WPA: RX message 1 of 4-Way Handshake from c0:7b:bc:6b:4a:21 (ver=2)
+05-13 14:10:57.377 D/wpa_supplicant( 1530): RSN: msg 1/4 key data - hexdump(len=22): dd 14 00 0f ac 04 e2 5c ec f0 98 92 fb ca 87 52 56 76 91 3c ca e7
+05-13 14:10:57.377 D/wpa_supplicant( 1530): WPA: PMKID in EAPOL-Key - hexdump(len=22): dd 14 00 0f ac 04 e2 5c ec f0 98 92 fb ca 87 52 56 76 91 3c ca e7
+05-13 14:10:57.377 D/wpa_supplicant( 1530): RSN: PMKID from Authenticator - hexdump(len=16): e2 5c ec f0 98 92 fb ca 87 52 56 76 91 3c ca e7
+05-13 14:10:57.377 D/wpa_supplicant( 1530): wlan0: RSN: no matching PMKID found
+05-13 14:10:57.377 D/wpa_supplicant( 1530): Get randomness: len=32 entropy=699
+05-13 14:10:57.387 D/wpa_supplicant( 1530): WPA: Renewed SNonce - hexdump(len=32): 72 d0 67 16 d5 af 61 43 e6 dc 8a 07 b5 04 d3 bc 7a d0 1c 7b 6a f4 c9 72 97 08 31 c3 20 97 c7 d8
+05-13 14:10:57.387 D/wpa_supplicant( 1530): WPA: PTK derivation - A1=00:18:60:8e:67:06 A2=c0:7b:bc:6b:4a:21
+05-13 14:10:57.387 D/wpa_supplicant( 1530): WPA: Nonce1 - hexdump(len=32): 72 d0 67 16 d5 af 61 43 e6 dc 8a 07 b5 04 d3 bc 7a d0 1c 7b 6a f4 c9 72 97 08 31 c3 20 97 c7 d8
+05-13 14:10:57.387 D/wpa_supplicant( 1530): WPA: Nonce2 - hexdump(len=32): ae 0e ef c8 bf 5e 46 88 45 ed e6 44 e3 e5 49 93 42 53 9b a8 7c 3e b4 c1 be 5b 98 ac b2 f6 ac 88
+05-13 14:10:57.387 D/wpa_supplicant( 1530): WPA: PMK - hexdump(len=32): [REMOVED]
+05-13 14:10:57.387 D/wpa_supplicant( 1530): WPA: PTK - hexdump(len=48): [REMOVED]
+05-13 14:10:57.387 D/wpa_supplicant( 1530): WPA: WPA IE for msg 2/4 - hexdump(len=22): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 28 00
+05-13 14:10:57.387 D/wpa_supplicant( 1530): WPA: Replay Counter - hexdump(len=8): 00 00 00 00 00 00 00 00
+05-13 14:10:57.387 D/wpa_supplicant( 1530): wlan0: WPA: Sending EAPOL-Key 2/4
+05-13 14:10:57.387 D/wpa_supplicant( 1530): WPA: KCK - hexdump(len=16): [REMOVED]
+05-13 14:10:57.387 D/wpa_supplicant( 1530): WPA: Derived Key MIC - hexdump(len=16): 37 c2 41 57 6e 1d 9b 6e a6 57 ae 0b ae b8 d6 9b
+05-13 14:10:57.387 D/wpa_supplicant( 1530): WPA: TX EAPOL-Key - hexdump(len=121): 01 03 00 75 02 01 0a 00 00 00 00 00 00 00 00 00 00 72 d0 67 16 d5 af 61 43 e6 dc 8a 07 b5 04 d3 ...
+05-13 14:10:57.397 D/wpa_supplicant( 1530): wlan0: RX EAPOL from c0:7b:bc:6b:4a:21
+05-13 14:10:57.397 D/wpa_supplicant( 1530): RX EAPOL - hexdump(len=155): 02 03 00 97 02 13 ca 00 10 00 00 00 00 00 00 00 01 ae 0e ef c8 bf 5e 46 88 45 ed e6 44 e3 e5 49 ...
+05-13 14:10:57.397 D/wpa_supplicant( 1530): wlan0: IEEE 802.1X RX: version=2 type=3 length=151
+05-13 14:10:57.397 D/wpa_supplicant( 1530): wlan0:   EAPOL-Key type=2
+05-13 14:10:57.397 D/wpa_supplicant( 1530): wlan0:   key_info 0x13ca (ver=2 keyidx=0 rsvd=0 Pairwise Install Ack MIC Secure Encr)
+05-13 14:10:57.397 D/wpa_supplicant( 1530): wlan0:   key_length=16 key_data_length=56
+05-13 14:10:57.397 D/wpa_supplicant( 1530):   replay_counter - hexdump(len=8): 00 00 00 00 00 00 00 01
+05-13 14:10:57.397 D/wpa_supplicant( 1530):   key_nonce - hexdump(len=32): ae 0e ef c8 bf 5e 46 88 45 ed e6 44 e3 e5 49 93 42 53 9b a8 7c 3e b4 c1 be 5b 98 ac b2 f6 ac 88
+05-13 14:10:57.397 D/wpa_supplicant( 1530):   key_iv - hexdump(len=16): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+05-13 14:10:57.397 D/wpa_supplicant( 1530):   key_rsc - hexdump(len=8): 00 00 00 00 00 00 00 00
+05-13 14:10:57.397 D/wpa_supplicant( 1530):   key_id (reserved) - hexdump(len=8): 00 00 00 00 00 00 00 00
+05-13 14:10:57.397 D/wpa_supplicant( 1530):   key_mic - hexdump(len=16): 98 5e 10 83 1a 19 37 25 50 3e 70 b1 57 0c e5 03
+05-13 14:10:57.397 D/wpa_supplicant( 1530): WPA: RX EAPOL-Key - hexdump(len=155): 02 03 00 97 02 13 ca 00 10 00 00 00 00 00 00 00 01 ae 0e ef c8 bf 5e 46 88 45 ed e6 44 e3 e5 49 ...
+05-13 14:10:57.397 D/wpa_supplicant( 1530): RSN: encrypted key data - hexdump(len=56): 8f 56 93 1a bd f6 fb 9e 1d 17 90 c9 f5 93 ff 63 86 74 04 80 63 b3 a5 eb 93 17 17 e5 2a ff 2b ec ...
+05-13 14:10:57.397 D/wpa_supplicant( 1530): WPA: decrypted EAPOL-Key key data - hexdump(len=48): [REMOVED]
+05-13 14:10:57.397 D/wpa_supplicant( 1530): wlan0: State: 4WAY_HANDSHAKE -> 4WAY_HANDSHAKE
+05-13 14:10:57.397 D/wpa_supplicant( 1530): wlan0: WPA: RX message 3 of 4-Way Handshake from c0:7b:bc:6b:4a:21 (ver=2)
+05-13 14:10:57.397 D/wpa_supplicant( 1530): WPA: IE KeyData - hexdump(len=48): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 28 00 dd 16 00 0f ac 01 01 00 98 70 ...
+05-13 14:10:57.397 D/wpa_supplicant( 1530): WPA: RSN IE in EAPOL-Key - hexdump(len=22): 30 14 01 00 00 0f ac 04 01 00 00 0f ac 04 01 00 00 0f ac 02 28 00
+05-13 14:10:57.397 D/wpa_supplicant( 1530): WPA: GTK in EAPOL-Key - hexdump(len=24): [REMOVED]
+05-13 14:10:57.397 D/wpa_supplicant( 1530): wlan0: WPA: Sending EAPOL-Key 4/4
+05-13 14:10:57.397 D/wpa_supplicant( 1530): WPA: KCK - hexdump(len=16): [REMOVED]
+05-13 14:10:57.397 D/wpa_supplicant( 1530): WPA: Derived Key MIC - hexdump(len=16): 7e aa a0 51 8e bd b0 0e e6 73 3e 37 e1 2b 41 ce
+05-13 14:10:57.397 D/wpa_supplicant( 1530): WPA: TX EAPOL-Key - hexdump(len=99): 01 03 00 5f 02 03 0a 00 00 00 00 00 00 00 00 00 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ...
+05-13 14:10:57.397 D/wpa_supplicant( 1530): wlan0: WPA: Installing PTK to the driver
+05-13 14:10:57.397 D/wpa_supplicant( 1530): wpa_driver_nl80211_set_key: ifindex=22 (wlan0) alg=3 addr=0xb723b830 key_idx=0 set_tx=1 seq_len=6 key_len=16
+05-13 14:10:57.397 D/wpa_supplicant( 1530):    addr=c0:7b:bc:6b:4a:21
+05-13 14:10:57.397 V/WLAN_PSA(  244): NL MSG, len[4022], NL type[0x1C] WNI type[0x5900] len[40463]
+05-13 14:10:57.397 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.407 V/kernel  (  390): <3>[ 1475.384507] wlan: [1530:E :SME] sme_FTUpdateKey: Unhandled state=3
+05-13 14:10:57.407 V/WLAN_PSA(  244): NL MSG, len[045], NL type[0x11] WNI type[0x5050] len[025]
+05-13 14:10:57.407 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.407 D/wpa_supplicant( 1530): EAPOL: External notification - portValid=1
+05-13 14:10:57.407 D/wpa_supplicant( 1530): wlan0: State: 4WAY_HANDSHAKE -> GROUP_HANDSHAKE
+05-13 14:10:57.407 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:57.407 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:57.407 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.407 D/wpa_supplicant( 1530): RSN: received GTK in pairwise handshake - hexdump(len=18): [REMOVED]
+05-13 14:10:57.407 D/wpa_supplicant( 1530): WPA: Group Key - hexdump(len=16): [REMOVED]
+05-13 14:10:57.407 D/wpa_supplicant( 1530): wlan0: WPA: Installing GTK to the driver (keyidx=1 tx=0 len=16)
+05-13 14:10:57.407 D/wpa_supplicant( 1530): WPA: RSC - hexdump(len=6): 00 00 00 00 00 00
+05-13 14:10:57.407 D/wpa_supplicant( 1530): wpa_driver_nl80211_set_key: ifindex=22 (wlan0) alg=3 addr=0xb6eee75d key_idx=1 set_tx=0 seq_len=6 key_len=16
+05-13 14:10:57.407 D/wpa_supplicant( 1530):    broadcast key
+05-13 14:10:57.407 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:57.407 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.407 V/WLAN_PSA(  244): NL MSG, len[4043], NL type[0x1C] WNI type[0x5900] len[45839]
+05-13 14:10:57.407 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.417 V/kernel  (  390): <3>[ 1475.392869] wlan: [1530:E :SME] sme_FTUpdateKey: Unhandled state=3
+05-13 14:10:57.417 V/WLAN_PSA(  244): NL MSG, len[045], NL type[0x11] WNI type[0x5050] len[025]
+05-13 14:10:57.417 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.417 I/wpa_supplicant( 1530): wlan0: WPA: Key negotiation completed with c0:7b:bc:6b:4a:21 [PTK=CCMP GTK=CCMP]
+05-13 14:10:57.417 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:57.417 D/wpa_supplicant( 1530): wlan0: Cancelling authentication timeout
+05-13 14:10:57.417 D/wpa_supplicant( 1530): wlan0: State: GROUP_HANDSHAKE -> COMPLETED
+05-13 14:10:57.417 I/wpa_supplicant( 1530): wlan0: CTRL-EVENT-CONNECTED - Connection to c0:7b:bc:6b:4a:21 completed (auth) [id=0 id_str=]
+05-13 14:10:57.417 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:57.417 D/wpa_supplicant( 1530): wpa_driver_nl80211_set_operstate: operstate 0->1 (UP)
+05-13 14:10:57.417 D/wpa_supplicant( 1530): netlink: Operstate: linkmode=-1, operstate=6
+05-13 14:10:57.417 V/WLAN_PSA(  244): NL MSG, len[045], NL type[0x11] WNI type[0x5050] len[025]
+05-13 14:10:57.417 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.417 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:57.417 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.417 V/WLAN_PSA(  244): NL MSG, len[4041], NL type[0x1C] WNI type[0x5900] len[45327]
+05-13 14:10:57.417 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.417 D/wpa_supplicant( 1530): wlan0: P2P: Station mode scan operation not pending anymore (sta_scan_pending=0 p2p_cb_on_scan_complete=0)
+05-13 14:10:57.417 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:57.417 D/wpa_supplicant( 1530): EAPOL: External notification - portValid=1
+05-13 14:10:57.417 D/wpa_supplicant( 1530): EAPOL: External notification - EAP success=1
+05-13 14:10:57.417 D/wpa_supplicant( 1530): EAPOL: SUPP_PAE entering state AUTHENTICATING
+05-13 14:10:57.417 D/wpa_supplicant( 1530): EAPOL: SUPP_BE entering state SUCCESS
+05-13 14:10:57.417 D/wpa_supplicant( 1530): EAPOL: SUPP_PAE entering state AUTHENTICATED
+05-13 14:10:57.417 D/wpa_supplicant( 1530): EAPOL: Supplicant port status: Authorized
+05-13 14:10:57.417 D/wpa_supplicant( 1530): nl80211: Set supplicant port authorized for c0:7b:bc:6b:4a:21
+05-13 14:10:57.417 D/wpa_supplicant( 1530): EAPOL: SUPP_BE entering state IDLE
+05-13 14:10:57.417 D/wpa_supplicant( 1530): EAPOL authentication completed successfully
+05-13 14:10:57.417 D/wpa_supplicant( 1530): RTM_NEWLINK: operstate=1 ifi_flags=0x11043 ([UP][RUNNING][LOWER_UP])
+05-13 14:10:57.417 D/wpa_supplicant( 1530): RTM_NEWLINK, IFLA_IFNAME: Interface 'wlan0' added
+05-13 14:10:57.417 I/PPPOEService(  893): NetdCallbackReceiver onEvent 600600 Iface linkstate wlan0 up
+05-13 14:10:57.417 D/wpa_supplicant( 1530): nl80211: if_removed already cleared - ignore event
+05-13 14:10:57.417 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:57.417 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.417 V/WLAN_PSA(  244): NL MSG, len[045], NL type[0x11] WNI type[0x5050] len[025]
+05-13 14:10:57.417 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.427 V/WLAN_PSA(  244): NL MSG, len[4027], NL type[0x1C] WNI type[0x5900] len[41743]
+05-13 14:10:57.427 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.457 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:10:57.457 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:10:57.457 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:10:57.567 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:57.567 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:57.837 D/VM_BMS  (  373): wake_lock acquired
+05-13 14:10:57.837 D/VM_BMS  (  373): New BMS data - Size=56
+05-13 14:10:57.837 D/VM_BMS  (  373): Start process_bms_data
+05-13 14:10:57.847 D/VM_BMS  (  373): For batt_temp=292 fcc_mah=2994
+05-13 14:10:57.847 D/VM_BMS  (  373): For ocv=4265111 batt_temp=292 soc=92
+05-13 14:10:57.847 D/VM_BMS  (  373): fifo_count=5 acc_count=0
+05-13 14:10:57.847 D/VM_BMS  (  373): INIT: ocv=4265111 last_ocv=4265111 batt_temp=292 soc=92
+05-13 14:10:57.847 D/VM_BMS  (  373): For soc=92 batt_temp=292 slope=11600
+05-13 14:10:57.847 D/VM_BMS  (  373): For soc=92 batt_temp=292 rbatt_sf=95
+05-13 14:10:57.847 D/VM_BMS  (  373): rbatt_mohm_default=146, rbatt_mohm=138, sf=95 batt_temp=292
+05-13 14:10:57.847 D/VM_BMS  (  373): For ocv=4265145 batt_temp=292 soc=92
+05-13 14:10:57.847 D/VM_BMS  (  373): FIFO=0 fifo_avg=4.273635 rbatt=0.138000 slope=1.160000 ibatt=-0.061645 ocv=4.265145 soc=92 fcc_ah=2.994000 sample_count=128 sample_interval=40 seq_num=51
+05-13 14:10:57.847 D/VM_BMS  (  373): For soc=92 batt_temp=292 slope=11600
+05-13 14:10:57.847 D/VM_BMS  (  373): For soc=92 batt_temp=292 rbatt_sf=95
+05-13 14:10:57.847 D/VM_BMS  (  373): rbatt_mohm_default=146, rbatt_mohm=138, sf=95 batt_temp=292
+05-13 14:10:57.847 D/VM_BMS  (  373): For ocv=4265010 batt_temp=292 soc=92
+05-13 14:10:57.847 D/VM_BMS  (  373): FIFO=1 fifo_avg=4.231371 rbatt=0.138000 slope=1.160000 ibatt=0.244251 ocv=4.265010 soc=92 fcc_ah=2.994000 sample_count=128 sample_interval=40 seq_num=51
+05-13 14:10:57.847 D/VM_BMS  (  373): For soc=92 batt_temp=292 slope=11600
+05-13 14:10:57.847 D/VM_BMS  (  373): For soc=92 batt_temp=292 rbatt_sf=95
+05-13 14:10:57.847 D/VM_BMS  (  373): rbatt_mohm_default=146, rbatt_mohm=138, sf=95 batt_temp=292
+05-13 14:10:57.847 D/VM_BMS  (  373): For ocv=4265017 batt_temp=292 soc=92
+05-13 14:10:57.847 D/VM_BMS  (  373): FIFO=2 fifo_avg=4.266885 rbatt=0.138000 slope=1.160000 ibatt=-0.013559 ocv=4.265018 soc=92 fcc_ah=2.994000 sample_count=128 sample_interval=40 seq_num=51
+05-13 14:10:57.847 D/VM_BMS  (  373): For soc=92 batt_temp=292 slope=11600
+05-13 14:10:57.847 D/VM_BMS  (  373): For soc=92 batt_temp=292 rbatt_sf=95
+05-13 14:10:57.847 D/VM_BMS  (  373): rbatt_mohm_default=146, rbatt_mohm=138, sf=95 batt_temp=292
+05-13 14:10:57.847 D/VM_BMS  (  373): For ocv=4265064 batt_temp=292 soc=92
+05-13 14:10:57.847 D/VM_BMS  (  373): FIFO=3 fifo_avg=4.276863 rbatt=0.138000 slope=1.160000 ibatt=-0.085670 ocv=4.265064 soc=92 fcc_ah=2.994000 sample_count=128 sample_interval=40 seq_num=51
+05-13 14:10:57.847 D/VM_BMS  (  373): For soc=92 batt_temp=292 slope=11600
+05-13 14:10:57.847 D/VM_BMS  (  373): For soc=92 batt_temp=292 rbatt_sf=95
+05-13 14:10:57.847 D/VM_BMS  (  373): rbatt_mohm_default=146, rbatt_mohm=138, sf=95 batt_temp=292
+05-13 14:10:57.847 D/VM_BMS  (  373): For ocv=4265122 batt_temp=292 soc=92
+05-13 14:10:57.847 D/VM_BMS  (  373): FIFO=4 fifo_avg=4.279800 rbatt=0.138000 slope=1.160000 ibatt=-0.106571 ocv=4.265122 soc=92 fcc_ah=2.994000 sample_count=128 sample_interval=40 seq_num=51
+05-13 14:10:57.847 I/VM_BMS  (  373): power_supply_update: ocv_uv=4265122 ibatt=-106571 soc=92 seq_num=51
+05-13 14:10:57.847 D/VM_BMS  (  373): End process_bms_data
+05-13 14:10:57.847 D/VM_BMS  (  373): wake_lock released
+05-13 14:10:58.047 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:58.047 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:58.057 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:58.057 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:58.067 V/kernel  (  390): <6>[ 1475.339672] wlan(6) c0:7b:bc:6b:4a:21 Standalone
+05-13 14:10:58.067 V/kernel  (  390): <3>[ 1476.039025] wlan: [1408:E :SME] sme_QosPmcDeviceStateUpdateInd: 7384: nothing to process in PMC state BMPS (6)
+05-13 14:10:58.067 V/kernel  (  390): <3>[ 1476.048187] wlan: [1408:E :TL ]  ----> CRegion 0, hRSSI 0, Alpha 5
+05-13 14:10:58.377 D/wpa_supplicant( 1530): EAPOL: startWhen --> 0
+05-13 14:10:58.377 D/wpa_supplicant( 1530): EAPOL: disable timer tick
+05-13 14:10:59.297 D/PowerManagerService(  893): userActivityNoUpdateLocked: eventTime=1477206, event=2, flags=0x0, uid=1000
+05-13 14:10:59.307 D/PowerManagerService(  893): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=1482208 (in 4998 ms)
+05-13 14:10:59.307 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=false, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:59.307 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:10:59.307 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:59.827 D/StatusBar.MSimNetworkController( 1416): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 30 0 2147483647 2147483647 gsm|lte level=4
+05-13 14:10:59.827 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength: subscription =0
+05-13 14:10:59.827 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength iconList = [I@420d31a0iconLevel = 5 mInetCondition = 0
+05-13 14:10:59.827 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:10:59.827 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:10:59.837 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:10:59.847 D/StatusBar.MSimNetworkController( 1416): onSignalStrengthsChanged received on subscription :1signalStrength=SignalStrength: 8 0 2147483647 2147483647 gsm|lte level=2
+05-13 14:10:59.847 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength: subscription =1
+05-13 14:10:59.847 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength iconList = [I@420d32a0iconLevel = 3 mInetCondition = 0
+05-13 14:10:59.847 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =1mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:10:59.847 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 1
+05-13 14:10:59.857 D/skia    ( 1416): Decoder Format : PNG
+05-13 14:10:59.857 D/skia    ( 1416): call decode 
+05-13 14:10:59.857 D/skia    ( 1416): Start onDecode 
+05-13 14:10:59.857 D/skia    ( 1416): End onDecode 
+05-13 14:10:59.857 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=2 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f02018d mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f02018d mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:10:59.877 W/ActivityManager(  893): ActivityManagerService, registerReceiver, caller == android.app.ApplicationThreadProxy@420f17a8
+05-13 14:10:59.877 W/ActivityManager(  893): ActivityManagerService, registerReceiver, callerApp == ProcessRecord{42132c50 2919:com.sina.weibo:remote/u0a103}
+05-13 14:10:59.887 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=14): 53 43 41 4e 20 54 59 50 45 3d 4f 4e 4c 59
+05-13 14:10:59.887 D/wpa_supplicant( 1530): wlan0: Control interface command 'SCAN TYPE=ONLY'
+05-13 14:10:59.887 D/wpa_supplicant( 1530): wlan0: Setting scan request: 0 sec 0 usec
+05-13 14:10:59.887 D/wpa_supplicant( 1530): wlan0: Starting AP scan for wildcard SSID
+05-13 14:10:59.887 D/wpa_supplicant( 1530): wlan0: nl80211: scan request
+05-13 14:10:59.887 D/wpa_supplicant( 1530): nl80211: Scan SSID - hexdump(len=0): [NULL]
+05-13 14:10:59.887 V/WLAN_PSA(  244): NL MSG, len[4031], NL type[0x1C] WNI type[0x5900] len[42767]
+05-13 14:10:59.887 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:59.887 D/wpa_supplicant( 1530): Scan requested (ret=0) - scan timeout 30 seconds
+05-13 14:10:59.887 V/WLAN_PSA(  244): NL MSG, len[914], NL type[0x11] WNI type[0x5050] len[894]
+05-13 14:10:59.887 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:59.887 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:10:59.887 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:59.887 D/wpa_supplicant( 1530): nl80211: Event message available
+05-13 14:10:59.887 D/wpa_supplicant( 1530): nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+05-13 14:10:59.887 D/wpa_supplicant( 1530): wlan0: nl80211: Scan trigger
+05-13 14:10:59.887 D/wpa_supplicant( 1530): wlan0: Event SCAN_STARTED (57) received
+05-13 14:10:59.887 D/wpa_supplicant( 1530): wlan0: Own scan request started a scan
+05-13 14:10:59.887 I/wpa_supplicant( 1530): wlan0: CTRL-EVENT-SCAN-STARTED 
+05-13 14:10:59.887 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:10:59.907 V/WLAN_PSA(  244): NL MSG, len[4044], NL type[0x1C] WNI type[0x5900] len[46095]
+05-13 14:10:59.907 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:10:59.997 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1110579912, flags=0x1, tag="AlarmManager", ws=WorkSource{1000}, uid=1000, pid=893
+05-13 14:10:59.997 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:10:59.997 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:10:59.997 D/PowerManagerService(  893): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-13 14:11:00.007 V/WLAN_PSA(  244): NL MSG, len[4080], NL type[0x1C] WNI type[0x5900] len[55311]
+05-13 14:11:00.007 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:00.007 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:11:00.007 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1118893984, flags=0x1, tag="PushService", ws=null, uid=10103, pid=2919
+05-13 14:11:00.007 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:11:00.007 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:11:00.007 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:11:00.037 D/PowerManagerService(  893): updateWakeLockWorkSourceInternal: lock=1110579912 [AlarmManager], ws=WorkSource{10103}
+05-13 14:11:00.057 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:11:00.057 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:11:00.057 D/PowerManagerService(  893): releaseWakeLockInternal: lock=1118893984 [PushService], flags=0x0
+05-13 14:11:00.057 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:11:00.057 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:11:00.067 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:11:00.067 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:11:00.067 D/PowerManagerService(  893): releaseWakeLockInternal: lock=1110579912 [AlarmManager], flags=0x0
+05-13 14:11:00.067 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x0
+05-13 14:11:00.067 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:11:00.067 D/PowerManagerService(  893): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-13 14:11:00.067 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:11:00.107 V/WLAN_PSA(  244): NL MSG, len[4014], NL type[0x1C] WNI type[0x5900] len[38415]
+05-13 14:11:00.107 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:00.227 V/WLAN_PSA(  244): NL MSG, len[4018], NL type[0x1C] WNI type[0x5900] len[39439]
+05-13 14:11:00.227 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:00.347 V/WLAN_PSA(  244): NL MSG, len[4001], NL type[0x1C] WNI type[0x5900] len[35087]
+05-13 14:11:00.347 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:00.397 V/WLAN_PSA(  244): NL MSG, len[914], NL type[0x11] WNI type[0x5050] len[894]
+05-13 14:11:00.397 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:00.397 V/WLAN_PSA(  244): NL MSG, len[4007], NL type[0x1C] WNI type[0x5900] len[36623]
+05-13 14:11:00.397 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:00.397 V/WLAN_PSA(  244): NL MSG, len[3974], NL type[0x1C] WNI type[0x5900] len[28175]
+05-13 14:11:00.397 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:00.407 D/wpa_supplicant( 1530): nl80211: Event message available
+05-13 14:11:00.407 D/wpa_supplicant( 1530): nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+05-13 14:11:00.407 D/wpa_supplicant( 1530): wlan0: nl80211: New scan results available
+05-13 14:11:00.407 D/wpa_supplicant( 1530): wlan0: Event SCAN_RESULTS (3) received
+05-13 14:11:00.407 D/wpa_supplicant( 1530): nl80211: Associated on 2437 MHz
+05-13 14:11:00.407 D/wpa_supplicant( 1530): nl80211: Associated with c0:7b:bc:6b:4a:21
+05-13 14:11:00.407 D/wpa_supplicant( 1530): nl80211: Received scan results (13 BSSes)
+05-13 14:11:00.407 D/wpa_supplicant( 1530): nl80211: Survey data missing
+05-13 14:11:00.407 D/wpa_supplicant( 1530): nl80211: Scan results indicate BSS status with c0:7b:bc:6b:4a:21 as associated
+05-13 14:11:00.407 D/wpa_supplicant( 1530): wlan0: BSS: Start scan result update 77
+05-13 14:11:00.407 D/wpa_supplicant( 1530): wlan0: BSS: Add new id 263 BSSID c0:7b:bc:f0:22:61 SSID 'Smartisan-Guest'
+05-13 14:11:00.407 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:00.407 D/wpa_supplicant( 1530): wlan0: BSS: Add new id 264 BSSID c0:7b:bc:f0:22:67 SSID 'smcc'
+05-13 14:11:00.407 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:00.407 D/wpa_supplicant( 1530): wlan0: BSS: Add new id 265 BSSID 00:26:7a:21:a4:88 SSID 'CMCC-WEB'
+05-13 14:11:00.407 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:00.407 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 255 BSSID c0:7b:bc:6b:86:42 SSID 'SmartisanHW' due to no match in scan
+05-13 14:11:00.407 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:00.407 D/wpa_supplicant( 1530): BSS: last_scan_res_used=13/64 last_scan_full=0
+05-13 14:11:00.407 D/wpa_supplicant( 1530): wlan0: Scan-only results received
+05-13 14:11:00.407 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:00.407 D/wpa_supplicant( 1530): wlan0: P2P: Station mode scan operation not pending anymore (sta_scan_pending=0 p2p_cb_on_scan_complete=0)
+05-13 14:11:00.407 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=25): 42 53 53 20 52 41 4e 47 45 3d 30 2d 20 4d 41 53 4b 3d 30 78 32 31 39 38 37
+05-13 14:11:00.407 D/wpa_supplicant( 1530): wlan0: Control interface command 'BSS RANGE=0- MASK=0x21987'
+05-13 14:11:00.467 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:11:00.467 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:11:00.467 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:11:00.467 D/StatusBar.NetworkController( 1416): updateWifiIcons mWifiConnected:true mWifiIconId:2130837919
+05-13 14:11:00.467 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:11:00.467 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:11:00.477 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:11:00.507 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:11:00.507 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:00.507 V/WLAN_PSA(  244): NL MSG, len[4036], NL type[0x1C] WNI type[0x5900] len[44047]
+05-13 14:11:00.507 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:00.507 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:11:00.507 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:00.567 D/dalvikvm( 2919): GC_CONCURRENT freed 1897K, 43% free 9533K/16472K, paused 4ms+2ms, total 38ms, dvmtargetUtilize:0.750000
+05-13 14:11:00.887 I/MSM-irqbalance(  375): Decided to move IRQ270 from CPU7 to CPU5
+05-13 14:11:01.077 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:11:01.077 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:11:01.077 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:11:01.227 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-13 14:11:01.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-13 14:11:01.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-13 14:11:01.327 V/kernel  (  390): <3>[ 1479.301506] wlan: [1408:E :PE ] limProcessAddBaInd: 5633: BA setup for staId = 3, TID: 0, SSN: 17
+05-13 14:11:01.327 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:11:01.327 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:01.337 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:11:01.337 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:01.527 W/JsonRpcServer( 9970): Error in JSON-RPC Service
+05-13 14:11:01.527 W/JsonRpcServer( 9970): java.lang.reflect.InvocationTargetException
+05-13 14:11:01.527 W/JsonRpcServer( 9970): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-13 14:11:01.527 W/JsonRpcServer( 9970): 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-13 14:11:01.527 W/JsonRpcServer( 9970): 	at com.googlecode.jsonrpc4j.JsonRpcServer.invoke(JsonRpcServer.java:513)
+05-13 14:11:01.527 W/JsonRpcServer( 9970): 	at com.googlecode.jsonrpc4j.JsonRpcServer.handleObject(JsonRpcServer.java:384)
+05-13 14:11:01.527 W/JsonRpcServer( 9970): 	at com.googlecode.jsonrpc4j.JsonRpcServer.handleNode(JsonRpcServer.java:293)
+05-13 14:11:01.527 W/JsonRpcServer( 9970): 	at com.googlecode.jsonrpc4j.JsonRpcServer.handle(JsonRpcServer.java:230)
+05-13 14:11:01.527 W/JsonRpcServer( 9970): 	at com.github.uiautomatorstub.AutomatorHttpServer.serve(AutomatorHttpServer.java:70)
+05-13 14:11:01.527 W/JsonRpcServer( 9970): 	at fi.iki.elonen.NanoHTTPD.serve(NanoHTTPD.java:298)
+05-13 14:11:01.527 W/JsonRpcServer( 9970): 	at fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:922)
+05-13 14:11:01.527 W/JsonRpcServer( 9970): 	at fi.iki.elonen.NanoHTTPD$1$1.run(NanoHTTPD.java:175)
+05-13 14:11:01.527 W/JsonRpcServer( 9970): 	at java.lang.Thread.run(Thread.java:841)
+05-13 14:11:01.527 W/JsonRpcServer( 9970): Caused by: com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.android.browser:id/newtab_btn]
+05-13 14:11:01.527 W/JsonRpcServer( 9970): 	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+05-13 14:11:01.527 W/JsonRpcServer( 9970): 	at com.github.uiautomatorstub.AutomatorServiceImpl.clickAndWaitForNewWindow(AutomatorServiceImpl.java:618)
+05-13 14:11:01.527 W/JsonRpcServer( 9970): 	... 11 more
+05-13 14:11:02.577 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:11:02.577 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:02.597 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1110579912, flags=0x1, tag="AlarmManager", ws=WorkSource{10103}, uid=1000, pid=893
+05-13 14:11:02.597 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:11:02.597 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:11:02.597 D/PowerManagerService(  893): Acquiring suspend blocker "PowerManagerService.WakeLocks".
+05-13 14:11:02.597 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:11:02.617 D/PowerManagerService(  893): acquireWakeLockInternal: lock=1118893984, flags=0x1, tag="PushService", ws=null, uid=10103, pid=2919
+05-13 14:11:02.617 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:11:02.617 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:11:02.617 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:11:02.637 D/PowerManagerService(  893): releaseWakeLockInternal: lock=1118893984 [PushService], flags=0x0
+05-13 14:11:02.637 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x1
+05-13 14:11:02.637 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x1, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:11:02.637 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:11:02.637 D/PowerManagerService(  893): releaseWakeLockInternal: lock=1110579912 [AlarmManager], flags=0x0
+05-13 14:11:02.637 D/PowerManagerService(  893): updateWakeLockSummaryLocked: mWakefulness=Awake, mWakeLockSummary=0x0
+05-13 14:11:02.647 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:11:02.647 D/PowerManagerService(  893): Releasing suspend blocker "PowerManagerService.WakeLocks".
+05-13 14:11:02.647 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:11:03.477 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:11:03.477 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:11:03.487 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:11:04.297 D/PowerManagerService(  893): handleUserActivityTimeout
+05-13 14:11:04.307 D/PowerManagerService(  893): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x1, nextTimeout=1501206 (in 18995 ms)
+05-13 14:11:04.307 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=2, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x1, mBootCompleted=true
+05-13 14:11:04.307 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:11:04.317 V/WLAN_PSA(  244): NL MSG, len[4095], NL type[0x1C] WNI type[0x5900] len[59151]
+05-13 14:11:04.317 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:04.967 D/UIAutomatorStub( 9970): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=238, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [{"childOrSiblingSelector": [], "resourceId": "com.android.browser:id/switch_btn", "mask": 2097152, "childOrSibling": []}, 3000], "jsonrpc": "2.0", "method": "clickAndWaitForNewWindow", "id": "87889166546cfa5cf6a5ee38ad686544"}}
+05-13 14:11:05.887 I/MSM-irqbalance(  375): Decided to move IRQ215 from CPU4 to CPU5
+05-13 14:11:06.227 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-13 14:11:06.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-13 14:11:06.257 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-13 14:11:06.497 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:11:06.497 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:11:06.497 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:11:07.127 D/StatusBar.MSimNetworkController( 1416): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 30 0 2147483647 2147483647 gsm|lte level=4
+05-13 14:11:07.127 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength: subscription =0
+05-13 14:11:07.127 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength iconList = [I@420d31a0iconLevel = 5 mInetCondition = 0
+05-13 14:11:07.127 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:11:07.127 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:11:07.137 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:11:07.587 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:11:07.587 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:09.507 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:11:09.507 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:11:09.507 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:11:11.227 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-13 14:11:11.267 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-13 14:11:11.267 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-13 14:11:11.727 D/StatusBar.MSimNetworkController( 1416): onSignalStrengthsChanged received on subscription :1signalStrength=SignalStrength: 7 0 2147483647 2147483647 gsm|lte level=2
+05-13 14:11:11.727 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength: subscription =1
+05-13 14:11:11.727 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength iconList = [I@420d32a0iconLevel = 3 mInetCondition = 0
+05-13 14:11:11.727 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =1mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:11:11.727 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 1
+05-13 14:11:11.727 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=2 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f02018d mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f02018d mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:11:12.517 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:11:12.517 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:11:12.517 V/WLAN_PSA(  244): NL MSG, len[4032], NL type[0x1C] WNI type[0x5900] len[43023]
+05-13 14:11:12.517 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:12.597 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:11:12.597 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:12.657 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:11:15.657 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:11:15.657 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:11:15.677 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:11:16.137 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:11:16.137 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:11:16.137 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:11:16.227 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-13 14:11:16.267 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-13 14:11:16.267 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-13 14:11:16.457 D/StatusBar.MSimNetworkController( 1416): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 29 0 2147483647 2147483647 gsm|lte level=4
+05-13 14:11:16.457 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength: subscription =0
+05-13 14:11:16.467 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength iconList = [I@420d31a0iconLevel = 5 mInetCondition = 0
+05-13 14:11:16.467 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:11:16.467 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:11:16.467 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:11:16.657 W/JsonRpcServer( 9970): Error in JSON-RPC Service
+05-13 14:11:16.657 W/JsonRpcServer( 9970): java.lang.reflect.InvocationTargetException
+05-13 14:11:16.657 W/JsonRpcServer( 9970): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-13 14:11:16.657 W/JsonRpcServer( 9970): 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-13 14:11:16.657 W/JsonRpcServer( 9970): 	at com.googlecode.jsonrpc4j.JsonRpcServer.invoke(JsonRpcServer.java:513)
+05-13 14:11:16.657 W/JsonRpcServer( 9970): 	at com.googlecode.jsonrpc4j.JsonRpcServer.handleObject(JsonRpcServer.java:384)
+05-13 14:11:16.657 W/JsonRpcServer( 9970): 	at com.googlecode.jsonrpc4j.JsonRpcServer.handleNode(JsonRpcServer.java:293)
+05-13 14:11:16.657 W/JsonRpcServer( 9970): 	at com.googlecode.jsonrpc4j.JsonRpcServer.handle(JsonRpcServer.java:230)
+05-13 14:11:16.657 W/JsonRpcServer( 9970): 	at com.github.uiautomatorstub.AutomatorHttpServer.serve(AutomatorHttpServer.java:70)
+05-13 14:11:16.657 W/JsonRpcServer( 9970): 	at fi.iki.elonen.NanoHTTPD.serve(NanoHTTPD.java:298)
+05-13 14:11:16.657 W/JsonRpcServer( 9970): 	at fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:922)
+05-13 14:11:16.657 W/JsonRpcServer( 9970): 	at fi.iki.elonen.NanoHTTPD$1$1.run(NanoHTTPD.java:175)
+05-13 14:11:16.657 W/JsonRpcServer( 9970): 	at java.lang.Thread.run(Thread.java:841)
+05-13 14:11:16.657 W/JsonRpcServer( 9970): Caused by: com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.android.browser:id/switch_btn]
+05-13 14:11:16.657 W/JsonRpcServer( 9970): 	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+05-13 14:11:16.657 W/JsonRpcServer( 9970): 	at com.github.uiautomatorstub.AutomatorServiceImpl.clickAndWaitForNewWindow(AutomatorServiceImpl.java:618)
+05-13 14:11:16.657 W/JsonRpcServer( 9970): 	... 11 more
+05-13 14:11:16.717 D/UIAutomatorStub( 9970): URI: /jsonrpc/0, Method: POST, Header: {content-type=application/json, connection=close, remote-addr=127.0.0.1, host=localhost:9009, content-length=238, http-client-ip=127.0.0.1, user-agent=Python-urllib/2.7, accept-encoding=identity}, params, {NanoHttpd.QUERY_STRING=null}, files: {postData={"params": [{"childOrSiblingSelector": [], "resourceId": "com.android.browser:id/switch_btn", "mask": 2097152, "childOrSibling": []}, 3000], "jsonrpc": "2.0", "method": "clickAndWaitForNewWindow", "id": "47a9dbec3f0c9680bf06e33897193e5d"}}
+05-13 14:11:17.607 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:11:17.607 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:17.837 D/dalvikvm( 9970): GC_CONCURRENT freed 1924K, 86% free 1149K/8148K, paused 2ms+1ms, total 18ms, dvmtargetUtilize:0.750000
+05-13 14:11:18.677 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:11:18.677 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:11:18.687 V/WLAN_PSA(  244): NL MSG, len[4066], NL type[0x1C] WNI type[0x5900] len[51727]
+05-13 14:11:18.687 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:18.697 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:11:20.447 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=14): 53 43 41 4e 20 54 59 50 45 3d 4f 4e 4c 59
+05-13 14:11:20.447 D/wpa_supplicant( 1530): wlan0: Control interface command 'SCAN TYPE=ONLY'
+05-13 14:11:20.447 D/wpa_supplicant( 1530): wlan0: Setting scan request: 0 sec 0 usec
+05-13 14:11:20.447 D/wpa_supplicant( 1530): wlan0: Starting AP scan for wildcard SSID
+05-13 14:11:20.447 D/wpa_supplicant( 1530): wlan0: nl80211: scan request
+05-13 14:11:20.447 D/wpa_supplicant( 1530): nl80211: Scan SSID - hexdump(len=0): [NULL]
+05-13 14:11:20.447 D/wpa_supplicant( 1530): Scan requested (ret=0) - scan timeout 30 seconds
+05-13 14:11:20.457 D/wpa_supplicant( 1530): nl80211: Event message available
+05-13 14:11:20.457 D/wpa_supplicant( 1530): nl80211: Drv Event 33 (NL80211_CMD_TRIGGER_SCAN) received for wlan0
+05-13 14:11:20.457 D/wpa_supplicant( 1530): wlan0: nl80211: Scan trigger
+05-13 14:11:20.457 D/wpa_supplicant( 1530): wlan0: Event SCAN_STARTED (57) received
+05-13 14:11:20.457 D/wpa_supplicant( 1530): wlan0: Own scan request started a scan
+05-13 14:11:20.457 I/wpa_supplicant( 1530): wlan0: CTRL-EVENT-SCAN-STARTED 
+05-13 14:11:20.457 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:20.457 V/WLAN_PSA(  244): NL MSG, len[914], NL type[0x11] WNI type[0x5050] len[894]
+05-13 14:11:20.457 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:20.457 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:11:20.457 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:20.457 V/WLAN_PSA(  244): NL MSG, len[4013], NL type[0x1C] WNI type[0x5900] len[38159]
+05-13 14:11:20.457 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:20.587 V/WLAN_PSA(  244): NL MSG, len[4065], NL type[0x1C] WNI type[0x5900] len[51471]
+05-13 14:11:20.587 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:20.717 V/WLAN_PSA(  244): NL MSG, len[3998], NL type[0x1C] WNI type[0x5900] len[34319]
+05-13 14:11:20.717 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:20.857 V/WLAN_PSA(  244): NL MSG, len[4055], NL type[0x1C] WNI type[0x5900] len[48911]
+05-13 14:11:20.857 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:20.987 V/WLAN_PSA(  244): NL MSG, len[4066], NL type[0x1C] WNI type[0x5900] len[51727]
+05-13 14:11:20.987 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:21.117 V/WLAN_PSA(  244): NL MSG, len[4066], NL type[0x1C] WNI type[0x5900] len[51727]
+05-13 14:11:21.117 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:21.127 V/WLAN_PSA(  244): NL MSG, len[914], NL type[0x11] WNI type[0x5050] len[894]
+05-13 14:11:21.127 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:21.137 V/WLAN_PSA(  244): NL MSG, len[4088], NL type[0x1C] WNI type[0x5900] len[57359]
+05-13 14:11:21.137 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:21.137 V/WLAN_PSA(  244): NL MSG, len[4042], NL type[0x1C] WNI type[0x5900] len[45583]
+05-13 14:11:21.137 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:21.137 D/wpa_supplicant( 1530): nl80211: Event message available
+05-13 14:11:21.137 D/wpa_supplicant( 1530): nl80211: Drv Event 34 (NL80211_CMD_NEW_SCAN_RESULTS) received for wlan0
+05-13 14:11:21.137 D/wpa_supplicant( 1530): wlan0: nl80211: New scan results available
+05-13 14:11:21.137 D/wpa_supplicant( 1530): wlan0: Event SCAN_RESULTS (3) received
+05-13 14:11:21.137 D/wpa_supplicant( 1530): nl80211: Associated on 2437 MHz
+05-13 14:11:21.137 D/wpa_supplicant( 1530): nl80211: Associated with c0:7b:bc:6b:4a:21
+05-13 14:11:21.137 D/wpa_supplicant( 1530): nl80211: Received scan results (27 BSSes)
+05-13 14:11:21.137 D/wpa_supplicant( 1530): nl80211: Survey data missing
+05-13 14:11:21.137 D/wpa_supplicant( 1530): nl80211: Scan results indicate BSS status with c0:7b:bc:6b:4a:21 as associated
+05-13 14:11:21.137 D/wpa_supplicant( 1530): wlan0: BSS: Start scan result update 78
+05-13 14:11:21.137 D/wpa_supplicant( 1530): wlan0: BSS: Add new id 266 BSSID c0:7b:bc:f0:22:65 SSID '\x00'
+05-13 14:11:21.137 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.137 D/wpa_supplicant( 1530): wlan0: BSS: Add new id 267 BSSID c0:7b:bc:f0:22:63 SSID 'ttttt'
+05-13 14:11:21.137 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.137 D/wpa_supplicant( 1530): wlan0: BSS: Add new id 268 BSSID 08:cc:68:66:bc:42 SSID 'LASHOU_Guest'
+05-13 14:11:21.137 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.137 D/wpa_supplicant( 1530): wlan0: BSS: Add new id 269 BSSID 58:66:ba:a0:6e:42 SSID 'CTTIC-Guest'
+05-13 14:11:21.137 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.137 D/wpa_supplicant( 1530): wlan0: BSS: Add new id 270 BSSID d6:df:9a:d8:d6:d8 SSID ''
+05-13 14:11:21.137 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: BSS: Add new id 271 BSSID 08:cc:68:66:bc:43 SSID 'LASHOU_Test'
+05-13 14:11:21.147 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: BSS: Add new id 272 BSSID 08:cc:68:66:bc:41 SSID 'LASHOU_ONE'
+05-13 14:11:21.147 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: BSS: Add new id 273 BSSID 58:66:ba:a0:6e:41 SSID 'CTTIC-Company'
+05-13 14:11:21.147 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: BSS: Add new id 274 BSSID 8c:be:be:44:a3:db SSID '\xe4\xbc\xbc\xe9\xa9\xac\xe8\xb9\x84\xe5\xa3\xb0'
+05-13 14:11:21.147 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: BSS: Add new id 275 BSSID 00:26:7a:21:a9:e2 SSID 'CMCC-WEB'
+05-13 14:11:21.147 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 192 BSSID c0:7b:bc:6b:81:40 SSID 'Smartisan' due to no match in scan
+05-13 14:11:21.147 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 219 BSSID c0:7b:bc:6b:81:41 SSID 'Smartisan-Guest' due to no match in scan
+05-13 14:11:21.147 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 196 BSSID c0:7b:bc:6b:81:44 SSID 'Smota' due to no match in scan
+05-13 14:11:21.147 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 247 BSSID 00:26:7a:22:ae:1a SSID 'CMCC' due to no match in scan
+05-13 14:11:21.147 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 257 BSSID c0:7b:bc:6b:81:45 SSID '\x00' due to no match in scan
+05-13 14:11:21.147 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 148 BSSID ec:55:f9:c0:86:3a SSID '360\xe5\x85\x8d\xe8\xb4\xb9WiFi-UB' due to no match in scan
+05-13 14:11:21.147 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 235 BSSID 44:94:fc:33:ff:02 SSID 'NET' due to no match in scan
+05-13 14:11:21.147 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 228 BSSID 58:66:ba:a0:6e:40 SSID 'CTTIC-Goldencard' due to no match in scan
+05-13 14:11:21.147 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 251 BSSID c0:7b:bc:6b:4a:22 SSID 'SmartisanHW' due to no match in scan
+05-13 14:11:21.147 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 256 BSSID 00:26:7a:22:a9:14 SSID 'CMCC' due to no match in scan
+05-13 14:11:21.147 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 258 BSSID c0:7b:bc:6b:86:40 SSID 'Smartisan' due to no match in scan
+05-13 14:11:21.147 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 261 BSSID c0:7b:bc:6b:86:44 SSID 'Smota' due to no match in scan
+05-13 14:11:21.147 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: BSS: Remove id 242 BSSID 00:26:7a:21:a9:22 SSID 'CMCC-WEB' due to no match in scan
+05-13 14:11:21.147 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): BSS: last_scan_res_used=27/64 last_scan_full=0
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: Scan-only results received
+05-13 14:11:21.147 D/wpa_supplicant( 1530): CTRL_IFACE monitor send - hexdump(len=39): 2f 64 61 74 61 2f 6d 69 73 63 2f 77 69 66 69 2f 73 6f 63 6b 65 74 73 2f 77 70 61 5f 63 74 72 6c ...
+05-13 14:11:21.147 D/wpa_supplicant( 1530): wlan0: P2P: Station mode scan operation not pending anymore (sta_scan_pending=0 p2p_cb_on_scan_complete=0)
+05-13 14:11:21.157 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=25): 42 53 53 20 52 41 4e 47 45 3d 30 2d 20 4d 41 53 4b 3d 30 78 32 31 39 38 37
+05-13 14:11:21.157 D/wpa_supplicant( 1530): wlan0: Control interface command 'BSS RANGE=0- MASK=0x21987'
+05-13 14:11:21.167 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:11:21.167 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:11:21.167 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:11:21.227 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-13 14:11:21.227 D/StatusBar.MSimNetworkController( 1416): onSignalStrengthsChanged received on subscription :0signalStrength=SignalStrength: 30 0 2147483647 2147483647 gsm|lte level=4
+05-13 14:11:21.227 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength: subscription =0
+05-13 14:11:21.227 D/StatusBar.MSimNetworkController( 1416): updateTelephonySignalStrength iconList = [I@420d31a0iconLevel = 5 mInetCondition = 0
+05-13 14:11:21.227 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:11:21.227 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:11:21.227 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:11:21.267 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-13 14:11:21.267 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-13 14:11:21.697 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:11:21.697 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:11:21.707 V/WLAN_PSA(  244): NL MSG, len[4069], NL type[0x1C] WNI type[0x5900] len[52495]
+05-13 14:11:21.707 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:21.707 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:11:22.177 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:11:22.177 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:11:22.177 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:11:22.617 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:11:22.617 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:23.187 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:11:23.187 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:11:23.187 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:11:23.317 D/PowerManagerService(  893): handleUserActivityTimeout
+05-13 14:11:23.317 D/PowerManagerService(  893): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x2, nextTimeout=1507206 (in 5983 ms)
+05-13 14:11:23.317 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=false, newScreenState=1, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x2, mBootCompleted=true
+05-13 14:11:23.317 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake
+05-13 14:11:23.317 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=1, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x2, mBootCompleted=true
+05-13 14:11:24.717 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:11:24.717 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:11:24.727 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:11:25.207 D/StatusBar.MSimNetworkController( 1416): refreshViews subscription =0mMSimDataConnected =false mHasMobileDataFeature:true
+05-13 14:11:25.207 D/StatusBar.MSimNetworkController( 1416): refreshViews: Data not connected!! Set no data type icon / Roaming for subscription: 0
+05-13 14:11:25.217 D/StatusBar.MSimNetworkController( 1416): refreshViews connected={ wifi } level=4 mMSimcombinedSignalIconId=0x7f02019f/com.smartisanos.systemui:drawable/stat_sys_wifi_signal_3 mMSimcombinedActivityIconId=0x0 mAirplaneMode=false mMSimDataActivity=0 mMSimPhoneSignalIconId=0x7f020185 mMSimDataDirectionIconId=0x0 mMSimDataSignalIconId=0x7f020185 mMSimDataTypeIconId=0x0 mWifiIconId=0x7f02019f mBluetoothTetherIconId=0x10807e7
+05-13 14:11:26.227 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XT-CS] unknown deliver target [OS-Agent]
+05-13 14:11:26.267 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWWAN-PE] unknown deliver target [OS-Agent]
+05-13 14:11:26.267 E/QCALOG  (  368): [MessageQ] ProcessNewMessage: [XTWiFi-PE] unknown deliver target [OS-Agent]
+05-13 14:11:27.257 D/VM_BMS  (  373): wake_lock acquired
+05-13 14:11:27.257 D/VM_BMS  (  373): New BMS data - Size=56
+05-13 14:11:27.257 D/VM_BMS  (  373): Start process_bms_data
+05-13 14:11:27.257 D/VM_BMS  (  373): For batt_temp=293 fcc_mah=2994
+05-13 14:11:27.257 D/VM_BMS  (  373): For ocv=4265122 batt_temp=293 soc=92
+05-13 14:11:27.257 D/VM_BMS  (  373): fifo_count=5 acc_count=0
+05-13 14:11:27.257 D/VM_BMS  (  373): INIT: ocv=4265122 last_ocv=4265122 batt_temp=293 soc=92
+05-13 14:11:27.257 D/VM_BMS  (  373): For soc=92 batt_temp=293 slope=11600
+05-13 14:11:27.257 D/VM_BMS  (  373): For soc=92 batt_temp=293 rbatt_sf=95
+05-13 14:11:27.257 D/VM_BMS  (  373): rbatt_mohm_default=146, rbatt_mohm=138, sf=95 batt_temp=293
+05-13 14:11:27.257 D/VM_BMS  (  373): For ocv=4265136 batt_temp=293 soc=92
+05-13 14:11:27.257 D/VM_BMS  (  373): FIFO=0 fifo_avg=4.268565 rbatt=0.138000 slope=1.160000 ibatt=-0.024901 ocv=4.265136 soc=92 fcc_ah=2.994000 sample_count=128 sample_interval=40 seq_num=52
+05-13 14:11:27.257 D/VM_BMS  (  373): For soc=92 batt_temp=293 slope=11600
+05-13 14:11:27.257 D/VM_BMS  (  373): For soc=92 batt_temp=293 rbatt_sf=95
+05-13 14:11:27.257 D/VM_BMS  (  373): rbatt_mohm_default=146, rbatt_mohm=138, sf=95 batt_temp=293
+05-13 14:11:27.257 D/VM_BMS  (  373): For ocv=4265126 batt_temp=293 soc=92
+05-13 14:11:27.257 D/VM_BMS  (  373): FIFO=1 fifo_avg=4.262697 rbatt=0.138000 slope=1.160000 ibatt=0.017635 ocv=4.265126 soc=92 fcc_ah=2.994000 sample_count=128 sample_interval=40 seq_num=52
+05-13 14:11:27.257 D/VM_BMS  (  373): For soc=92 batt_temp=293 slope=11600
+05-13 14:11:27.257 D/VM_BMS  (  373): For soc=92 batt_temp=293 rbatt_sf=95
+05-13 14:11:27.257 D/VM_BMS  (  373): rbatt_mohm_default=146, rbatt_mohm=138, sf=95 batt_temp=293
+05-13 14:11:27.257 D/VM_BMS  (  373): For ocv=4265181 batt_temp=293 soc=92
+05-13 14:11:27.257 D/VM_BMS  (  373): FIFO=2 fifo_avg=4.278837 rbatt=0.138000 slope=1.160000 ibatt=-0.099157 ocv=4.265181 soc=92 fcc_ah=2.994000 sample_count=128 sample_interval=40 seq_num=52
+05-13 14:11:27.257 D/VM_BMS  (  373): For soc=92 batt_temp=293 slope=11600
+05-13 14:11:27.257 D/VM_BMS  (  373): For soc=92 batt_temp=293 rbatt_sf=95
+05-13 14:11:27.257 D/VM_BMS  (  373): rbatt_mohm_default=146, rbatt_mohm=138, sf=95 batt_temp=293
+05-13 14:11:27.257 D/VM_BMS  (  373): For ocv=4265251 batt_temp=293 soc=92
+05-13 14:11:27.257 D/VM_BMS  (  373): FIFO=3 fifo_avg=4.282944 rbatt=0.138000 slope=1.160000 ibatt=-0.128462 ocv=4.265252 soc=92 fcc_ah=2.994000 sample_count=128 sample_interval=40 seq_num=52
+05-13 14:11:27.257 D/VM_BMS  (  373): For soc=92 batt_temp=293 slope=11600
+05-13 14:11:27.257 D/VM_BMS  (  373): For soc=92 batt_temp=293 rbatt_sf=95
+05-13 14:11:27.257 D/VM_BMS  (  373): rbatt_mohm_default=146, rbatt_mohm=138, sf=95 batt_temp=293
+05-13 14:11:27.257 D/VM_BMS  (  373): For ocv=4265331 batt_temp=293 soc=92
+05-13 14:11:27.257 D/VM_BMS  (  373): FIFO=4 fifo_avg=4.285293 rbatt=0.138000 slope=1.160000 ibatt=-0.144942 ocv=4.265331 soc=92 fcc_ah=2.994000 sample_count=128 sample_interval=40 seq_num=52
+05-13 14:11:27.257 I/VM_BMS  (  373): power_supply_update: ocv_uv=4265331 ibatt=-144942 soc=92 seq_num=52
+05-13 14:11:27.257 D/VM_BMS  (  373): End process_bms_data
+05-13 14:11:27.257 D/VM_BMS  (  373): wake_lock released
+05-13 14:11:27.627 V/WLAN_PSA(  244): NL MSG, len[048], NL type[0x11] WNI type[0x5050] len[028]
+05-13 14:11:27.627 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:27.737 D/wpa_supplicant( 1530): RX ctrl_iface - hexdump(len=11): 53 49 47 4e 41 4c 5f 50 4f 4c 4c
+05-13 14:11:27.737 D/wpa_supplicant( 1530): wlan0: Control interface command 'SIGNAL_POLL'
+05-13 14:11:27.747 D/wpa_supplicant( 1530): nl80211: survey data missing!
+05-13 14:11:28.317 V/WLAN_PSA(  244): NL MSG, len[4093], NL type[0x1C] WNI type[0x5900] len[58639]
+05-13 14:11:28.317 V/WLAN_PSA(  244): NL MSG, PID: 244
+05-13 14:11:28.477 W/JsonRpcServer( 9970): Error in JSON-RPC Service
+05-13 14:11:28.477 W/JsonRpcServer( 9970): java.lang.reflect.InvocationTargetException
+05-13 14:11:28.477 W/JsonRpcServer( 9970): 	at java.lang.reflect.Method.invokeNative(Native Method)
+05-13 14:11:28.477 W/JsonRpcServer( 9970): 	at java.lang.reflect.Method.invoke(Method.java:515)
+05-13 14:11:28.477 W/JsonRpcServer( 9970): 	at com.googlecode.jsonrpc4j.JsonRpcServer.invoke(JsonRpcServer.java:513)
+05-13 14:11:28.477 W/JsonRpcServer( 9970): 	at com.googlecode.jsonrpc4j.JsonRpcServer.handleObject(JsonRpcServer.java:384)
+05-13 14:11:28.477 W/JsonRpcServer( 9970): 	at com.googlecode.jsonrpc4j.JsonRpcServer.handleNode(JsonRpcServer.java:293)
+05-13 14:11:28.477 W/JsonRpcServer( 9970): 	at com.googlecode.jsonrpc4j.JsonRpcServer.handle(JsonRpcServer.java:230)
+05-13 14:11:28.477 W/JsonRpcServer( 9970): 	at com.github.uiautomatorstub.AutomatorHttpServer.serve(AutomatorHttpServer.java:70)
+05-13 14:11:28.477 W/JsonRpcServer( 9970): 	at fi.iki.elonen.NanoHTTPD.serve(NanoHTTPD.java:298)
+05-13 14:11:28.477 W/JsonRpcServer( 9970): 	at fi.iki.elonen.NanoHTTPD$HTTPSession.execute(NanoHTTPD.java:922)
+05-13 14:11:28.477 W/JsonRpcServer( 9970): 	at fi.iki.elonen.NanoHTTPD$1$1.run(NanoHTTPD.java:175)
+05-13 14:11:28.477 W/JsonRpcServer( 9970): 	at java.lang.Thread.run(Thread.java:841)
+05-13 14:11:28.477 W/JsonRpcServer( 9970): Caused by: com.android.uiautomator.core.UiObjectNotFoundException: UiSelector[RESOURCE_ID=com.android.browser:id/switch_btn]
+05-13 14:11:28.477 W/JsonRpcServer( 9970): 	at com.android.uiautomator.core.UiObject.clickAndWaitForNewWindow(UiObject.java:432)
+05-13 14:11:28.477 W/JsonRpcServer( 9970): 	at com.github.uiautomatorstub.AutomatorServiceImpl.clickAndWaitForNewWindow(AutomatorServiceImpl.java:618)
+05-13 14:11:28.477 W/JsonRpcServer( 9970): 	... 11 more
+05-13 14:11:29.297 D/PowerManagerService(  893): handleUserActivityTimeout
+05-13 14:11:29.307 D/PowerManagerService(  893): updateUserActivitySummaryLocked: mWakefulness=Awake, mUserActivitySummary=0x0, nextTimeout=1270980 (236230 ms ago)
+05-13 14:11:29.307 D/PowerManagerService(  893): updateScreenStateLocked: mDisplayReady=true, newScreenState=1, mWakefulness=1, mWakeLockSummary=0x0, mUserActivitySummary=0x0, mBootCompleted=true
+05-13 14:11:29.307 D/PowerManagerService(  893): handleSandman: canDream=true, mWakefulness=Awake

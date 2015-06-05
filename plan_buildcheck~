@@ -1,0 +1,2 @@
+[tests]
+script.testcases.systemapp.SystemAppTest.testLaunchAndExitVideo = 1
