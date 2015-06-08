@@ -26,7 +26,8 @@ class EmailTest(unittest.TestCase):
 		u.tearDown()
 
 	def testClearAccount(self):
-		commands.getoutput('adb shell am startservice -a smartisan.datahelper.InitData --es type "Email" --es method "clear" ')
+		self._clearAccount()
+		#commands.getoutput('adb shell am startservice -a smartisan.datahelper.InitData --es type "Email" --es method "clear" ')
 
 	def testLogInAccount(self):
 		self._launchEmail()
