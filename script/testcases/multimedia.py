@@ -92,6 +92,7 @@ class MultiMediaTest(unittest.TestCase):
 	def testRecordAudio(self):
 		#Launch sound recorder
 		d.start_activity(component='com.smartisanos.recorder/.activity.EmptyActivity')
+		d.sleep(2)
 		d.click(880,1545)
 		assert d(text = '录音机').wait.exists(timeout = 5000),'Launch sound recorder failed in 5s!'
 
