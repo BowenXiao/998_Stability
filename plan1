@@ -1,2 +1,2 @@
 [tests]
-script.testcases.telephony.TelephonyTest.testAddDelContact = 20
+script.testcases.email.EmailTest.testClearAccount = 1
