@@ -20,22 +20,22 @@ class TelephonyTest(unittest.TestCase):
 		#	commands.getoutput('adb shell kill %s'%phonePID)
 
 
-	def testCallViaDialer3G(self):
+	def testCallViaDialer4G(self):
 		self._callDialer()
 
-	def testCallViaCallLog3G(self):
+	def testCallViaCallLog4G(self):
 		self._callCallLog()
 
-	def testCallViaPhoneBook3G(self):
+	def testCallViaPhoneBook4G(self):
 		self._callPhoneBook()
 
-	def testCallViaDialer2G(self):
+	def testCallViaDialerNot4G(self):
 		self._callDialer()
 
-	def testCallViaCallLog2G(self):
+	def testCallViaCallLogNot4G(self):
 		self._callCallLog()
 
-	def testCallViaPhoneBook2G(self):
+	def testCallViaPhoneBookNot4G(self):
 		self._callPhoneBook()
 
 	def testCallDialerViaSim2(self):

@@ -156,6 +156,46 @@ class MultiMediaTest(unittest.TestCase):
 		d(resourceId = 'com.smartisanos.music:id/audio_player_play').click.wait()
 		assert d(packageName = 'com.smartisanos.music').exists,'Music player is not show on the screen!'
 
+	def testGallery(self):
+		# Launch camera
+		d.start_activity(component='com.android.gallery3d/.app.Gallery')
+		assert d(packageName = 'com.android.gallery3d').wait.exists(timeout = 5000),'Launch gallery failed in 5s!'
+
+		# select 'All album'
+		d.click(810,1820)
+		d.sleep(1)
+		# get into image folder
+		d.click('image.png')
+		# select first image
+		d.click(140,380)
+		d.sleep(1)
+		for i in range(10):
+			d(resourceId = 'com.android.gallery3d:id/gl_root_view').swipe.left()
+			d.sleep(0.5)
+		for i in range(10):
+			d(resourceId = 'com.android.gallery3d:id/gl_root_view').swipe.right()
+			d.sleep(0.5)
+
+	def testPlayStreamingVideo(self):
+		#Start Browser
+		d.start_activity(component='com.android.browser/.BrowserActivity')
+		assert d(resourceId = 'com.android.browser:id/switch_btn').wait.exists(timeout = 5000),'Launch browser failed in 5s!'
+		d(resourceId = 'com.android.browser:id/newtab_btn').click.wait()
+
+		# input download audio url
+		d(resourceId = 'com.android.browser:id/url', text = '输入网址').set_text('auto.smartisan.com/media/Auto_Test_Video.mp4')
+		d.press('enter')
+		d.sleep(10)
+		#d.click('Streaming_Play.png')
+		d.click(540,960)
+		#d(description = '播放').click.wait()
+		assert d(description = '网页视图').wait.exists(timeout = 15000),'Loading streaming video failed in 15s!'
+		# play time
+		d.sleep(15)
+		#assert d(description = '媒体控件').wait.exists(timeout = 10000),'Switch to webview failed in 10s!'
+		if d.orientation != 'natural':
+			d.orientation = 'n'
+
 	def _launchCamera(self):
 		d.start_activity(component='com.android.camera2/com.android.camera.CameraLauncher')
 		assert d(resourceId = 'com.android.camera2:id/shutter_button').wait.exists(timeout = 5000),'Launch camera failed in 5s!'

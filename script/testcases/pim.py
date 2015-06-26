@@ -4,6 +4,7 @@ import unittest
 from uiautomatorplug.android import device as d
 import commands
 import util as u
+import string
 
 class PIMTest(unittest.TestCase):
 	def setUp(self):
@@ -58,3 +59,42 @@ class PIMTest(unittest.TestCase):
 		assert d(text = '删除闹钟').wait.exists(timeout = 5000),'Switch to set clock view failed in 5s!'
 		d(text = '删除闹钟').click.wait()
 		assert d(packageName = 'com.smartisanos.clock').exists,'Clock is not show on the screen!'
+
+
+	def testCreateNote(self):
+		# Launch Note
+		d.start_activity(component='com.smartisanos.notes/.NotesActivity')
+		if d(text = '列表').exists:
+			d(text = '列表').click.wait()
+		assert d(resourceId = 'com.smartisanos.notes:id/relativelayout_title').wait.exists(timeout = 5000),'Launch Note failed in 5s!'
+		d(resourceId = 'com.smartisanos.notes:id/add_button').click.wait()
+		assert d(resourceId = 'com.smartisanos.notes:id/delete_insert_button').wait.exists(timeout = 5000),'Switch to note editer failed in 5s!'
+		d(resourceId = 'com.smartisanos.notes:id/detail_note_editor').set_text('test content...')
+		d(resourceId = 'com.smartisanos.notes:id/delete_insert_button').click.wait()
+		d.sleep(1)
+		d.click(900,1830)
+		d.click('root_dir.png')
+		d.sleep(1)
+		# select first pic
+		d.click(150,370)
+		#d.click('image.png')
+		d.click('done.png')
+		assert d(resourceId = 'com.smartisanos.notes:id/detail_note_image').wait.exists(timeout = 5000),'Add pic to note failed in 5s!'
+		d(resourceId = 'com.smartisanos.notes:id/send_finish_button').click.wait()
+		d(resourceId = 'com.smartisanos.notes:id/send_finish_button').click.wait()
+		assert d(text = '请选择操作').wait.exists(timeout = 5000),'Share selector does not pop-up in 5s!'
+		d(text = '以图片形式分享').click.wait()
+		assert d(text = '保存图片').wait.exists(timeout = 5000),'Switch to thumbs failed in 5s!'
+
+		before = commands.getoutput('adb shell ls /sdcard/smartisan/notes/* | grep png | wc -l')
+		d(text = '保存图片').click.wait()
+		d.sleep(2)
+		after = commands.getoutput('adb shell ls /sdcard/smartisan/notes/* | grep png | wc -l')
+		result = string.atoi(after) - string.atoi(before)
+		assert result == 1,'Save note as picture failed!'
+
+		d(text = '取消').click.wait()
+		assert d(resourceId = 'com.smartisanos.notes:id/delete_insert_button').wait.exists(timeout = 5000),'Switch to delete view failed in 5s!'
+		d(resourceId = 'com.smartisanos.notes:id/delete_insert_button').click.wait()
+		d(text = '确认删除').click.wait()
+		commands.getoutput('adb shell rm -r /sdcard/smartisan/notes/*')

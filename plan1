@@ -1,2 +1,2 @@
 [tests]
-script.testcases.email.EmailTest.testClearAccount = 1
+script.testcases.pim.PIMTest.testSaveNoteAsPic = 1
