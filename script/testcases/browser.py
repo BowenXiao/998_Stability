@@ -217,6 +217,30 @@ class BrowserTest(unittest.TestCase):
 		if d.orientation != 'natural':
 			d.orientation = 'n'
 
+	def testVisitWebPage4G(self):
+		# turn off wifi
+		self._setWifi('off')
+		d.sleep(3)
+
+		#Launch Browser
+		self._launchBrowser()
+		# visite webpage
+		d(resourceId = 'com.android.browser:id/url', text = '输入网址').set_text(TOP5[3])
+		d.press('enter')
+		d.expect(CHECK_POINT[3], timeout=15)
+		# browse webpage
+		d.swipe(1000,1300,1000,600,10)
+		d.sleep(1)
+		d.swipe(1000,1300,1000,600,10)
+		d.sleep(1)
+		d.swipe(1000,600,1000,1300,10)
+		d.sleep(1)
+		d.swipe(1000,600,1000,1300,10)
+		d.sleep(1)
+
+		# turn on wifi
+		self._setWifi('on')
+
 	def _launchBrowser(self):
 		#Start Browser
 		d.start_activity(component='com.android.browser/.BrowserActivity')
@@ -253,3 +277,9 @@ class BrowserTest(unittest.TestCase):
 
 	def _clearData(self,path):
 		commands.getoutput('adb shell rm -r %s'%path)
+
+	def _setWifi(self,status='on'):
+		if status == 'off':
+			commands.getoutput('adb shell svc wifi disable')
+		else:
+			commands.getoutput('adb shell svc wifi enable')
