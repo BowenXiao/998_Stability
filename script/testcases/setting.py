@@ -6,7 +6,7 @@ import commands
 import random
 import util as u
 
-THEME = ['经典','蓝色','褐色','青色','木纹','浅灰','橙色','紫色','灰岩']
+THEME_LIST = ['经典','经典蓝','木纹','灰岩','红色','橙色','黄色','绿色','青色','蓝色','紫色']
 
 class SettingTest(unittest.TestCase):
 	def setUp(self):
@@ -16,23 +16,37 @@ class SettingTest(unittest.TestCase):
 		u.tearDown()
 
 	def testSetTheme(self):
-		#Launch Setting
 		d.start_activity(component='com.android.settings/.Settings')
 		assert d(text = '设置').wait.exists(timeout = 5000),'Launch settings failed in 5s!'
-
-		#Set theme
-		theme = random.choice(THEME)
-		self._selectOption('主题、壁纸、图标')
+		u.selectOption('主题、壁纸、图标')
 		assert d(resourceId = 'smartisanos:id/tv_title',text = '主题、壁纸、图标').wait.exists(timeout = 5000),'Switch to theme view failed in 5s!'
-		self._selectOption('桌面主题')
+		u.selectOption('桌面主题')
 		assert d(resourceId = 'com.smartisanos.launcher:id/tv_title',text = '桌面主题').wait.exists(timeout = 5000),'Switch to theme view failed in 5s!'
-		self._selectOption(theme)
-		assert d(resourceId = 'smartisanos:id/tv_title',text = theme).wait.exists(timeout = 5000),'Switch to theme thumbnail failed in 5s!'
-		d(text = '设定').click.wait()
-		assert d(packageName = 'com.smartisanos.launcher').exists,'Launcher is not show on the screen!'
-
-		# back from setting to home screen
-		d.start_activity(component='com.android.settings/.Settings')
+		for theme in THEME_LIST:
+#			if theme == '经典':
+#				u.selectOption(theme)
+#				assert d(resourceId = 'smartisanos:id/tv_title',text = theme).wait.exists(timeout = 5000),'Switch to theme thumbnail failed in 5s!'
+#				d(text = '设定').click.wait()
+#				if d(text = '桌面主题').wait.exists(timeout = 5000):
+#					continue
+#				else:
+#					assert d(resourceId = 'com.smartisanos.launcher:id/glview').wait.exists(timeout = 15000), 'Switch to launcher failed in 15s!'
+#					
+			if theme == '经典':
+				d(resourceId = 'com.smartisanos.launcher:id/list_theme').swipe.down()
+				d(resourceId = 'com.smartisanos.launcher:id/list_theme').swipe.down()
+				d(resourceId = 'com.smartisanos.launcher:id/list_theme').swipe.down()
+				d.sleep(1)
+			u.selectOption(theme)
+			assert d(resourceId = 'smartisanos:id/tv_title',text = theme).wait.exists(timeout = 5000),'Switch to theme thumbnail failed in 5s!'
+			d(text = '设定').click.wait()
+			assert d(text = '正在加载主题').wait.exists(timeout = 5000),'Loading theme view does not show up in 5s!'
+			assert d(text = '正在加载主题').wait.gone(timeout = 10000),'Loading theme view does not disappeared in 10s!'
+			assert d(resourceId = 'com.smartisanos.launcher:id/glview').wait.exists(timeout = 5000), 'Switch to launcher failed in 5s!'
+			d.sleep(3)
+			# exit theme setting
+			d.start_activity(component='com.android.settings/.Settings')
+			d.sleep(1)
 
 	def testTurnOnOffWiFi(self):
 		#Launch Setting

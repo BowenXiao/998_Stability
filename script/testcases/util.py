@@ -82,3 +82,16 @@ def getFileCount(folder, ext):
 def getPID(name):
 	pid = commands.getoutput("adb shell ps | grep %s | awk '{print $2}'"%name)
 	return pid
+
+def selectOption(option):
+	i = 1
+	while i:
+		if d(text = option).exists:
+			break
+		d.swipe(540,1400,540,400,100)
+		d.sleep(1)
+		i+=1
+		if d(text = option).exists or i==10:
+			break
+	d.sleep(1)
+	d(text = option).click.wait()

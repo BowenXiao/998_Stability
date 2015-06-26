@@ -219,7 +219,7 @@ class BrowserTest(unittest.TestCase):
 
 	def testVisitWebPage4G(self):
 		# turn off wifi
-		self._setWifi('off')
+		self._setWifistatus('off')
 		d.sleep(3)
 
 		#Launch Browser
@@ -239,7 +239,7 @@ class BrowserTest(unittest.TestCase):
 		d.sleep(1)
 
 		# turn on wifi
-		self._setWifi('on')
+		self._setWifistatus('on')
 
 	def _launchBrowser(self):
 		#Start Browser
@@ -283,3 +283,22 @@ class BrowserTest(unittest.TestCase):
 			commands.getoutput('adb shell svc wifi disable')
 		else:
 			commands.getoutput('adb shell svc wifi enable')
+
+	def _setWifistatus(self,status):
+		#Launch Setting
+		d.start_activity(component='com.android.settings/.Settings')
+		assert d(text = '设置').wait.exists(timeout = 5000),'Launch settings failed in 5s!'
+
+		u.selectOption('无线网络')
+		assert d(resourceId = 'smartisanos:id/tv_title',text = '无线网络').wait.exists(timeout = 5000),'Switch to WIFI failed in 5s!'
+		if status == 'on':
+			d(resourceId = 'com.android.settings:id/item_switch').swipe.right(steps = 5)
+			assert d(text = '已连接').wait.exists(timeout = 30000),'Turn on wifi failed in 30s!'
+		elif status == 'off':
+			d(resourceId = 'com.android.settings:id/item_switch').swipe.left(steps = 5)
+			assert d(text = '要查看可用网络，请打开无线网络').wait.exists(timeout = 5000),'Turn off wifi failed in 5s!'
+		else:
+			print 'Input wrong string, on/off only!'
+		d.press('back')
+		d.press('back')
+		d.press('home')
