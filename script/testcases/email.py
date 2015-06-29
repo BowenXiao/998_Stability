@@ -5,11 +5,6 @@ from uiautomatorplug.android import device as d
 import commands
 import util as u
 
-ACCOUNT = 'stabilitymailpost@smartisan.com'
-#PASSWORD = 'Smartisantest011'
-PASSWORD = 'pmsgcnkcpyhwbjyf'
-SEND_TO = 'stabilitymailget@smartisan.com'
-#SEND_TO = 'smartisanauto@hotmail.com'
 SUBJECT = 'Test Send Email'
 ATT_SUBJECT = 'Send With Attachment'
 NOATT_SUBJECT = 'Send Without Attachment'
@@ -53,7 +48,7 @@ class EmailTest(unittest.TestCase):
 
 		#Delete mail from sendbox
 		d(resourceId = 'com.android.email:id/options_view').click.wait()
-		assert d(resourceId = 'com.android.email:id/bottom_dialog_title_text',text = 'Exchange').wait.exists(timeout = 5000),'Trigger menu list failed in 5s!'
+		assert d(text = 'Smartisan').wait.exists(timeout = 5000),'Trigger menu list failed in 5s!'
 		d(text = '已发送邮件').click.wait()
 		assert d(resourceId = 'com.android.email:id/title',text = '已发送邮件').wait.exists(timeout = 5000),'Switch to sended box failed in 5s!'
 		# looping 60s to check if mail sending finished
@@ -110,10 +105,12 @@ class EmailTest(unittest.TestCase):
 		assert d(text = '选择应用添加附件').wait.exists(timeout = 5000),"'选择应用添加附件' does not pop-up in 5s!"
 		d(text = '相册').click.wait()
 		assert d(packageName = 'com.android.gallery3d').wait.exists(timeout = 5000),'Switch to gallery view failed in 5s!'
-		d.sleep(3)
+		d.sleep(1)
+		d.click(800,1825)
 		# select pics as attachment
 		#d.click('Attachment_Into_RootDir.png')
 		#d.sleep(1)
+		d.click('root_dir.png')
 		d.click('Attachment_Pics.png')
 		d.sleep(1)
 		#click done
@@ -125,7 +122,7 @@ class EmailTest(unittest.TestCase):
 
 		#Delete mail from sendbox
 		d(resourceId = 'com.android.email:id/options_view').click.wait()
-		assert d(resourceId = 'com.android.email:id/bottom_dialog_title_text',text = 'Exchange').wait.exists(timeout = 5000),'Trigger menu list failed in 5s!'
+		assert d(text = 'Smartisan').wait.exists(timeout = 5000),'Trigger menu list failed in 5s!'
 		d(text = '已发送邮件').click.wait()
 		assert d(resourceId = 'com.android.email:id/title',text = '已发送邮件').wait.exists(timeout = 5000),'Switch to sended box failed in 5s!'
 		# looping 60s to check if mail sending finished
@@ -184,7 +181,7 @@ class EmailTest(unittest.TestCase):
 			self._loginAccount()
 		else:
 			pass
-		assert d(resourceId = 'com.android.email:id/subtitle',text = 'Exchange').wait.exists(timeout = 10000),'Launch email failed in 10s!'
+		assert d(resourceId = 'com.android.email:id/compsoe_view').wait.exists(timeout = 10000),'Launch email failed in 10s!'
 
 	def _loginAccount(self):
 		d(resourceId = 'com.android.email:id/account_email').set_text(ACCOUNT)

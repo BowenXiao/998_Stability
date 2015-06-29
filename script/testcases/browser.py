@@ -65,7 +65,7 @@ class BrowserTest(unittest.TestCase):
 
 		#Click Navigation '新闻'
 		d.click('Web_Navigation_News.png')
-		#d.expect('Web_Title_News.png',timeout=10, msg = 'Loading to News failed in 10s!')
+		d.expect('Web_Title_News.png',timeout=10, msg = 'Loading to News failed in 10s!')
 
 		#Close all webpage windows
 		#self._closeWindows()
@@ -208,7 +208,7 @@ class BrowserTest(unittest.TestCase):
 		d.press('enter')
 		d.sleep(10)
 		#d.click('Streaming_Play.png')
-		d.click(540,960)
+		#d.click(540,960)
 		#d(description = '播放').click.wait()
 		assert d(description = '网页视图').wait.exists(timeout = 15000),'Loading streaming video failed in 15s!'
 		# play time

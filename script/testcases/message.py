@@ -64,9 +64,10 @@ class MessageTest(unittest.TestCase):
 		d(resourceId = 'com.android.mms:id/switch_button').click.wait()
 		# (120,1830) is the positon of '照片和视频'
 		d.click(120,1830)
-		assert d(text = '请选择操作').wait.exists(timeout = 5000),"Trigger '照片和视频' failed in 5s!"
-		d(text = '选取视频').click.wait()
+		#assert d(text = '请选择操作').wait.exists(timeout = 5000),"Trigger '照片和视频' failed in 5s!"
+		#d(text = '选取视频').click.wait()
 		assert d(packageName = 'com.android.gallery3d').wait.exists(timeout = 5000),'Switch to gallery view failed in 5s!'
+		d.sleep(1)
 		# (800,1825) is the position of '所有相册'
 		d.click(800,1825)
 		# select '根目录'
@@ -92,9 +93,10 @@ class MessageTest(unittest.TestCase):
 		d(resourceId = 'com.android.mms:id/switch_button').click.wait()
 		# (120,1830) is the positon of '照片和视频'
 		d.click(120,1830)
-		assert d(text = '请选择操作').wait.exists(timeout = 5000),"Trigger '照片和视频' failed in 5s!"
-		d(text = '选取照片').click.wait()
+		#assert d(text = '请选择操作').wait.exists(timeout = 5000),"Trigger '照片和视频' failed in 5s!"
+		#d(text = '选取照片').click.wait()
 		assert d(packageName = 'com.android.gallery3d').wait.exists(timeout = 5000),'Switch to gallery view failed in 5s!'
+		d.sleep(1)
 		# (800,1825) is the position of '所有相册'
 		d.click(800,1825)
 		# select '根目录'
