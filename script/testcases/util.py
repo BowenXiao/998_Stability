@@ -61,6 +61,7 @@ def registerSysWatchers():
 	d.watcher("IGNORE_POPWINDOW_WEIBO").when(textContains = '给我们评分').click(text = '不了，谢谢')
 	d.watcher("IGNORE_DRAFT").when(textContains='是否保存草稿').click(text='不保存草稿')
 	d.watcher("IGNORE_LOCATION").when(textContains = '位置信息').click(text = '拒绝')
+	d.watcher("IGNORE_LOCATION").when(textContains = 'WLAN').click(text = '确定')
 
 def checkSystemWatchers():
 	if d.watcher("IGNORE_ANR").triggered:

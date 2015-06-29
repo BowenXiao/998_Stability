@@ -6,7 +6,8 @@ import commands
 import util as u
 
 ACCOUNT = 'stabilitymailpost@smartisan.com'
-PASSWORD = 'Smartisantest011'
+#PASSWORD = 'Smartisantest011'
+PASSWORD = 'pmsgcnkcpyhwbjyf'
 SEND_TO = 'stabilitymailget@smartisan.com'
 #SEND_TO = 'smartisanauto@hotmail.com'
 SUBJECT = 'Test Send Email'
@@ -26,8 +27,8 @@ class EmailTest(unittest.TestCase):
 		u.tearDown()
 
 	def testClearAccount(self):
-		self._clearAccount()
-		#commands.getoutput('adb shell am startservice -a smartisan.datahelper.InitData --es type "Email" --es method "clear" ')
+		#self._clearAccount()
+		commands.getoutput('adb shell am startservice -a smartisan.datahelper.InitData --es type "Email" --es method "clear" ')
 
 	def testLogInAccount(self):
 		self._launchEmail()
@@ -186,16 +187,28 @@ class EmailTest(unittest.TestCase):
 		assert d(resourceId = 'com.android.email:id/subtitle',text = 'Exchange').wait.exists(timeout = 10000),'Launch email failed in 10s!'
 
 	def _loginAccount(self):
-		# select exchage
-		d(resourceId = 'com.android.email:id/perset_exchange').click.wait()
 		d(resourceId = 'com.android.email:id/account_email').set_text(ACCOUNT)
 		d(resourceId = 'com.android.email:id/account_password').set_text(PASSWORD)
-		d(text = '下一步').click.wait()
+		d(resourceId = 'com.android.email:id/text_view').click.wait()
+		d(text = 'Exchange').click.wait()
+		d(text = '登录').click.wait()
 		if d(text = '远程安全管理').wait.exists(timeout = 20000):
 			d(text = '确定').click.wait()
 			if d(text = '要激活设备管理器吗？').wait.exists(timeout = 5000):
 				d(text = '激活').click.wait()
-		d(resourceId = 'com.android.email:id/subtitle',text = 'Exchange').wait.exists(timeout = 120000)
+		d(resourceId = 'com.android.email:id/compsoe_view').wait.exists(timeout = 120000)
+
+#	def _loginAccount(self):
+#		# select exchage
+#		d(resourceId = 'com.android.email:id/perset_exchange').click.wait()
+#		d(resourceId = 'com.android.email:id/account_email').set_text(ACCOUNT)
+#		d(resourceId = 'com.android.email:id/account_password').set_text(PASSWORD)
+#		d(text = '下一步').click.wait()
+#		if d(text = '远程安全管理').wait.exists(timeout = 20000):
+#			d(text = '确定').click.wait()
+#			if d(text = '要激活设备管理器吗？').wait.exists(timeout = 5000):
+#				d(text = '激活').click.wait()
+#		d(resourceId = 'com.android.email:id/subtitle',text = 'Exchange').wait.exists(timeout = 120000)
 
 	def _selectOption(self,option):
 		i = 1
