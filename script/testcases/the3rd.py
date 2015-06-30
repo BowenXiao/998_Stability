@@ -28,24 +28,24 @@ class The3rdTest(unittest.TestCase):
 		d.sleep(3)
 		if d(text = '赞').exists:
 			d(text = '赞').click.wait()
-		if d(description = '评论').exists:
-			d(description = '评论').click.wait()
-			d(resourceId = 'com.sina.weibo:id/edit_view').set_text('Good!')
-		if d(description = '评论').exists:
-			d(description = '评论').click.wait()
-			d(resourceId = 'com.sina.weibo:id/edit_view').set_text('Good!')
-		if d(text = '发送').exists:
-			d(text = '发送').click.wait()
-		if d(resourceId = 'com.sina.weibo:id/titleBack').exists:
-			d(resourceId = 'com.sina.weibo:id/titleBack').click.wait()
-		d.sleep(1)
-		# check one message of weibo
-		d.click(770, 670)
-		d.sleep(2)
-		d.swipe(540, 1400, 540, 700, 100)
-		d.sleep(2)
-		d.swipe(540, 1400, 540, 700, 100)
-		d.sleep(2)
+#		if d(description = '评论').exists:
+#			d(description = '评论').click.wait()
+#			d(resourceId = 'com.sina.weibo:id/edit_view').set_text('Good!')
+#		if d(description = '评论').exists:
+#			d(description = '评论').click.wait()
+#			d(resourceId = 'com.sina.weibo:id/edit_view').set_text('Good!')
+#		if d(text = '发送').exists:
+#			d(text = '发送').click.wait()
+#		if d(resourceId = 'com.sina.weibo:id/titleBack').exists:
+#			d(resourceId = 'com.sina.weibo:id/titleBack').click.wait()
+#		d.sleep(1)
+#		# check one message of weibo
+#		d.click(770, 670)
+#		d.sleep(2)
+#		d.swipe(540, 1400, 540, 700, 100)
+#		d.sleep(2)
+#		d.swipe(540, 1400, 540, 700, 100)
+#		d.sleep(2)
 
 	def testWeixin(self):
 		#Launch weixin

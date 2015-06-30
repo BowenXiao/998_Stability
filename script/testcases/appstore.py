@@ -10,7 +10,54 @@ class AppStoreTest(unittest.TestCase):
 		u.setUp()
 
 	def tearDown(self):
+		if d(resourceId = 'com.smartisanos.appstore:id/appStatusIconView').wait.exists(timeout = 3000):
+			d(resourceId = 'com.smartisanos.appstore:id/appStatusIconView').click.wait()
 		u.tearDown()
+
+	def testAppstore(self):
+		#####################################################################################################
+		# Download application from appstore                                                                #
+		#####################################################################################################
+
+		#Launch app store
+		d.start_activity(component='com.smartisanos.appstore/.AppStoreActivity')
+		assert d(text = '推荐').wait.exists(timeout = 5000),'Launch app store failed in 5s!'
+
+		#Download app
+		d(text = '榜单').click.wait()
+		assert d(resourceId = 'com.smartisanos.appstore:id/title_tv',text = '榜单').wait.exists(timeout = 5000),"Switch to '排行' view failed in 5s!"
+		if d(text = '总排行').wait.exists(timeout = 5000):
+			d(text = '总排行').click.wait()
+		assert d(text = 'QQ').wait.exists(timeout = 30000),"Can not switch to 总排行 or QQ is not in the list!"
+		d(text = 'QQ').click.wait()
+		assert d(resourceId = 'com.smartisanos.appstore:id/appName',text = 'QQ').wait.exists(timeout = 15000),"Switch to app 'QQ' detail failed in 15s!"
+		self._downloadOption()
+
+		#####################################################################################################
+		# Open downloaded application from appstore                                                         #
+		#####################################################################################################
+		assert d(text = '打开').wait.exists(timeout = 5000),'Application download did not finish!'
+		d(text = '打开').click.wait()
+		assert d(packageName = 'com.tencent.mobileqq').wait.exists(timeout = 5000),'Launch application from AppStore failed in 5s!'
+
+		#####################################################################################################
+		# Uninstall downloaded application from packagemanager                                              #
+		#####################################################################################################
+		d.press('home')
+		d.start_activity(component='com.android.settings/.Settings')
+		assert d(text = '设置').wait.exists(timeout = 5000),'Launch settings failed in 5s!'
+
+		#Uninstall app
+		u.selectOption('全局高级设置')
+		assert d(resourceId = 'smartisanos:id/tv_title',text = '全局高级设置').wait.exists(timeout = 5000),'Switch to advanced setting view failed in 5s!'
+		u.selectOption('应用程序管理')
+		assert d(resourceId = 'smartisanos:id/tv_title',text = '应用程序管理').wait.exists(timeout = 5000),'Switch to app manager view failed in 5s!'
+		u.selectOption('QQ')
+		assert d(resourceId = 'smartisanos:id/tv_title',text = '应用信息').wait.exists(timeout = 5000),'Switch to app details view failed in 5s!'
+		d(text = '卸载').click.wait()
+		assert d(textContains = '要卸载此应用吗').wait.exists(timeout = 5000),'Delete alarm does not pop-up in 5s!'
+		d(text = '确定').click.wait()
+		assert d(text = 'QQ').wait.gone(timeout = 5000),'Uninstall failed in 5s!'
 
 	def testAppStoreDownload(self):
 		#Launch app store
@@ -86,3 +133,20 @@ class AppStoreTest(unittest.TestCase):
 				break
 		d.sleep(1)
 		d(text = option).click.wait()
+
+	def _downloadOption(self):
+		# check app download status 
+		if d(text = '安装').wait.exists(timeout = 5000):
+			d(text = '安装').click.wait()
+			if d(text = '权限管理').wait.exists(timeout = 5000):
+				d(text = '同意并安装').click.wait()
+			assert d(resourceId = 'com.smartisanos.appstore:id/appStatusIconView').wait.exists(timeout = 5000),'App does not start downloading in 5s!'
+			assert d(text = '打开').wait.exists(timeout = 120000), 'Download application failed in 2mins!'
+			#d.expect('Open_Icon.png', timeout=90)
+		elif d(resourceId = 'com.smartisanos.appstore:id/appStatusIconView').wait.exists(timeout = 5000):
+			d(resourceId = 'com.smartisanos.appstore:id/appStatusIconView').click.wait()
+			assert d(text = '打开').wait.exists(timeout = 120000), 'Download application failed in 2mins!'
+			#d.expect('Open_Icon.png', timeout=90)
+		else:
+			pass
+			#assert False, 'This application can not be Downloaded, pls check if it is already exists in DUT!'

@@ -99,10 +99,10 @@ class TelephonyTest(unittest.TestCase):
 		d(text = '确认删除').click.wait()
 		assert d(text = 'adele').wait.gone(timeout = 5000),'Delete contact failed in 5s!'
 
-	def testSwitchMobileNetWorkTo3G(self):
+	def testSwitchMobileNetWorkTo4G(self):
 		self._setMobileNetWork('3G')
 
-	def testSwitchMobileNetWorkTo2G(self):
+	def testSwitchMobileNetWorkToNot4G(self):
 		self._setMobileNetWork('2G')
 
 	def _callDialer(self):
