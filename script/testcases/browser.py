@@ -240,6 +240,8 @@ class BrowserTest(unittest.TestCase):
 
 		# turn on wifi
 		self._setWifistatus('on')
+		d.start_activity(component='com.android.browser/.BrowserActivity')
+		assert d(resourceId = 'com.android.browser:id/switch_btn').wait.exists(timeout = 5000),'Launch browser failed in 5s!'
 
 	def _launchBrowser(self):
 		#Start Browser

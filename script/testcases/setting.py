@@ -6,7 +6,7 @@ import commands
 import random
 import util as u
 
-THEME_LIST = ['经典','经典蓝','木纹','灰岩','红色','橙色','黄色','绿色','青色','蓝色','紫色']
+THEME_LIST = ['经典','灰岩','青色','蓝色','紫色','褐色','浅灰','毛玻璃','橙色']
 
 class SettingTest(unittest.TestCase):
 	def setUp(self):
