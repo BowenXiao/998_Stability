@@ -185,16 +185,23 @@ class MultiMediaTest(unittest.TestCase):
 		# input download audio url
 		d(resourceId = 'com.android.browser:id/url', text = '输入网址').set_text('auto.smartisan.com/media/Auto_Test_Video.mp4')
 		d.press('enter')
+		# play without element on webpage
+#		d.sleep(10)
+#		#d.click('Streaming_Play.png')
+#		d.click(540,960)
+#		#d(description = '播放').click.wait()
+#		assert d(description = '网页视图').wait.exists(timeout = 15000),'Loading streaming video failed in 15s!'
+#		# play time
+#		d.sleep(15)
+#		#assert d(description = '媒体控件').wait.exists(timeout = 10000),'Switch to webview failed in 10s!'
+#		if d.orientation != 'natural':
+#			d.orientation = 'n'
+
+		#play with element on webpage
+		assert d(description = '播放').wait.exists(timeout = 20000),'Loading webpage failed in 20s!'
+		d(description = '播放').click.wait()
+		assert d(description = '视频').wait.exists(timeout = 10000),'Start playing streaming video failed in 10s!'
 		d.sleep(10)
-		#d.click('Streaming_Play.png')
-		d.click(540,960)
-		#d(description = '播放').click.wait()
-		assert d(description = '网页视图').wait.exists(timeout = 15000),'Loading streaming video failed in 15s!'
-		# play time
-		d.sleep(15)
-		#assert d(description = '媒体控件').wait.exists(timeout = 10000),'Switch to webview failed in 10s!'
-		if d.orientation != 'natural':
-			d.orientation = 'n'
 
 	def _launchCamera(self):
 		d.start_activity(component='com.android.camera2/com.android.camera.CameraLauncher')

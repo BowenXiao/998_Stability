@@ -61,7 +61,8 @@ def registerSysWatchers():
 	d.watcher("IGNORE_POPWINDOW_WEIBO").when(textContains = '给我们评分').click(text = '不了，谢谢')
 	d.watcher("IGNORE_DRAFT").when(textContains='是否保存草稿').click(text='不保存草稿')
 	d.watcher("IGNORE_LOCATION").when(textContains = '位置信息').click(text = '拒绝')
-	d.watcher("IGNORE_LOCATION").when(textContains = 'WLAN').click(text = '确定')
+	d.watcher("IGNORE_WLAN").when(textContains = 'WLAN').click(text = '确定')
+	d.watcher("IGNORE_NAVIGATION").when(textContains = '离线地图').click(text = '暂不需要')
 
 def checkSystemWatchers():
 	if d.watcher("IGNORE_ANR").triggered:
@@ -96,3 +97,14 @@ def selectOption(option):
 			break
 	d.sleep(1)
 	d(text = option).click.wait()
+
+def launchSettings():
+	d.start_activity(component='com.android.settings/.Settings')
+	while d(resourceId = 'smartisanos:id/btn_back').exists:
+		d(resourceId = 'smartisanos:id/btn_back').click.wait()
+	if not d(text = '无线网络').exists:
+		for i in range(4):
+			if d(text = '无线网络').exists:
+				break
+			d.swipe(360,200,360,1000,50)
+	assert d(text = '设置').wait.exists(timeout = 5000),'Launch settings failed in 5s!'

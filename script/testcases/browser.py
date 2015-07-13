@@ -15,6 +15,7 @@ class BrowserTest(unittest.TestCase):
 	def tearDown(self):
 		self._clearCache()
 		u.tearDown()
+		commands.getoutput('adb shell svc wifi enable')
 		self._clearData('/sdcard/Download/*')
 		
 	def _clearData(self):

@@ -38,7 +38,7 @@ class EmailTest(unittest.TestCase):
 
 		#Edit mail content and then send out
 		d(resourceId = 'com.android.email:id/compsoe_view').click.wait()
-		assert d(text = '写邮件').wait.exists(timeout = 5000),'Switch to compose view failed in 5s!'
+		assert d(resourceId = 'com.android.email:id/to_recipient_view').wait.exists(timeout = 5000),'Switch to compose view failed in 5s!'
 		d(resourceId = 'com.android.email:id/to_recipient_view').set_text(SEND_TO)
 		d.press('enter')
 		d(resourceId = 'com.android.email:id/subject').set_text(SUBJECT)
@@ -48,7 +48,7 @@ class EmailTest(unittest.TestCase):
 
 		#Delete mail from sendbox
 		d(resourceId = 'com.android.email:id/options_view').click.wait()
-		assert d(text = 'Smartisan').wait.exists(timeout = 5000),'Trigger menu list failed in 5s!'
+		assert d(text = '已发送邮件').wait.exists(timeout = 5000),'Trigger menu list failed in 5s!'
 		d(text = '已发送邮件').click.wait()
 		assert d(resourceId = 'com.android.email:id/title',text = '已发送邮件').wait.exists(timeout = 5000),'Switch to sended box failed in 5s!'
 		# looping 60s to check if mail sending finished
@@ -94,7 +94,7 @@ class EmailTest(unittest.TestCase):
 
 		#Edit mail content
 		d(resourceId = 'com.android.email:id/compsoe_view').click.wait()
-		assert d(text = '写邮件').wait.exists(timeout = 5000),'Switch to compose view failed in 5s!'
+		assert d(resourceId = 'com.android.email:id/to_recipient_view').wait.exists(timeout = 5000),'Switch to compose view failed in 5s!'
 		d(resourceId = 'com.android.email:id/to_recipient_view').set_text(SEND_TO)
 		d.press('enter')
 		d(resourceId = 'com.android.email:id/subject').set_text(SUBJECT)
@@ -122,7 +122,7 @@ class EmailTest(unittest.TestCase):
 
 		#Delete mail from sendbox
 		d(resourceId = 'com.android.email:id/options_view').click.wait()
-		assert d(text = 'Smartisan').wait.exists(timeout = 5000),'Trigger menu list failed in 5s!'
+		assert d(text = '已发送邮件').wait.exists(timeout = 5000),'Trigger menu list failed in 5s!'
 		d(text = '已发送邮件').click.wait()
 		assert d(resourceId = 'com.android.email:id/title',text = '已发送邮件').wait.exists(timeout = 5000),'Switch to sended box failed in 5s!'
 		# looping 60s to check if mail sending finished
@@ -183,29 +183,34 @@ class EmailTest(unittest.TestCase):
 			pass
 		assert d(resourceId = 'com.android.email:id/compsoe_view').wait.exists(timeout = 10000),'Launch email failed in 10s!'
 
-	def _loginAccount(self):
-		d(resourceId = 'com.android.email:id/account_email').set_text(ACCOUNT)
-		d(resourceId = 'com.android.email:id/account_password').set_text(PASSWORD)
-		d(resourceId = 'com.android.email:id/text_view').click.wait()
-		d(text = 'Exchange').click.wait()
-		d(text = '登录').click.wait()
-		if d(text = '远程安全管理').wait.exists(timeout = 20000):
-			d(text = '确定').click.wait()
-			if d(text = '要激活设备管理器吗？').wait.exists(timeout = 5000):
-				d(text = '激活').click.wait()
-		d(resourceId = 'com.android.email:id/compsoe_view').wait.exists(timeout = 120000)
-
+#	V2.0 login method:
 #	def _loginAccount(self):
-#		# select exchage
-#		d(resourceId = 'com.android.email:id/perset_exchange').click.wait()
+#		d(text = '手动设置邮箱').click.wait()
 #		d(resourceId = 'com.android.email:id/account_email').set_text(ACCOUNT)
 #		d(resourceId = 'com.android.email:id/account_password').set_text(PASSWORD)
+#		d(resourceId = 'com.android.email:id/text_view').click.wait()
+#		d(text = 'Exchange').click.wait()
 #		d(text = '下一步').click.wait()
+#		d(text = '下一步').click.wait()
+#		#d(text = '登录').click.wait()
 #		if d(text = '远程安全管理').wait.exists(timeout = 20000):
 #			d(text = '确定').click.wait()
 #			if d(text = '要激活设备管理器吗？').wait.exists(timeout = 5000):
 #				d(text = '激活').click.wait()
-#		d(resourceId = 'com.android.email:id/subtitle',text = 'Exchange').wait.exists(timeout = 120000)
+#		d(resourceId = 'com.android.email:id/compsoe_view').wait.exists(timeout = 120000)
+
+#	V1.5 login method:
+	def _loginAccount(self):
+		# select exchage
+		d(resourceId = 'com.android.email:id/perset_exchange').click.wait()
+		d(resourceId = 'com.android.email:id/account_email').set_text(ACCOUNT)
+		d(resourceId = 'com.android.email:id/account_password').set_text(PASSWORD)
+		d(text = '下一步').click.wait()
+		if d(text = '远程安全管理').wait.exists(timeout = 20000):
+			d(text = '确定').click.wait()
+			if d(text = '要激活设备管理器吗？').wait.exists(timeout = 5000):
+				d(text = '激活').click.wait()
+		d(resourceId = 'com.android.email:id/subtitle',text = 'Exchange').wait.exists(timeout = 120000)
 
 	def _selectOption(self,option):
 		i = 1
