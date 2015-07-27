@@ -16,8 +16,7 @@ class SettingTest(unittest.TestCase):
 		u.tearDown()
 
 	def testSetTheme(self):
-		d.start_activity(component='com.android.settings/.Settings')
-		assert d(text = '设置').wait.exists(timeout = 5000),'Launch settings failed in 5s!'
+		u.launchSettings()
 		u.selectOption('主题、壁纸、图标')
 		assert d(resourceId = 'smartisanos:id/tv_title',text = '主题、壁纸、图标').wait.exists(timeout = 5000),'Switch to theme view failed in 5s!'
 		u.selectOption('桌面主题')

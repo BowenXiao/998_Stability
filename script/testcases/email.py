@@ -5,6 +5,7 @@ from uiautomatorplug.android import device as d
 import commands
 import util as u
 
+
 SUBJECT = 'Test Send Email'
 ATT_SUBJECT = 'Send With Attachment'
 NOATT_SUBJECT = 'Send Without Attachment'
